@@ -1,0 +1,34 @@
+    
+    {% load static %}
+    
+    <div class="container"
+         style="padding-top: 2rem">
+      <h2 class="text-center">پژوهش ها</h2><br>
+      <div class="carousel slide"
+           data-ride="carousel"
+           id="demo">
+        <!-- Indicators -->
+        <ul class="carousel-indicators"></ul><!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img alt="Los Angeles"
+               class="slider-item"
+               src="{%static 'images/16576.jpg'  %}"></div>
+          <div class="carousel-item"><img alt="Chicago"
+               class="slider-item"
+               src="{%static 'images/1767.jpg' %}"></div><a class="carousel-control-prev"
+               data-slide="prev"
+               href="#demo">قبلی</a> <a class="carousel-control-next"
+               data-slide="next"
+               href="#demo">بعدی</a>
+        </div>
+        <style>
+
+
+        .slider-item{
+        width: 100%;
+        height: 25rem;
+        /* height: 100%; */
+           }
+        </style>
+      </div>
+    </div>

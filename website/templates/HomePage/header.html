@@ -1,0 +1,111 @@
+{% load static %}
+<div class="container-fluid tile-bg">
+    <div class="row blog">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <!-- <div class='col-md-6'><div><h4>@blog.Name</h4></div></div> -->
+        <div class="row">
+          <div class='col-md-3 col-sm-3 col-xs-3 tile'>
+            <div class="a1"></div>
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
+           
+            {% comment %} <div class="a2"> {% endcomment %}
+            <a class='inner-tile' href='#section_news'>اخبار</a>
+            {% comment %} </div> {% endcomment %}
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile'>
+            <div class="a3"></div>
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
+          <a class='inner-tile' href='#section_multimedia'>چندرسانه‌ای</a>
+            <div class="a4"></div>
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile'>
+            <div class="a5"></div>
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
+            <a class='inner-tile' href='#section_events'>رویدادها</a>
+            <div class="a6"></div>
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
+            <a class='inner-tile' href='#section_events'>رویدادها</a>
+            <div class="a7"></div>
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile'>
+            <div class="a8"></div>
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
+            <a class='inner-tile' href='#section_events'>رویدادها</a>
+            <div class="a5"></div>
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile'>
+            <div class="a6"></div>
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
+            <a class='inner-tile' href='#section_events'>رویدادها</a>
+            <div class="a7"></div>
+          </div>
+          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
+            <a class='inner-tile' href='#section_events'>رویدادها</a>
+            <div class="a8"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+  .inner-tile{
+position: relative;
+float: left;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+ color: black;
+ font-size:2rem;
+  }
+        .tile-bg{
+            background-image: url({%static 'images/bck.jpg' %}) !important;
+            /* max-height: 100%;
+            max-width: 100%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: auto;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            /* margin-bottom: 2rem; */
+        }
+        .tile{
+            /* background-color: rgb(0, 255, 149); */
+
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            margin: 0px;
+            /* padding:  0px 0px 0px 0px !important; */
+        }
+        .col-md-3>div {
+            
+            height: 20% !important;
+            padding-top: 100%;
+        }
+        .on {
+
+        background-color:  rgb(0, 176, 189,.8);
+
+        opacity: .5;
+        /* border: 1px; */
+        border-style: solid;
+        border-width: 1px;
+
+    }
+
+
+
+  </style>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col"></div>
+    </div>
+  </div>

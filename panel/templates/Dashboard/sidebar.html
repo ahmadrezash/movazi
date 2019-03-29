@@ -1,0 +1,36 @@
+      {% load static %}
+        <div class="sidebar-menu">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <a href={% url 'home' %}><img src="{% static 'images/logo.png'%}" alt="logo"></a>
+                </div>
+            </div>
+            <div class="main-menu">
+                <div class="menu-inner">
+                    <nav>
+                        <ul class="metismenu" id="menu"> 
+                            <li class="active">
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-grid3"></i><span>دسته بندی ها</span></a>
+                                <ul class="collapse">
+                                    <li class="active"><a href={% url 'all_article' %}><i class=" ti-file"></i><span>مقاله</span></a></li>
+                                    <li><a href={% url 'all_news' %}><i class="ti-receipt "></i><span>اخبار</soan></a></li>
+                                    <li><a href={% url 'all_poster' %}>پوسترها</a></li>
+                                    <li><a href="index3.html">رویدادها</a></li>
+                                    <li><a href="index3.html">دوره ها</a></li>
+                                    <li><a href="index3.html">انتشارات و پژوهش ها</a></li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a href="javascript:void(0)" aria-expanded="False"><i class="ti-settings"></i><span>تنظیمات</span></a>
+                                <ul class="collapse">
+                                    <li class="active"><a href="index.html">پروفایل</a></li>
+                                    <li><a href="index2.html">اخبار</a></li>
+                                </ul>
+                            </li>
+
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>

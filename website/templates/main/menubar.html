@@ -1,0 +1,53 @@
+  {% load static %}
+
+<title></title><!-- fixed-top -->
+  <!--=================== Menubar =====================-->
+  <nav class="navbar navbar-light bg-light navbar-expand-lg">
+    <a class="navbar-brand"
+         href="/"><img src="{%static "images/logo.png" %}"
+         style='width:10rem'></a>
+    <div class="collapse navbar-collapse"
+         id="navbarCollapse">
+      <ul class="navbar-nav">
+        <li class="navbar-item">
+          <a class="nav-link"
+              href="/">خانه</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link"
+              href="/news">اخبار</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link"
+              href="/article">وبلاگ</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link"
+              href="/article">رویدادها</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link"
+              href="#">انتشارات و پژوهش ها</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link"
+              href="#">کتابخانه</a>
+        </li>
+        <li class="navbar-item">
+          <a class="nav-link"
+              href="#">شبکه دانش</a>
+        </li>
+      </ul>
+    </div>
+    {% if user.is_authenticated %}
+        <a href= {% url 'panel'  %} class='btn btn-primary'>پنل کاربری</a>
+    {% else %}
+        <a href={% url '' %} class='btn btn-primary'>ورود</a>
+    {% endif %}
+    <style>
+        .navbar-item{
+            text-decoration-color: blue
+            
+        }
+    </style>
+      </nav><!--=================== Tile Header =====================-->

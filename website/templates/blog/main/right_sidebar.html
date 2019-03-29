@@ -1,0 +1,29 @@
+
+
+        <!-- Categories Widget -->
+        <div class="card my-3">
+          <h5 class="card-header">دسته‌بندی‌ها</h5>
+          <div class="card-body">
+            <div class="row">
+              {% comment %} <div class="col-lg-6"> {% endcomment %}
+                <ul class="list-unstyled mb-0">
+                {% for cat in cats %}
+                  <li>
+                    <a href="#">{{cat.name_persian}}</a>
+                  </li>
+                {% endfor %}
+                  
+                </ul>
+              {% comment %} </div> {% endcomment %}
+            </div>
+          </div>
+        </div>
+
+        <!-- Side Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">توضیحات</h5>
+          <div class="card-body">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. 
+          </div>
+        </div>
+

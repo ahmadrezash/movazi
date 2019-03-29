@@ -1,0 +1,46 @@
+{% load static %}
+<div class="container-fluid cards" id='section_news'>
+    <h2 class="text-center"
+        style="padding-bottom: 1rem">آخرین اخبار</h2>
+    <div class="row">
+          <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row">
+
+            {% for new in news %}
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                <img alt="Card image"
+                     class="card-img-top"
+                    src = {{new.image.url}}>
+                <div class="card-body">
+                  <h4 class="card-title">{{new.title}}</h4>
+                  <p class="card-text">{{new.summery}}</p><a class="btn btn-primary"
+                       href={% url 'news_single' slug=new.slug %}>بیشتر بخوانید...</a>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+            </div>
+
+        </div>
+      </div>
+    </div>
+    <style>
+      .cards{
+        background-color: rgb(0, 176, 189,.3);
+        /* opacity: .3;\ */
+        /* background-op */
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+      }
+      .card-text{
+        text-align: justify;
+        text-justify: inter-word;
+
+      }
+      .card{
+          margin-bottom: 1rem;
+      }
+      </style><br></div>
