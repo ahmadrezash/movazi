@@ -16,6 +16,15 @@ def index(request):
     t.render()
     return HttpResponse(t)
 
+def contact_us(request):
+    t = TemplateResponse(request, 'contact_us.html')
+    t.render()
+    return HttpResponse(t)
+
+def about_us(request):
+    t = TemplateResponse(request, 'about_us.html')
+    t.render()
+    return HttpResponse(t)
 def blog_main(request):
     t = TemplateResponse(request, 'blog/index.html', {})
     t.render()

@@ -24,6 +24,8 @@ urlpatterns = [
     path('news/main'           , views.news_pagination         , name = 'news_pagination'),
     path('news/<str:slug>'     , views.news_single             , name = 'news_single'),
 
+    path('contact-us/'         , views.contact_us              , name = 'contact_us'),
+    path('about-us/'           , views.about_us                , name = 'about_us'),
 
   
   
