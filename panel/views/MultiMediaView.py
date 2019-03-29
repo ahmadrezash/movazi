@@ -76,6 +76,64 @@ def delete_poster(request,slug):
     # return render(request, 'test.html', {'a': slug})
 
 
+
+
+
+
+def all_video(request):
+    poster_list = Video.objects.all().order_by('-pub_date')
+    paginator = Paginator(poster_list, 10)
+    page = request.GET.get('page')
+    poster_list = paginator.get_page(page)
+    return render(request, 'ContentManage/VideoTable.html', {'posts': poster_list})
+
+
+# create_Poster
+def create_video(request):
+    saved = False
+    if request.method == "POST":
+        form = VideoForm(data=request.POST, files=request.FILES)
+        if form.is_valid():
+            a = form.save(commit=False)
+            a.author = request.user
+            a.category = Category.objects.all()[0]
+            a.slug = slugify(a.title,allow_unicode=True)
+            a.save()
+            return redirect('all_poster')
+            # return render(request, 'test.html', {'a':'مقاله با موفقست ثبت شد' })
+        return render(request, 'test.html', {'a': 'ظاهرا مشکلی پیش آمده'})
+    else:
+        form = VideoForm()
+        return render(request, 'Forms/VideoForm.html', {'form': form})
+
+def update_video(request,slug):
+    saved = False
+    tmp = Video.objects.filter(slug=slug)[0]
+
+    if request.method == "POST":
+        form = VideoForm(data=request.POST, files=request.FILES,instance = tmp)
+        if form.is_valid():
+            a = form.save(commit=False )
+            a.author = request.user
+            a.category = Category.objects.all()[0]
+            a.slug = slugify(a.title,allow_unicode=True)
+            a.save()
+            return redirect('all_video')
+        return render(request, 'test.html', {'a': 'ظاهرا مشکلی پیش آمده'})
+    else:
+        form = VideoForm(instance=tmp)
+        return render(request, 'Forms/VideoForm.html', {'form': form})
+
+def delete_video(request,slug):
+    Video.objects.filter(slug=slug)[0].delete()
+    return redirect('all_video')
+
+
+
+
+
+
+
 def video_main(request,CreateView):
     posts = VideoForm.objects.order_by('pub_date')[:3]
     t = TemplateResponse(request, 'home.html', {'posts':posts})

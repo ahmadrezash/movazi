@@ -41,7 +41,7 @@ def create_article(request):
             a.category = Category.objects.all()[0]
             a.slug = slugify(a.title,allow_unicode=True)
             a.save()
-            return redirect('article_all')
+            return redirect('all_article')
             # return render(request, 'test.html', {'a':'مقاله با موفقست ثبت شد' })
         return render(request, 'test.html', {'a': 'ظاهرا مشکلی پیش آمده'})
     else:
@@ -62,7 +62,7 @@ def update_article(request,slug):
             a.category = Category.objects.all()[0]
             a.slug = slugify(a.title,allow_unicode=True)
             a.save()
-            return redirect('article_all')
+            return redirect('all_article')
         return render(request, 'test.html', {'a': 'ظاهرا مشکلی پیش آمده'})
     else:
         form = ArticleForm(instance=tmp)
@@ -71,5 +71,5 @@ def update_article(request,slug):
 def delete_article(request,slug):
     Article.objects.filter(slug=slug)[0].delete()
     # print('resiiiiiid')
-    return redirect('article_all')
+    return redirect('all_article')
     # return render(request, 'test.html', {'a': slug})

@@ -27,13 +27,15 @@ urlpatterns = [
     # path('news/update/<slug:title>'      , n_views.update_news       , name = 'update_news'),
     # path('news/delete/<slug:title>'      , n_views.delete_news       , name = 'delete_news'),
 
-    path('multimedia/poster/all/'               , m_views.all_poster , name = 'all_poster'),
+    path('multimedia/poster/all/'               , m_views.all_poster    , name = 'all_poster'),
     path('multimedia/poster/create/'            , m_views.create_poster , name = 'create_poster'),
     path('multimedia/poster/update/<str:slug>'  , m_views.update_poster , name = 'update_poster'),
     path('multimedia/poster/delete/<str:slug>'  , m_views.delete_poster , name = 'delete_poster'),
     
-    path('multimedia/video/create/'             , m_views.create_video  , name = 'create_video'),
-
+    path('multimedia/video/all/'                 , m_views.all_video     ,  name = 'all_video'),
+    path('multimedia/video/create/'              , m_views.create_video  , name = 'create_video'),
+    path('multimedia/video/update/<str:slug>'    , m_views.update_video  , name = 'update_video'),
+    path('multimedia/video/delete/<str:slug>'    , m_views.delete_video  , name = 'delete_video'),
     # path('multimedia/update/<slug:title>', m_views.update_multimedia , name = 'update_multimedia'),
     # path('multimedia/delete/<slug:title>', m_views.delete_multimedia , name = 'delete_multimedia'),
 

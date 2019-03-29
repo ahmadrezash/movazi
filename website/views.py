@@ -25,6 +25,7 @@ def about_us(request):
     t = TemplateResponse(request, 'about_us.html')
     t.render()
     return HttpResponse(t)
+    
 def blog_main(request):
     t = TemplateResponse(request, 'blog/index.html', {})
     t.render()
@@ -34,10 +35,8 @@ def blog_main(request):
 def article_pagination(request):
     article_list = Article.objects.all()
     paginator = Paginator(article_list, 4)
-    # a = article_list
     page = request.GET.get('page')
     article_list = paginator.get_page(page)
-    # return render(request, 'article_list.html', {'article_list': article_list})
     cats = Category.objects.all()
 
     return render(request, 'blog/article_all.html', {'posts': article_list,'cats':cats})
@@ -45,7 +44,6 @@ def article_pagination(request):
 def article_single(request,slug):
     cats = Category.objects.all()
     article = Article.objects.filter(slug=slug).get()
-    # return render(request, 'test.html', {'a': article.title})
     return render(request, 'blog/article_single.html', {'post': article,'cats':cats})
 
 
@@ -55,10 +53,8 @@ def article_single(request,slug):
 def poster_pagination(request):
     article_list = Poster.objects.all()
     paginator = Paginator(article_list, 4)
-    # a = article_list
     page = request.GET.get('page')
     article_list = paginator.get_page(page)
-    # return render(request, 'article_list.html', {'article_list': article_list})
     cats = Category.objects.all()
 
     return render(request, 'blog/poster_all.html', {'posts': article_list,'cats':cats})
@@ -66,7 +62,6 @@ def poster_pagination(request):
 def poster_single(request,slug):
     cats = Category.objects.all()
     article = Poster.objects.filter(slug=slug).get()
-    # return render(request, 'test.html', {'a': article.title})
     return render(request, 'blog/poster_single.html', {'post': article,'cats':cats})
 
 
