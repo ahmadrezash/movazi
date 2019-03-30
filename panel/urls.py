@@ -5,7 +5,7 @@ from .views import ProfileView      as p_views
 from .views import ArticleView      as a_views
 from .views import NewsView         as n_views
 from .views import MultiMediaView   as m_views
-# from .views import course_views     as c_views
+from .views import CourseView     as c_views
 
 urlpatterns = [
 
@@ -36,12 +36,14 @@ urlpatterns = [
     path('multimedia/video/create/'              , m_views.create_video  , name = 'create_video'),
     path('multimedia/video/update/<str:slug>'    , m_views.update_video  , name = 'update_video'),
     path('multimedia/video/delete/<str:slug>'    , m_views.delete_video  , name = 'delete_video'),
+
     # path('multimedia/update/<slug:title>', m_views.update_multimedia , name = 'update_multimedia'),
     # path('multimedia/delete/<slug:title>', m_views.delete_multimedia , name = 'delete_multimedia'),
 
-    # path('course/create/'                , c_views.create_course     , name = 'create_course'),
-    # path('course/update/<slug:title>'    , c_views.update_course     , name = 'update_course'),
-    # path('course/delete/<slug:title>'    , c_views.delete_course     , name = 'delete_course'),
+    path('course/create/all/'            , c_views.all_course        , name = 'all_course'),
+    path('course/create/'                , c_views.create_course     , name = 'create_course'),
+    path('course/update/<slug:title>'    , c_views.update_course     , name = 'update_course'),
+    path('course/delete/<slug:title>'    , c_views.delete_course     , name = 'delete_course'),
    
    
 
