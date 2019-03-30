@@ -99,7 +99,7 @@ def create_video(request):
             a.category = Category.objects.all()[0]
             a.slug = slugify(a.title,allow_unicode=True)
             a.save()
-            return redirect('all_poster')
+            return redirect('all_video')
             # return render(request, 'test.html', {'a':'مقاله با موفقست ثبت شد' })
         return render(request, 'test.html', {'a': 'ظاهرا مشکلی پیش آمده'})
     else:
@@ -140,20 +140,20 @@ def video_main(request,CreateView):
     t.render()
     return HttpResponse(t)
 
-def create_video(request):
-    saved = False
-    if request.method == "POST":
-        form = VideoForm(data=request.POST, files=request.FILES)
-        if form.is_valid():
-            a = form.save(commit=False)
-            a.author = request.user
-            a.category = Category.objects.all()[0]
-            a.save()
-            return render(request, 'test.html', {'a':'مقاله با موفقست ثبت شد' })
-        return render(request, 'test.html', {'a': form.errors})
-    else:
-        form = VideoForm()
-        return render(request, 'Forms/VideoForm.html', {'form': form})
+# def create_video(request):
+#     saved = False
+#     if request.method == "POST":
+#         form = VideoForm(data=request.POST, files=request.FILES)
+#         if form.is_valid():
+#             a = form.save(commit=False)
+#             a.author = request.user
+#             a.category = Category.objects.all()[0]
+#             a.save()
+#             return render(request, 'test.html', {'a':'مقاله با موفقست ثبت شد' })
+#         return render(request, 'test.html', {'a': form.errors})
+#     else:
+#         form = VideoForm()
+#         return render(request, 'Forms/VideoForm.html', {'form': form})
 
 # def update_Poster(request,title):
    

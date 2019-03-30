@@ -4,6 +4,8 @@ from django.template.response import TemplateResponse
 from panel.models.ArticleModels import Article
 from panel.models.NewsModel import News
 from panel.models.MultiMedia.PosterModel import Poster
+from panel.models.MultiMedia.VideoModel import Video
+
 from panel.models.CategoryModels import Category
 from django.core.paginator import Paginator
 from django.shortcuts import render
@@ -47,8 +49,18 @@ def article_single(request,slug):
     return render(request, 'blog/article_single.html', {'post': article,'cats':cats})
 
 
+def news_pagination(request):
+    article_list =News.objects.all()
+    paginator = Paginator(article_list, 4)
+    page = request.GET.get('page')
+    article_list = paginator.get_page(page)
+    cats = Category.objects.all()
+    return render(request, 'blog/news_all.html', {'posts': article_list,'cats':cats})
 
-
+def news_single(request,slug):
+    cats = Category.objects.all()
+    article =News.objects.filter(slug=slug).get()
+    return render(request, 'blog/news_single.html', {'post': article,'cats':cats})
 
 def poster_pagination(request):
     article_list = Poster.objects.all()
@@ -65,15 +77,17 @@ def poster_single(request,slug):
     return render(request, 'blog/poster_single.html', {'post': article,'cats':cats})
 
 
-def news_pagination(request):
-    article_list =News.objects.all()
+def video_pagination(request):
+    article_list = Video.objects.all()
     paginator = Paginator(article_list, 4)
     page = request.GET.get('page')
     article_list = paginator.get_page(page)
     cats = Category.objects.all()
-    return render(request, 'blog/news_all.html', {'posts': article_list,'cats':cats})
 
-def news_single(request,slug):
+    return render(request, 'blog/video_all.html', {'posts': article_list,'cats':cats})
+
+def video_single(request,slug):
     cats = Category.objects.all()
-    article =News.objects.filter(slug=slug).get()
-    return render(request, 'blog/news_single.html', {'post': article,'cats':cats})
+    article = Video.objects.filter(slug=slug).get()
+    return render(request, 'blog/video_single.html', {'post': article,'cats':cats})
+    # return render(request, 'test.html', {'a': article})

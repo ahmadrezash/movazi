@@ -12,12 +12,15 @@
 
     <div class='col-{{ w | default:"12" }}'>
         <div class="card mb-12">
-          <img class="card-img-top" src={{post.image.url}} alt="Card image cap">
-
+          <video width="400" controls>
+            <source src={{post.file.url}}>
+            {% comment %} <source src="mov_bbb.ogg" type="video/ogg"> {% endcomment %}
+          </video>
+          {% comment %} <img class="card-img-top" src=" {{post.file.url}}" alt="Card image cap"> {% endcomment %}
           <div class="card-body">
             <h2 class="card-title">{{post.title}}</h2>
             <p class="card-text">
-            {{post.description}}
+            {{post.desceiption}}
             </p>
           </div>
           <div class="card-footer text-muted">
@@ -27,6 +30,5 @@
           </div>
         </div>
     </div>
-
 
 {% endblock blog %}

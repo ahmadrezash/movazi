@@ -22,7 +22,7 @@ class VideoForm(ModelForm):
                     'subtitle':'زیرعنوان',
                     'time':'زمان',
                     'discription':'توضیحات',
-                    'file':'فایل( به دقیقه)',
+                    'file':'فایل',
                     'tags':'تگ ها'
                 }
 

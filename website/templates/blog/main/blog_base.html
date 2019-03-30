@@ -23,23 +23,14 @@
 
     <div class="row" styles='background-color: lightblue;'>
 
-      <div class="col-md-3 sticky-top">
+      <div class="col-md-3">
         {% include 'blog/main/right_sidebar.html' %}
       </div>
-      <div class="col-md-6">
-        {% block blog %}
-        {% endblock blog %}
-      {% comment %} 
-      {% if content == 'article' %}
-        {% include 'blog/article_post.html' with title='مقاله ها' %}
-      {% elif content == 'poster' %}
-        {% include 'blog/poster_post.html' with title='پوستر ها' %}
-      {% elif content == 'news' %}
-        {% include 'blog/news_post.html' with title='اخبار' %}
-      {% endif %}
-       {% endcomment %}</div>
-
-      <div class="col-md-3 sticky-top">
+        <div class="col-md-6">
+          {% block blog %}
+          {% endblock blog %}
+        </div>
+      <div class="col-md-3">
         {% include 'blog/main/left_sidebar.html' %}
       </div>
 

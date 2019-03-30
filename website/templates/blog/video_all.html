@@ -14,7 +14,10 @@
     {% for post in posts%}
     <div class='col-{{ w | default:"12" }}'>
         <div class="card mb-4">
-          <img class="card-img-top" src=" {{post.image.url}}" alt="Card image cap">
+          {% comment %} <img class="card-img-top" src="{% static 'images/750x300.png' %}" alt="Card image cap"> {% endcomment %}
+          <img class="card-img-top" src= {{post.image.url}} alt="Card image cap">
+
+
           <div class="card-body">
             <h2 class="card-title">{{post.title}}</h2>
             <p class="card-text">

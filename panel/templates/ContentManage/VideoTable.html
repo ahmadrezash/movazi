@@ -4,8 +4,8 @@
 {% load static %}
 {% load crispy_forms_tags %}
 {% block form_title %}
-پوستر ها
-<a href={% url 'create_poster' %}  class='btn btn-primary btn-circle'> + </a>
+ویدیو ها
+<a href={% url 'create_video' %}  class='btn btn-primary btn-circle'> + </a>
 
 {% endblock form_title %}
 {% block form %}
@@ -29,6 +29,7 @@
         <th>عنوان</th>
         <th>زیر عنوان</th>
         <th>دسته بندی</th>
+        <th>زمان</th>
         <th>تاریخ انتشار</th>
         <th>عملیات</th>
       </tr>
@@ -40,9 +41,10 @@
         <td>{{post.title}}</td>
         <td>{{post.subtitle}}</td>
         <td>{{post.category.name_persian}}</td>
+        <td>{{post.time}}</td>
         <td>{{post.pub_date|jformat:"%Y %a %d %B - %H:%M"}}</td>
         <td>
-        <a href = {% url 'update_poster' slug=post.slug %} class='btn btn-primary'>ویرایش</a>
+        <a href = {% url 'update_video' slug=post.slug %} class='btn btn-primary'>ویرایش</a>
         {% comment %} <a class='btn btn-danger'>حذف</a> {% endcomment %}
   <!-- Trigger the modal with a button -->
 
@@ -64,7 +66,7 @@
           را حذف نمایید؟
         </div>
         <div class="modal-footer">
-          <a href={% url 'delete_poster' slug=post.slug %} type="button" class="btn btn-danger" >حذف </a>
+          <a href={% url 'delete_video' slug=post.slug %} type="button" class="btn btn-danger" >حذف </a>
           <button type="button" class="btn btn-primary" data-dismiss="modal">لغو </button>
 
         </div>

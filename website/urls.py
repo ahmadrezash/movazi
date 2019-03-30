@@ -16,9 +16,6 @@ urlpatterns = [
     path('article/main'        , views.article_pagination      , name = 'article_pagination'),
     path('article/<str:slug>'  , views.article_single          , name = 'article_single'),
 
-    path('poster/'             , views.poster_pagination       , name = 'poster_pagination'),
-    path('poster/main'         , views.poster_pagination       , name = 'poster_pagination'),
-    path('poster/<str:slug>'   , views.poster_single           , name = 'poster_single'),
 
     path('news/'               , views.news_pagination         , name = 'news_pagination'),
     path('news/main'           , views.news_pagination         , name = 'news_pagination'),
@@ -27,7 +24,14 @@ urlpatterns = [
     path('contact-us/'         , views.contact_us              , name = 'contact_us'),
     path('about-us/'           , views.about_us                , name = 'about_us'),
 
-  
+    path('poster/'             , views.poster_pagination       , name = 'poster_pagination'),
+    path('poster/main'         , views.poster_pagination       , name = 'poster_pagination'),
+    path('poster/<str:slug>'   , views.poster_single           , name = 'poster_single'),
+
+    path('video/'              , views.video_pagination        , name = 'video_pagination'),
+    path('video/main'          , views.video_pagination        , name = 'video_pagination'),
+    path('video/<str:slug>'    , views.video_single            , name = 'video_single'),
+
   
     # path('news/'             , n_views.create_news         , name = 'create_news'),
   

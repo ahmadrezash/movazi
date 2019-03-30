@@ -23,7 +23,7 @@ class Video(models.Model):
     preview_img = models.ImageField(upload_to='image/preview/video', max_length=None)
     category    = models.ForeignKey(Category, on_delete = models.CASCADE)
 
-    time        = models.TimeField( auto_now=False, auto_now_add=False)
+    time        = models.IntegerField()
     author      = models.ForeignKey(User, on_delete = models.CASCADE)
     tags        = models.CharField(max_length=300)
     pub_date    = models.DateTimeField(auto_now_add=True)
