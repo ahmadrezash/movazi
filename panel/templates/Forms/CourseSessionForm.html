@@ -13,7 +13,7 @@
 
 
 
-دوره جدید
+جلسه جدید
 {% endblock form_title %}
 {% block form %}
   <form method="post" enctype="multipart/form-data">
@@ -38,24 +38,9 @@
       </div>
 
       <div class="form-group col-md-4 mb-0">
-        {{ form.session|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-4 mb-0">
-        {{ form.holding_loc|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-4 mb-0">
-        {{ form.holding_date|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-4 mb-0">
         {{ form.audience|as_crispy_field }}
       </div>
-      <div class="form-group col-md-4 mb-0">
-        {{ form.scientific_level|as_crispy_field }}
-      </div>
 
-      <div class="form-group col-md-4 mb-0">
-        {{ form.prerequisite|as_crispy_field }}
-      </div>
       <div class="form-group col-md-12 mb-0">
         {{ form.table_of_content|as_crispy_field }}
       </div>
@@ -67,15 +52,13 @@
         {{ form.image_index|as_crispy_field }}
       </div>
       <div class="form-group col-md-4 mb-0">
+        {{ form.file|as_crispy_field }}
+      </div>
+      <div class="form-group col-md-4 mb-0">
         {{ form.tags|as_crispy_field }}
       </div>
 
     <button type="submit" class="btn btn-primary" style='margin-bottom:1rem'> ثبت </button>
   </form>
-  <script>
-  $('#id').MdPersianDateTimePicker({ 
-  targetTextSelector: '#id_holding_date',
-  targetDateSelector: '#id_holding_date',
-});
-  </script>
+
 {% endblock form %}

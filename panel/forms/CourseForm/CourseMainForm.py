@@ -5,6 +5,9 @@ from panel.models.Courses.CourseModel import Course
 
 from django.db import models
 
+# from jalali_date.fields import JalaliDateField, SplitJalaliDateTimeField
+# from jalali_date.widgets import AdminJalaliDateWidget, AdminSplitJalaliDateTime
+ 
 # import crispy_forms
 # from crispy_forms.helper import FormHelper
 # from crispy_forms.layout import Submit, Layout, Field
@@ -16,12 +19,24 @@ from django.db import models
 
 class CourseMainForm(ModelForm):
     # ModelForm.clea
+    def __init__(self, *args, **kwargs):
+        super(CourseMainForm, self).__init__(*args, **kwargs)
+        # self.fields['holding_date'] = JalaliDateField(
+        #     widget=AdminJalaliDateWidget # optional, for user default datepicker
+        # )
+        # self.fields['date'].widget.attrs.update({'class': 'jalali_date-date'})
+        # you can added a "class" to this field for user your datepicker!
+        # self.fields['date'].widget.attrs.update({'class': 'jalali_date-date'})
+
+        # self.fields['date_time'] = SplitJalaliDateTimeField(label=('date time'), 
+        #     widget=AdminSplitJalaliDateTime # required, for decompress DatetimeField to JalaliDateField and JalaliTimeField
+        # )
     class Meta:
         model = Course
         fields = ['title','subtitle','summery','speaker'
         ,'session','holding_loc','holding_date','audience'
         ,'scientific_level','prerequisite','table_of_content'
-        ,'resources','category','image_index'
+        ,'resources','image_index'
         ,'tags']
         labels = {
                     "title": "عنوان",
@@ -36,7 +51,6 @@ class CourseMainForm(ModelForm):
                     'prerequisite':'پیش‌نیاز علمی',
                     'table_of_content':'فهرست',
                     'resources':'منبع مکتوب',
-                    'category':'دسته بندی',
                     'image_index':'تصویر شاخص',
                     'tags':'تگ ها'
                 }

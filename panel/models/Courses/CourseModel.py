@@ -2,6 +2,7 @@ from django.db import models
 # from autoslug.fields import AutoSlugField
 from django.contrib.auth.models import User
 from panel.models.CategoryModels import Category
+import datetime
 
 class Course(models.Model):
     def a(self,value):
@@ -17,7 +18,7 @@ class Course(models.Model):
     speaker          = models.CharField(max_length=200)
     session          = models.IntegerField()
     holding_loc      = models.CharField(max_length=200)
-    holding_date     = models.DateField()
+    holding_date     = models.DateField(default=datetime.date.today())
     audience         = models.CharField(max_length=200)
     scientific_level = models.CharField(max_length=200)
     prerequisite     = models.CharField(max_length=200)

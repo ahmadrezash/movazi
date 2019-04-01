@@ -27,9 +27,7 @@
     <thead>
       <tr>
         <th>عنوان</th>
-        <th>قالب</th>
-        <th>مخاطب</th>
-        <th>سطح علمی</th>
+        <th>سخنران</th>
         <th>دسته بندی</th>
         <th>تاریخ انتشار</th>
         <th>عملیات</th>
@@ -40,9 +38,7 @@
   {% for post in posts %}
 <tr>
         <td>{{post.title}}</td>
-        <td>{{post.formatted}}</td>
-        <td>{{post.audience}}</td>
-        <td>{{post.scientific_level}}</td>
+        <td>{{post.speaker}}</td>
         <td>{{post.category.name_persian}}</td>
         <td>{{post.pub_date|jformat:"%Y %a %d %B - %H:%M"}}</td>
         <td>

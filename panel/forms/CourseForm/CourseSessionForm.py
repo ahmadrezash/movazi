@@ -1,35 +1,35 @@
 from django.views.generic.edit import BaseFormView
 from django.forms import ModelForm
-from panel.models.MultiMedia.VideoModel import Video
+from panel.models.Courses.CourseSessionModel import CourseSession
+from django.forms import ModelForm
+
 from django.db import models
 
-# import crispy_forms
-# from crispy_forms.helper import FormHelper
-# from crispy_forms.layout import Submit, Layout, Field
-# from crispy_forms.bootstrap import (
-    # PrependedText, PrependedAppendedText, FormActions)
-# from crispy_forms.helper import FormHelper
-# from crispy_forms.helper import FormHelper
-from django.contrib.admin import widgets                                       
+# from jalali_date.fields import JalaliDateField, SplitJalaliDateTimeField
+# from jalali_date.widgets import AdminJalaliDateWidget, AdminSplitJalaliDateTime
 
-class VideoForm(ModelForm):
-    # ModelForm.clea
+class CourseSessionForm(ModelForm):
     class Meta:
-        model = Video
-        fields = ['title','subtitle','discription','time','file','tags']
+        model = CourseSession
+        fields = ['title','subtitle','summery','speaker'
+        ,'time','audience'
+        ,'table_of_content'
+        ,'resources','image_index'
+        ,'tags']
         labels = {
                     "title": "عنوان",
                     'subtitle':'زیرعنوان',
-                    'time':'زمان',
-                    'discription':'توضیحات',
-                    'file':'فایل',
+                    'summery':'چکیده',
+                    'speaker':'سخنران',
+                    'audience':'مخاطبین',
+                    'table_of_content':'فهرست',
+                    'resources':'منبع مکتوب',
+                    'file': 'فایل تصویری',
+                    'image_index':'تصویر شاخص',
                     'tags':'تگ ها'
                 }
 
 
-    def __init__(self, *args, **kwargs):
-            super(VideoForm, self).__init__(*args, **kwargs)
-            self.fields['time'].widget = widgets.AdminTimeWidget()
 
 
 
