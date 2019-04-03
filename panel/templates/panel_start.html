@@ -44,30 +44,36 @@
         </div> {% endcomment %}
 	{% comment %} </div> {% endcomment %}
 <div class="row">
- <a href="#" class="btn btn-sq-lg btn-info">
-                <i class="fa fa-user fa-5x"></i><br/>
-                مقاله جدید <br>
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-info">
-              <i class="fa fa-user fa-5x"></i><br/>
-              اخبار جدید <br>
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-info">
-              <i class="fa fa-user fa-5x"></i><br/>
-              رویداد جدید <br>
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-info">
-              <i class="fa fa-user fa-5x"></i><br/>
-              پوستر جدید <br>
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-info">
-              <i class="fa fa-user fa-5x"></i><br/>
-              دوره جدید <br>
-            </a>
-                        <a href="#" class="btn btn-sq-lg btn-info">
-              <i class="fa fa-user fa-5x"></i><br/>
-              رویداد جدید <br>
-            </a>
-            </div>
-            </div>
+  <a href={% url 'create_article' %} class="btn btn-sq-lg btn-info">
+    <i class="far fa-file fa-5x"></i>
+    <br> مقاله جدید </br>
+  </a>
+
+  <a href={% url 'create_news' %} class="btn btn-sq-lg btn-info">
+    <i class="fas fa-newspaper fa-5x"></i>
+    <br>اخبار جدید </br>
+  </a>
+  
+  <a href={% url 'create_course' %} class="btn btn-sq-lg btn-info">
+    <i class="fas fa-chalkboard-teacher fa-5x"></i>
+    <br>دوره جدید </br>
+  </a>
+  <a href={% url 'create_poster' %} class="btn btn-sq-lg btn-info">
+    <i class="fas fa-image fa-5x"></i>
+    <br/>پوستر جدید <br>
+  </a>
+
+  <a href={% url 'create_video' %} class="btn btn-sq-lg btn-info">
+    <i class="fas fa-video fa-5x"></i>
+    <br/>
+    دوره جدید <br>
+  </a>
+
+  <a href={% url 'create_published' %} class="btn btn-sq-lg btn-info">
+    <i class="fas fa-book fa-5x"></i>
+    <br/>
+    انتشارات و پژوهش ها جدید <br>
+  </a>
+  </div>
+  </div>
 {% endblock form %}

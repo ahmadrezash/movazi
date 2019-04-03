@@ -19,7 +19,7 @@ class Published(models.Model):
                       max_length=128, 
                       db_index=True, 
                       blank=True)
-    publishing_date = models.DateField(auto_now_add=True)
+    publishing_date = models.DateField()
     category        = models.ForeignKey(Category, on_delete = models.CASCADE)
     image_index     = models.ImageField(upload_to='image/Published/index', max_length=None)
     image_cover     = models.ImageField(upload_to='image/Published/cover', max_length=None)
