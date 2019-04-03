@@ -1,0 +1,86 @@
+{% extends "blog/main/blog_base.html" %}
+{% load static %}
+
+{% load jformat %}
+
+{% block title %}
+موازی بلاگ
+{% endblock title %}
+{% comment %} {% block head %}
+  <link href={% static 'css/blog-home.css' %} rel="stylesheet">
+    <script src={% static 'vendor/jquery/jquery.min.js' %}></script>
+  <script src={% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}></script>
+{% endblock head %} {% endcomment %}
+  <!-- Bootstrap core CSS -->
+  {% comment %} <link href={% static 'css/bootstrap.min.css' %} rel="stylesheet"> {% endcomment %}
+
+  <!-- Custom styles for this template -->
+
+{% block blog %}
+
+
+  <!-- Page Content -->
+  <div class="container" >
+
+    <div class="row" styles='background-color: lightblue;'>
+
+        
+           <div class='col-{{ w | default:"12" }}'>
+        <div class="card mb-4">
+          {% comment %} <img class="card-img-top" src="{% static 'images/750x300.png' %}" alt="Card image cap"> {% endcomment %}
+          <img class="card-img-top" src=" {{post.image_index.url}}" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">{{post.title}}</h2>
+            <p class="card-text">
+            {{post.full_text}}
+            </p>
+            {% comment %} <a href="#" class="btn btn-primary">بیشتر بخوانید... </a> {% endcomment %}
+          </div>
+          <td>
+  <div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>عنوان</th>
+        <th>سخنران</th>
+        <th>دسته بندی</th>
+        <th>تاریخ انتشار</th>
+        <th>عملیات</th>
+      </tr>
+    </thead>
+    <tbody>
+     
+  {% for session in sessions %}
+<tr>
+        <td>{{session.title}}</td>
+        <td>{{session.speaker}}</td>
+        <td>{{session.category.name_persian}}</td>
+        <td>{{session.pub_date|jformat:"%Y "}}</td>
+        <td><a href={% url 'course_session_single' course=post.slug session=session.slug %} class='btn btn-primary'>مشاهده</a></td>
+  
+
+</tr>
+
+  {% endfor %}
+      </tbody>
+  </table>
+</div>
+
+          <div class="card-footer text-muted">
+            {{post.author_id}}
+            -
+            {{post.pub_date}}
+          </div>
+        </div>
+    </div>
+      </div>
+
+
+  </div>
+
+
+
+
+
+
+{% endblock blog %}

@@ -1,10 +1,14 @@
-from django.shortcuts import render
-from django.http import HttpResponse
-from django.template.response import TemplateResponse
-from panel.models.ArticleModels import Article
-from panel.models.NewsModel import News
-from panel.models.MultiMedia.PosterModel import Poster
-from panel.models.MultiMedia.VideoModel import Video
+from django.shortcuts                        import render
+from django.http                             import HttpResponse
+from django.template.response                import TemplateResponse
+from panel.models.ArticleModels              import Article
+from panel.models.Published.PublishedModel   import Published
+from panel.models.NewsModel                  import News
+from panel.models.MultiMedia.PosterModel     import Poster
+from panel.models.MultiMedia.VideoModel      import Video
+from panel.models.Courses.CourseModel        import Course
+from panel.models.Courses.CourseSessionModel import CourseSession
+
 
 from panel.models.CategoryModels import Category
 from django.core.paginator import Paginator
@@ -91,3 +95,41 @@ def video_single(request,slug):
     article = Video.objects.filter(slug=slug).get()
     return render(request, 'blog/video_single.html', {'post': article,'cats':cats})
     # return render(request, 'test.html', {'a': article})
+
+
+def published_pagination(request):
+    published_list = Published.objects.all()
+    paginator = Paginator(published_list, 4)
+    page = request.GET.get('page')
+    published_list = paginator.get_page(page)
+    cats = Category.objects.all()
+
+    return render(request, 'blog/published_all.html', {'posts': published_list,'cats':cats})
+
+def published_single(request,slug):
+    cats = Category.objects.all()
+    published = Published.objects.filter(slug=slug).get()
+    return render(request, 'blog/published_single.html', {'post': published,'cats':cats})
+
+
+
+def course_pagination(request):
+    course_list = Course.objects.all()
+    paginator = Paginator(course_list, 4)
+    page = request.GET.get('page')
+    course_list = paginator.get_page(page)
+    cats = Category.objects.all()
+
+    return render(request, 'blog/course_all.html', {'posts': course_list,'cats':cats})
+
+def course_single(request,slug):
+    cats    = Category.objects.all()
+    course  = Course.objects.filter(slug=slug).get()
+    session = CourseSession.objects.filter(course=course)
+
+    return render(request, 'blog/course_single.html', {'post': course,'cats':cats,"sessions":session})
+
+def course_session_single(request,course,session):
+    cats = Category.objects.all()
+    course = CourseSession.objects.filter(slug=session).get()
+    return render(request, 'blog/course_session_single.html', {'post': course,'cats':cats})
