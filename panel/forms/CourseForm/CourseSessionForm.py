@@ -12,7 +12,7 @@ class CourseSessionForm(ModelForm):
     class Meta:
         model = CourseSession
         fields = ['title','subtitle','summery','speaker'
-        ,'time','audience'
+        ,'time','audience','file'
         ,'table_of_content'
         ,'resources','image_index'
         ,'tags']
@@ -24,7 +24,7 @@ class CourseSessionForm(ModelForm):
                     'audience':'مخاطبین',
                     'table_of_content':'فهرست',
                     'resources':'منبع مکتوب',
-                    'file': 'فایل تصویری',
+                    'file': 'فایل جلسه',
                     'image_index':'تصویر شاخص',
                     'tags':'تگ ها'
                 }

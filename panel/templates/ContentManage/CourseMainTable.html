@@ -46,10 +46,10 @@
         <td>{{post.category.name_persian}}</td>
         <td>{{post.pub_date|jformat:"%Y %a %d %B - %H:%M"}}</td>
         <td>
-        <a href = {% url 'update_course' slug=post.slug %} class='btn btn-primary'>ویرایش</a>
-        {% comment %} <a class='btn btn-danger'>حذف</a> {% endcomment %}
+        <a href = {% url 'all_course_session' course=post.slug %} class='btn btn-primary'>لیست جلسات</a>
+        <a href = {% url 'update_course' slug=post.slug %} class='btn btn-warning'>ویرایش</a>
+        
   <!-- Trigger the modal with a button -->
-
   <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal_{{post.id}}">حذف</button>
 
   <!-- Modal -->

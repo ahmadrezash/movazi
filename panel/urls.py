@@ -47,8 +47,8 @@ urlpatterns = [
     path('course/update/<str:slug>'              , c_views.update_course  , name = 'update_course'),
     path('course/delete/<str:slug>'              , c_views.delete_course  , name = 'delete_course'),
    
-    path('course/<str:course>/session/all/'                           , c_s_views.all_course_session     , name = 'all_course_session'),
-    path('course/<str:course>/session/create/'                        , c_s_views.create_course_session  , name = 'create_course_session'),
+    path('course/<str:course>/session/all/'                              , c_s_views.all_course_session     , name = 'all_course_session'),
+    path('course/<str:course>/session/create/'                           , c_s_views.create_course_session  , name = 'create_course_session'),
     path('course/<str:course>/session/update/<str:session>'              , c_s_views.update_course_session  , name = 'update_course_session'),
     path('course/<str:course>/session/delete/<str:session>'              , c_s_views.delete_course_session  , name = 'delete_course_session'),
    
