@@ -25,13 +25,13 @@ from . import Seed_view
 from django.conf import settings
 from django.conf.urls import include, url  # For django versions before 2.0
 from django.urls import include, path  # For django versions from 2.0 and up
-import debug_toolbar
+# import debug_toolbar
 urlpatterns = [
 
     # Panel URL's
     path('panel/',include('panel.urls'),name='user_panel'),
     path('panel/', include('django.contrib.auth.urls')), 
-    path('deb/', include(debug_toolbar.urls)),
+    # path('deb/', include(debug_toolbar.urls)),
     # Website URL's
     path('',include('website.urls')),
 
@@ -39,7 +39,7 @@ urlpatterns = [
     # path('', website_views.index, name = 'index'),
     # path('post/', views.individual_post, name='individual_post'),
     # path('weblog',include('zinnia.urls'))
-    # path('admin', admin.site.urls),
+    path('admin', admin.site.urls),
     # path('blog', include('blog.urls')), # 
     # path('',profile.dashboard,name = 'dashboard'),
         # path('/post/new', views.post_new, name='post_new'),

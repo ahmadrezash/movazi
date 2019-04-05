@@ -26,39 +26,40 @@ SECRET_KEY = '$r2in^f=j!7t%$$u08#50rz!qage05iqr4m0w1!orhawrljqew'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost','894573f8.ngrok.io']
 
-# JALALI_DATE_DEFAULTS = {
-#    'Strftime': {
-#         'date': '%y/%m/%d',
-#         'datetime': '%H:%M:%S _ %y/%m/%d',
-#     },
-#     'Static': {
-#         'js': [ # prefix address is 'admin/'
-#             'js/django_jalali.min.js',
-#             # or
-#             # 'jquery.ui.datepicker.jalali/scripts/jquery-1.10.2.min.js',
-#             # 'jquery.ui.datepicker.jalali/scripts/jquery.ui.core.js',
-#             # 'jquery.ui.datepicker.jalali/scripts/calendar.js',
-#             # 'jquery.ui.datepicker.jalali/scripts/jquery.ui.datepicker-cc.js',
-#             # 'jquery.ui.datepicker.jalali/scripts/jquery.ui.datepicker-cc-fa.js',
-#             # 'js/main.js',
-#         ],
-#         'css': {
-#             'all': [
-#                 'admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css',
-#             ]
-#         }
-#     },
-# }
+JALALI_DATE_DEFAULTS = {
+   'Strftime': {
+        'date': '%y/%m/%d',
+        'datetime': '%H:%M:%S _ %y/%m/%d',
+    },
+    'Static': {
+        'js': [ # prefix address is 'admin/'
+            'js/django_jalali.min.js',
+            # or
+            'jquery.ui.datepicker.jalali/scripts/jquery-1.10.2.min.js',
+            'jquery.ui.datepicker.jalali/scripts/jquery.ui.core.js',
+            'jquery.ui.datepicker.jalali/scripts/calendar.js',
+            'jquery.ui.datepicker.jalali/scripts/jquery.ui.datepicker-cc.js',
+            'jquery.ui.datepicker.jalali/scripts/jquery.ui.datepicker-cc-fa.js',
+            'js/main.js',
+        ],
+        'css': {
+            'all': [
+                'admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css',
+            ]
+        }
+    },
+}
 # Application definition
 
 INSTALLED_APPS = [
     # 'bootstrap4',
     'crispy_forms',
-    'debug_toolbar',
+    # 'debug_toolbar',
     'django_jalali',
-    	'jalali_date',
+        'jquery',
+    'jalali_date',
     # 'bootstrap_datepicker_plus',
     # 'versatileimagefield',
     'django.contrib.admin',
@@ -68,7 +69,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'website',
-    'contrib',
     'panel',
     # 'django_comments',
     # 'mptt',
@@ -84,7 +84,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'movazi.urls'

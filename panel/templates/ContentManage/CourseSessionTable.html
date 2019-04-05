@@ -5,7 +5,7 @@
 {% load crispy_forms_tags %}
 {% block form_title %}
 جلسات دوره {{title}}
-<a href={% url 'create_course' %}  class='btn btn-primary btn-circle'> + </a>
+<a href={% url 'create_course_session' course=slug %}  class='btn btn-primary btn-circle'> + </a>
 
 {% endblock form_title %}
 {% block form %}
@@ -23,6 +23,7 @@
 </style>
 <td>
   <div class="container">
+  {% if posts %}
   <table class="table table-striped">
     <thead>
       <tr>
@@ -80,11 +81,7 @@
   {% endfor %}
     </tbody>
   </table>
-</div>
-
-
-
-<div class="pagination justify-content-center">
+  <div class="pagination justify-content-center">
     <span class="step-links">
         {% if posts.has_previous %}
             <a class='btn btn-primary' href="?page=1">&laquo; اول</a>
@@ -104,4 +101,14 @@
         {% endif %}
     </span>
 </div>
+  {% else %}
+    <div class='text-center'>  هنوز جلسه ای ثبت نگردیده است.
+</div>
+  {% endif %}
+  
+</div>
+</td>
+
+
+
 {% endblock form %}

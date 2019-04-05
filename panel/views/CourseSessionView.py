@@ -27,7 +27,7 @@ def all_course_session(request,course):
     course_list = paginator.get_page(page)
     # return render(request, 'test.html', {'a': course_list})
     # print('sdsdsfs')
-    return render(request, 'ContentManage/CourseSessionTable.html', {'posts': course_list,'title':c.title})
+    return render(request, 'ContentManage/CourseSessionTable.html', {'posts': course_list,'title':c.title,'slug':c.slug})
 
 
 # create_course_session

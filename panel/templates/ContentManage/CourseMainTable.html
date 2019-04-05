@@ -1,6 +1,7 @@
 
 {% extends 'Dashboard/panel.html' %}
 {% load jformat %}
+{% load jalali_tags %}
 {% load static %}
 {% load crispy_forms_tags %}
 {% block form_title %}
@@ -9,6 +10,7 @@
 
 {% endblock form_title %}
 {% block form %}
+ {% comment %} {{ form.media }} {% endcomment %}
 {% comment %} <a href = {% url 'update_course' %} class='btn btn-primary'>ویرایش</a> {% endcomment %}
 <style>
 .btn-circle {
@@ -21,6 +23,7 @@
   border-radius: 15px;
 }
 </style>
+{% if posts %}
 <td>
   <div class="container">
   <table class="table table-striped">
@@ -108,4 +111,8 @@
         {% endif %}
     </span>
 </div>
+{% else %}
+    <div class='text-center'>  هنوز دوره ای ثبت نگردیده است.</div>
+
+{% endif %}
 {% endblock form %}

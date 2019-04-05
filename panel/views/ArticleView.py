@@ -9,6 +9,8 @@ from django.utils import timezone
 from django.views.generic.edit import CreateView, DeleteView, UpdateView ,FormView
 from django.utils.text import slugify
 
+from jalali_date import datetime2jalali, date2jalali
+
 from panel.forms.ArticleForm import ArticleForm
 from panel.models.ArticleModels import Article
 from panel.models.CategoryModels import Category

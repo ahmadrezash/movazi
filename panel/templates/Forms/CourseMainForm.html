@@ -5,19 +5,48 @@
 {{ form.media }}
 {% load static %}
 {% block form_title %}
-{% comment %} <link href={% static "MD.BootstrapPersianDateTimePicker/dist/jquery.md.bootstrap.datetimepicker.style.css" %} rel="stylesheet"/> {% endcomment %}
-{% comment %} <script src={% static "MD.BootstrapPersianDateTimePicker/dist/jquery.md.bootstrap.datetimepicker.js" %}></script> {% endcomment %}
 
 
 {% load jalali_tags %}
 
 
-
 دوره جدید
 {% endblock form_title %}
 {% block form %}
+<style>
+#ui-datepicker-div a{
+  font-family:'yekan';
+  text-align: center;
+}
+#ui-datepicker-div th{
+  font-family:'yekan';
+  text-align: center;
+}
+div.ui-datepicker-title select option{
+  font-family:'yekan';
+}
+
+</style>
+
+  <script src={% static 'admin/js/django_jalali.min.js' %}></script>
+  <link rel="stylesheet" href={% static 'admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css' %}>
+
+<script>
+‍‍$('.jalali_date-date').datepicker({
+        dateFormat: 'yy-mm-dd',
+         font-family:'yekan',
+        changeMonth: true,
+        changeYear: true,
+        //showOn: 'button',
+        // buttonImage: '../jquery.ui.datepicker.jalali_date/themes/base/images/',
+        // buttonImageOnly: true
+    });
+</script>
+
   <form method="post" enctype="multipart/form-data">
   {% csrf_token %}
+
+
     <div class="form-row">
       <div class="form-group col-md-6 mb-0">
         {{ form.title|as_crispy_field }}
@@ -72,10 +101,5 @@
 
     <button type="submit" class="btn btn-primary" style='margin-bottom:1rem'> ثبت </button>
   </form>
-  <script>
-  $('#id').MdPersianDateTimePicker({ 
-  targetTextSelector: '#id_holding_date',
-  targetDateSelector: '#id_holding_date',
-});
-  </script>
+
 {% endblock form %}

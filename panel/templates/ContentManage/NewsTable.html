@@ -20,6 +20,7 @@
   border-radius: 15px;
 }
 </style>
+{% if posts %}
 <td>
   <div class="container">
   <table class="table table-striped">
@@ -103,4 +104,7 @@
         {% endif %}
     </span>
 </div>
+{% else %}
+    <div class='text-center'>  هنوز خبری ثبت نگردیده است.</div>
+{% endif %}
 {% endblock form %}

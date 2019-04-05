@@ -9,19 +9,8 @@
 
 {% endblock form_title %}
 {% block form %}
-{% comment %} <a href = {% url 'update_article' %} class='btn btn-primary'>ویرایش</a> {% endcomment %}
-<style>
-.btn-circle {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 15px;
-}
-</style>
-<td>
+{% if posts %}
+  <td>
   <div class="container">
   <table class="table table-striped">
     <thead>
@@ -104,4 +93,21 @@
         {% endif %}
     </span>
 </div>
+{% else %}
+    <div class='text-center'>  هنوز مقاله ای ثبت نگردیده است.</div>
+
+{% endif %}
+{% comment %} <a href = {% url 'update_article' %} class='btn btn-primary'>ویرایش</a> {% endcomment %}
+<style>
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+</style>
+
 {% endblock form %}

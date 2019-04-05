@@ -10,11 +10,11 @@ from panel.models.Courses.CourseModel      import Course
 from panel.forms.CourseForm.CourseMainForm import CourseMainForm
 #Other
 from django.core.paginator                 import Paginator
+from jalali_date import datetime2jalali, date2jalali
 
 def index(request):
     posts = Course.objects.order_by('pub_date')[:3]
     t = TemplateResponse(request, 'home.html', {'posts':posts})
-    t.render()
     return HttpResponse(t)
 
 def all_course(request):
@@ -43,6 +43,8 @@ def create_course(request):
         return render(request, 'test.html', {'a': form.errors})
     else:
         form = CourseMainForm()
+        # jalali_join = datetime2jalali(request.user.date_joined).strftime('%y/%m/%d')
+        # form.holding_date = datetime2jalali(request.user.date_joined).strftime('%y/%m/%d')
         return render(request, 'Forms/CourseMainForm.html', {'form': form})
 
 
