@@ -1,21 +1,19 @@
-import logging
-from datetime import datetime
-from django.contrib.auth import get_user_model
-from django.contrib.auth.models import User
-from django.http import HttpResponse
-from django.shortcuts import redirect, render
-from django.template.response import TemplateResponse
-from django.utils import timezone
-from django.views.generic.edit import CreateView, DeleteView, UpdateView ,FormView
-from django.utils.text import slugify
+#For Render HTML
+from django.http                  import HttpResponse
+from django.shortcuts             import redirect, render
+from django.template.response     import TemplateResponse
+#Pagination
+from django.core.paginator        import Paginator
+#Cat Model
+from panel.models.CategoryModels  import Category
+#For Fields
+from django.utils.text            import slugify
 
-from jalali_date import datetime2jalali, date2jalali
-
-from panel.forms.ArticleForm import ArticleForm
-from panel.models.ArticleModels import Article
-from panel.models.CategoryModels import Category
-from django.db import models
-from django.core.paginator import Paginator
+#Form
+from panel.forms.ArticleForm      import ArticleForm
+#Models Used  
+from panel.models.ArticleModels   import Article
+from panel.models.CategoryModels  import Category
 
 def index(request):
     posts = Article.objects.order_by('pub_date')[:3]
@@ -28,13 +26,10 @@ def all_article(request):
     paginator = Paginator(article_list, 10)
     page = request.GET.get('page')
     article_list = paginator.get_page(page)
-    # print('sdsdsfs')
     return render(request, 'ContentManage/ArticleTable.html', {'posts': article_list,'content':"article"})
 
 
-# create_article
 def create_article(request):
-    saved = False
     if request.method == "POST":
         form = ArticleForm(data=request.POST, files=request.FILES)
         if form.is_valid():
@@ -44,7 +39,6 @@ def create_article(request):
             a.slug = slugify(a.title,allow_unicode=True)
             a.save()
             return redirect('all_article')
-            # return render(request, 'test.html', {'a':'مقاله با موفقست ثبت شد' })
         return render(request, 'test.html', {'a': 'ظاهرا مشکلی پیش آمده'})
     else:
         form = ArticleForm()
@@ -53,9 +47,7 @@ def create_article(request):
 
 
 def update_article(request,slug):
-    saved = False
     tmp = Article.objects.filter(slug=slug)[0]
-
     if request.method == "POST":
         form = ArticleForm(data=request.POST, files=request.FILES,instance = tmp)
         if form.is_valid():
@@ -72,6 +64,4 @@ def update_article(request,slug):
 
 def delete_article(request,slug):
     Article.objects.filter(slug=slug)[0].delete()
-    # print('resiiiiiid')
     return redirect('all_article')
-    # return render(request, 'test.html', {'a': slug})

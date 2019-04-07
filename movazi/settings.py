@@ -26,6 +26,10 @@ SECRET_KEY = '$r2in^f=j!7t%$$u08#50rz!qage05iqr4m0w1!orhawrljqew'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+LANGUAGE_CODE = 'fa-ir'
+import locale
+locale.setlocale(locale.LC_ALL, "fa_IR")
+
 ALLOWED_HOSTS = ['localhost','894573f8.ngrok.io']
 
 JALALI_DATE_DEFAULTS = {

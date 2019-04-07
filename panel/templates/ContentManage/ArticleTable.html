@@ -32,8 +32,6 @@
         <td>{{post.pub_date|jformat:"%Y %a %d %B - %H:%M"}}</td>
         <td>
         <a href = {% url 'update_article' slug=post.slug %} class='btn btn-primary'>ویرایش</a>
-        {% comment %} <a class='btn btn-danger'>حذف</a> {% endcomment %}
-  <!-- Trigger the modal with a button -->
 
   <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal_{{post.id}}">حذف</button>
 
@@ -73,26 +71,7 @@
 
 
 
-<div class="pagination justify-content-center">
-    <span class="step-links">
-        {% if posts.has_previous %}
-            <a class='btn btn-primary' href="?page=1">&laquo; اول</a>
-            <a class='btn btn-primary' href="?page={{ posts.previous_page_number }}">قبلی</a>
-        {% endif %}
-
-        <span class="current">
-            صفحه {{ posts.number }} از {{ posts.paginator.num_pages }}
-        </span>
-
-        {% if posts.has_next %}
-            <a class='btn btn-primary' href="?page={{ posts.next_page_number }}">بعدی</a>
-            <a class='btn btn-primary' href="?page={{ posts.paginator.num_pages }}">آخرین &raquo;</a>
-          {% comment %} {% else %}
-            <a class='btn btn-primary disabled' href="?page={{ posts.next_page_number }}">بعدی</a>
-            <a class='btn btn-primary disabled' href="?page={{ posts.paginator.num_pages }}">آخرین &raquo;</a> {% endcomment %}
-        {% endif %}
-    </span>
-</div>
+{% include "ContentManage/gadget/pagination.html" %}
 {% else %}
     <div class='text-center'>  هنوز مقاله ای ثبت نگردیده است.</div>
 

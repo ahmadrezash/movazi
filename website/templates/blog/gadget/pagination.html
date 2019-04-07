@@ -1,0 +1,20 @@
+<div class="pagination justify-content-center">
+    <span class="step-links">
+        {% if posts.has_previous %}
+            <a class='btn btn-primary' href="?page=1">&laquo; اول</a>
+            <a class='btn btn-primary' href="?page={{ posts.previous_page_number }}">قبلی</a>
+        {% endif %}
+
+        <span class="current">
+            صفحه {{ posts.number }} از {{ posts.paginator.num_pages }}
+        </span>
+
+        {% if posts.has_next %}
+            <a class='btn btn-primary' href="?page={{ posts.next_page_number }}">بعدی</a>
+            <a class='btn btn-primary' href="?page={{ posts.paginator.num_pages }}">آخرین &raquo;</a>
+          {% comment %} {% else %}
+            <a class='btn btn-primary disabled' href="?page={{ posts.next_page_number }}">بعدی</a>
+            <a class='btn btn-primary disabled' href="?page={{ posts.paginator.num_pages }}">آخرین &raquo;</a> {% endcomment %}
+        {% endif %}
+    </span>
+</div>

@@ -1,0 +1,5 @@
+         {% load jformat %}
+
+            {{post.author.username}}
+            -
+            {{post.pub_date|jformat:" %a %d %B %Y - %H:%M"}}

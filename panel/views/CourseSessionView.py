@@ -1,16 +1,21 @@
-#Basic
-from django.contrib.auth.models            import User
-from django.shortcuts                      import redirect, render
-from django.template.response              import TemplateResponse
-from django.utils.text                     import slugify
-#Model     
-from panel.models.CategoryModels           import Category
-from panel.models.Courses.CourseSessionModel      import CourseSession
-from panel.models.Courses.CourseModel import Course
+#For Render HTML
+from django.http                  import HttpResponse
+from django.shortcuts             import redirect, render
+from django.template.response     import TemplateResponse
+#Pagination
+from django.core.paginator        import Paginator
+#Cat Model
+from panel.models.CategoryModels  import Category
+#For Fields
+from django.utils.text            import slugify
+
 #Form
-from panel.forms.CourseForm.CourseSessionForm import CourseSessionForm
-#Other
-from django.core.paginator                 import Paginator
+from panel.forms.CourseForm.CourseSessionForm     import CourseSessionForm
+#Models Used  
+from panel.models.Courses.CourseSessionModel      import CourseSession
+from panel.models.Courses.CourseModel             import Course
+
+
 
 def index(request):
     posts = CourseSession.objects.order_by('pub_date')[:3]

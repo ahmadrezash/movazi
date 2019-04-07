@@ -40,6 +40,7 @@ class CourseMainForm(ModelForm):
     def __init__(self, *args, **kwargs):
         super(CourseMainForm, self).__init__(*args, **kwargs)
         self.fields['holding_date'] = JalaliDateField(
+            label=('تاریخ برگزاری'),
             widget=AdminJalaliDateWidget # optional, for user default datepicker
         )
         # self.fields['holding_date'].widget.attrs.update({'class': 'jalali_date-date'})
