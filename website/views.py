@@ -1,6 +1,9 @@
+# For HTML
 from django.shortcuts                        import render
 from django.http                             import HttpResponse
 from django.template.response                import TemplateResponse
+
+# Models
 from panel.models.ArticleModels              import Article
 from panel.models.Published.PublishedModel   import Published
 from panel.models.NewsModel                  import News
@@ -8,20 +11,19 @@ from panel.models.MultiMedia.PosterModel     import Poster
 from panel.models.MultiMedia.VideoModel      import Video
 from panel.models.Courses.CourseModel        import Course
 from panel.models.Courses.CourseSessionModel import CourseSession
+from panel.models.CategoryModels             import Category
 
-
-from panel.models.CategoryModels import Category
+# Pagination
 from django.core.paginator import Paginator
-from django.shortcuts import render
 
 def index(request):
     news = News.objects.order_by('-pub_date')[:4]
     poster = Poster.objects.order_by('-pub_date')[:4]
     t = TemplateResponse(request, 'home.html', {'news':news,'posters':poster})
-    # t = TemplateResponse(request, 'test.html', {'a':poster})
     t.render()
     return HttpResponse(t)
 
+# Single Pages
 def contact_us(request):
     t = TemplateResponse(request, 'contact_us.html')
     t.render()
@@ -37,7 +39,9 @@ def blog_main(request):
     t.render()
     return HttpResponse(t)
 
+# Model Pages
 
+## Articles
 def article_pagination(request):
     article_list = Article.objects.all()
     paginator = Paginator(article_list, 4)

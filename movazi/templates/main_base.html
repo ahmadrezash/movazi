@@ -11,7 +11,14 @@
 {% comment %} admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css {% endcomment %}
   {% comment %} <script src="{% static 'admin/js/django_jalali.min.js' %}"></script>
     <link rel="stylesheet" href={% static 'admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css' %}> {% endcomment %}
+{% comment %} <script src={% static 'css/material.css' %}></script> {% endcomment %}
+{% comment %} <link rel="stylesheet" href={% static 'css/material.css' %}> {% endcomment %}
+<link rel="stylesheet" href={% static 'css/aos.css' %} />
+<script src={% static 'js/aos.js' %}></script>
 
+<link rel="stylesheet" href={% static 'MDB/css/mdb.css' %} />
+<script src={% static 'MDB/js/mdb.js' %}></script>
+<script src={% static 'js/scrollme.js' %}></script>
 <style>
 @font-face {
     font-family: 'yekan';
@@ -41,4 +48,5 @@
             {% block footer %} {% endblock footer %}
 
 </body>
+
 </html>

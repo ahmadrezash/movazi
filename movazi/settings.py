@@ -20,15 +20,21 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
+# Location and Language
+import locale
+locale.setlocale(locale.LC_ALL, "fa_IR")
+
+LANGUAGE_CODE = 'fa-ir'
+TIME_ZONE = 'Asia/Tehran'
+
+
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '$r2in^f=j!7t%$$u08#50rz!qage05iqr4m0w1!orhawrljqew'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-LANGUAGE_CODE = 'fa-ir'
-import locale
-locale.setlocale(locale.LC_ALL, "fa_IR")
 
 ALLOWED_HOSTS = ['localhost','894573f8.ngrok.io']
 
@@ -76,8 +82,6 @@ INSTALLED_APPS = [
     'panel',
     # 'django_comments',
     # 'mptt',
-    # 'tagging',
-    # 'zinnia',
 ]
 
 MIDDLEWARE = [
@@ -162,9 +166,6 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'fa-ir'
-
-TIME_ZONE = 'Asia/Tehran'
 
 USE_I18N = True
 

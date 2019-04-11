@@ -14,39 +14,32 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-# from django.contrib.staticfiles.templatetags.staticfiles import static
 
-# from blog import views
 from django.contrib import admin
 from django.urls import include, path
 from website import views as website_views
 from panel.views import ProfileView as profile
 from . import Seed_view
 from django.conf import settings
-from django.conf.urls import include, url  # For django versions before 2.0
-from django.urls import include, path  # For django versions from 2.0 and up
+from django.conf.urls import  url,include  # For django versions before 2.0
+from django.urls import path  # For django versions from 2.0 and up
+from django.conf.urls.static import static
+from django.conf import settings
+
 # import debug_toolbar
 urlpatterns = [
 
     # Panel URL's
     path('panel/',include('panel.urls'),name='user_panel'),
-    path('panel/', include('django.contrib.auth.urls')), 
-    # path('deb/', include(debug_toolbar.urls)),
     # Website URL's
     path('',include('website.urls')),
 
-    path('seed', Seed_view.seeding, name = 'seeding'),
-    # path('', website_views.index, name = 'index'),
-    # path('post/', views.individual_post, name='individual_post'),
-    # path('weblog',include('zinnia.urls'))
+    # For Test
     path('admin', admin.site.urls),
-    # path('blog', include('blog.urls')), # 
+    path('seed', Seed_view.seeding, name = 'seeding'),
+    # path('panel/', include('django.contrib.auth.urls')), 
+    # path('deb/', include(debug_toolbar.urls)),
     # path('',profile.dashboard,name = 'dashboard'),
-        # path('/post/new', views.post_new, name='post_new'),
-
-    # path('', include('blog.urls'))
 ]
 
-from django.conf.urls.static import static
-from django.conf import settings
 urlpatterns += static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)

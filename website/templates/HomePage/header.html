@@ -1,5 +1,9 @@
 {% load static %}
-<div class="container-fluid tile-bg">
+
+
+
+<div class="container-fluid tile-bg"
+id='secion_header'>
     <div class="row blog">
       <div class="col-3"></div>
       <div class="col-6">
@@ -8,61 +12,108 @@
           <div class='col-md-3 col-sm-3 col-xs-3 tile'>
             <div class="a1"></div>
           </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
+          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 tile on '>
            
             {% comment %} <div class="a2"> {% endcomment %}
-            <a class='inner-tile' href='#section_news'>اخبار</a>
+            <a class='inner-tile section_news' href='#section_news'>اخبار</a>
             {% comment %} </div> {% endcomment %}
           </div>
           <div class='col-md-3 col-sm-3 col-xs-3 tile'>
             <div class="a3"></div>
           </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
-          <a class='inner-tile' href='#section_multimedia'>چندرسانه‌ای</a>
+          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 tile on'">
+          <a class='inner-tile section_multimedia' href='#section_multimedia'>چندرسانه‌ای</a>
             <div class="a4"></div>
           </div>
           <div class='col-md-3 col-sm-3 col-xs-3 tile'>
             <div class="a5"></div>
           </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
-            <a class='inner-tile' href='#section_events'>رویدادها</a>
+          <div  data-aos ='zoom-in'  class='col-md-3 col-sm-3 col-xs-3 tile on' >
+            <a class='inner-tile section_events' href='#section_events'>رویدادها</a>
             <div class="a6"></div>
           </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
-            <a class='inner-tile' href='#section_events'>رویدادها</a>
-            <div class="a7"></div>
+          <div data-aos ='zoom-in'  class='col-md-3 col-sm-3 col-xs-3 tile on'>
+            <a class='inner-tile section_library' href='#section_library'>
+            <div class="a7">کتابخانه</div>
+            </a>
           </div>
           <div class='col-md-3 col-sm-3 col-xs-3 tile'>
             <div class="a8"></div>
           </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
-            <a class='inner-tile' href='#section_events'>رویدادها</a>
+          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 tile on'>
+            <a  class= 'inner-tile section_science_net' href='#section_science_net'>درخت دانش</a>
             <div class="a5"></div>
           </div>
           <div class='col-md-3 col-sm-3 col-xs-3 tile'>
             <div class="a6"></div>
           </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
-            <a class='inner-tile' href='#section_events'>رویدادها</a>
+          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 tile on'>
+            <a class='inner-tile section_slider' href='#section_slider'>پژوهش ها</a>
             <div class="a7"></div>
           </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile on'>
-            <a class='inner-tile' href='#section_events'>رویدادها</a>
+          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 tile on'>
+            <a class='inner-tile section_events' href='#section_events'>رویدادها</a>
             <div class="a8"></div>
           </div>
         </div>
       </div>
     </div>
   </div>
+<script>
+$(".section_news").click(function() {
+    var offset = 20; //Offset of 20px
+
+    $('html, body').animate({
+        scrollTop: $("#section_news").offset().top + offset -110
+    }, 2000);
+});
+$(".section_multimedia").click(function() {
+    var offset = 20; //Offset of 20px
+
+    $('html, body').animate({
+        scrollTop: $("#section_multimedia").offset().top + offset -110
+    }, 2000);
+});
+$(".section_events").click(function() {
+    var offset = 20; //Offset of 20px
+
+    $('html, body').animate({
+        scrollTop: $("#section_events").offset().top + offset -110
+    }, 2000);
+});
+$(".section_science_net").click(function() {
+    var offset = 20; //Offset of 20px
+
+    $('html, body').animate({
+        scrollTop: $("#section_science_net").offset().top + offset -110
+    }, 2000);
+});
+$(".section_slider").click(function() {
+    var offset = 20; //Offset of 20px
+
+    $('html, body').animate({
+        scrollTop: $("#section_slider").offset().top + offset -110
+    }, 2000);
+});
+$(".section_library").click(function() {
+    var offset = 20; //Offset of 20px
+
+    $('html, body').animate({
+        scrollTop: $("#section_library").offset().top + offset -110
+    }, 2000);
+});
+
+</script>
   <style>
-  .inner-tile{
-position: relative;
-float: left;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
- color: black;
- font-size:2rem;
+
+.inner-tile{
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size:2rem;
   }
         .tile-bg{
             background-image: url({%static 'images/bck.jpg' %}) !important;
@@ -92,9 +143,8 @@ transform: translate(-50%, -50%);
         }
         .on {
 
-        background-color:  rgb(0, 176, 189,.8);
+        background-color:  rgb(0, 176, 189,.5);
 
-        opacity: .5;
         /* border: 1px; */
         border-style: solid;
         border-width: 1px;

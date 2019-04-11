@@ -2,6 +2,22 @@
 {% load static %}
 
 {% block content %}
+
+
+
+{% comment %} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" /> {% endcomment %}
+
+{% comment %} <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script> {% endcomment %}
+
+
+<script>
+  AOS.init();
+</script>
+
+
+
+
+
   {% include 'HomePage/header.html' %}
   {% include 'HomePage/news.html' %}
   {% include 'HomePage/events.html' %}
@@ -12,4 +28,12 @@
   {% include 'HomePage/scienceNet.html' %}
   {% include 'HomePage/library.html' %}
   {% include 'HomePage/cooperation.html' %}
+
+  <style>
+    .bkg{
+
+      background:
+  linear-gradient(141deg, rgb(0,0,0,1), rgb(0,0,0,.5), rgb(0,0,0,0));
+  }
+  </style>
 {% endblock %}
