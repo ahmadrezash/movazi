@@ -37,7 +37,7 @@ urlpatterns = [
     # For Test
     path('admin', admin.site.urls),
     path('seed', Seed_view.seeding, name = 'seeding'),
-    # path('panel/', include('django.contrib.auth.urls')), 
+    path('panel/', include('django.contrib.auth.urls')), 
     # path('deb/', include(debug_toolbar.urls)),
     # path('',profile.dashboard,name = 'dashboard'),
 ]

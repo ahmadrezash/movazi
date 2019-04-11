@@ -2,22 +2,10 @@
 {% load static %}
 
 {% block content %}
-
-
-
-{% comment %} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" /> {% endcomment %}
-
-{% comment %} <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script> {% endcomment %}
-
-
 <script>
   AOS.init();
 </script>
-
-
-
-
-
+<div class='scrollme'>
   {% include 'HomePage/header.html' %}
   {% include 'HomePage/news.html' %}
   {% include 'HomePage/events.html' %}
@@ -28,12 +16,38 @@
   {% include 'HomePage/scienceNet.html' %}
   {% include 'HomePage/library.html' %}
   {% include 'HomePage/cooperation.html' %}
-
+  <a class="btn-floating btn-large blue scrollToTop"><i class="fa fa-arrow-up"></i></a>
   <style>
+  .scrollToTop{
+    width:40px;
+    height: 40px;
+    position:fixed;
+    left:30px;
+    bottom:30px;
+    display:none;
+}
     .bkg{
 
       background:
   linear-gradient(141deg, rgb(0,0,0,1), rgb(0,0,0,.5), rgb(0,0,0,0));
   }
   </style>
+  <script>
+  $(document).ready(function(){
+    //Check to see if the window is top if not then display button
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scrollToTop').fadeIn();
+        } else {
+            $('.scrollToTop').fadeOut();
+        }
+    });
+    //Click event to scroll to top
+    $('.scrollToTop').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
+});
+  </script>
+  </div>
 {% endblock %}

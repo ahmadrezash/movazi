@@ -65,7 +65,7 @@ def update_news(request,slug):
             return redirect('all_news')
         return render(request, 'test.html', {'a': 'ظاهرا مشکلی پیش آمده'})
     else:
-        form = NewseForm(instance=tmp)
+        form = NewsForm(instance=tmp)
         return render(request, 'Forms/NewsForm.html', {'form': form})
 
 def delete_news(request,slug):

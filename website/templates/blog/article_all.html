@@ -4,7 +4,57 @@
 </h1>
 {% load static %}
 {% block blog %}
-    {% for post in posts%}
+<!-- Section: Blog v.2 -->
+{% comment %} <section class="text-center my-5"> {% endcomment %}
+
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold my-5">آخرین مقالات</h2>
+  <!-- Section description -->
+  {% comment %} <p class="dark-grey-text w-responsive mx-auto mb-5">{{post.summery}}</p> {% endcomment %}
+
+ {% for post in posts%}
+
+ <!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-5 col-xl-4">
+
+      <!-- Featured image -->
+    <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+        <img class="img-fluid" src={{post.image.url}} alt="Sample image">
+        <a>
+      <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-7 col-xl-8">
+
+      <!-- Post title -->
+      <h3 class="font-weight-bold mb-3"><strong>{{post.title}}</strong></h3>
+      <!-- Excerpt -->
+      <p class="dark-grey-text">{{post.summery}}</p>
+      <!-- Post data -->
+      <p>توسط {% include "blog/gadget/author&date.html" %}</p>
+      <!-- Read more button -->
+      <a class="btn btn-primary btn-md">بیشتر بخوانید</a>
+
+    </div>
+    <!-- Grid column -->
+
+  <!-- Grid row -->
+</div>
+  <hr class="my-5">
+
+{% endfor %}
+{% comment %} </section> {% endcomment %}
+
+
+    {% comment %} {% for post in posts%}
     <div class='col-{{ w | default:"12" }}'>
         <div class="card mb-4">
           <img class="card-img-top" src=" {{post.image.url}}" alt="Card image cap">
@@ -20,6 +70,6 @@
           </div>
         </div>
     </div>
-    {% endfor %}
+    {% endfor %} {% endcomment %}
   {% include "blog/gadget/pagination.html" %}
 {% endblock blog %}
