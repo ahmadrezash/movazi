@@ -1,0 +1,40 @@
+version: '3'
+services:
+  web:
+    build: .
+#    image: registry.gitlab.com/scarfbank/scarfbank-automation:r1
+    restart: always
+
+    environment:
+      DJANGO_ENV: production
+      DJANGO_LOG_LEVEL: INFO
+      DJANGO_DB_HOST: db
+      DJANGO_DB_NAME: automation_db_1
+      DJANGO_DB_USER: automation_db_user
+      DJANGO_DB_PASSWD: automation_db_pass
+      PIP_INSTALL_REQUIREMENTS: 'on'
+      DJANGO_MANAGEPY_MIGRATE: 'on'
+      DJANGO_MANAGEPY_COLLECTSTATIC: 'on'
+      # Setup uWSGI with environment variable insted config file:
+      UWSGI_UID: www-data
+      UWSGI_GID: www-data
+      UWSGI_HTTP: :3000
+      UWSGI_HTTP_KEEPALIVE: 300
+      UWSGI_MASTER: 1
+      UWSGI_VACUUM: 1
+      UWSGI_CHDIR: /code
+      UWSGI_MODULE: movazi.wsgi
+      UWSGI_WORKERS: 2
+      UWSGI_THREADS: 5
+      UWSGI_LOG_5XX: 2
+      UWSGI_DISABLE_LOGGING: 1
+      #UWSGI_LOGTO: /code/Deployment/log/error.log
+      
+    volumes:
+      #- /home/autosvr/scarfbank-automation/:/code/:Z
+      - ./static/:/code/static/:Z
+      - ./media/:/code/media/:Z
+      #- /home/BackUp/automation/:/code/import/:Z
+    ports:
+      - "0.0.0.0:3000:3000"
+

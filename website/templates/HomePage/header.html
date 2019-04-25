@@ -12,47 +12,89 @@ id='secion_header'>
           <div class='col-md-3 col-sm-3 col-xs-3 tile'>
             <div class="a1"></div>
           </div>
-          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 tile on '>
+          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3'>
            
-            {% comment %} <div class="a2"> {% endcomment %}
-            <a class='inner-tile section_news' href='#section_news'>اخبار</a>
-            {% comment %} </div> {% endcomment %}
+                     <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 '">
+            <a class=' section_multimedia' href='#section_multimedia'>
+              <div class='inner '>
+                <p class='inner-tile'>
+                 چندرسانه‌ای
+                </p>
+              </div>
+            </a>
+
+          </div>
           </div>
           <div class='col-md-3 col-sm-3 col-xs-3 tile'>
             <div class="a3"></div>
           </div>
-          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 tile on'">
-          <a class='inner-tile section_multimedia' href='#section_multimedia'>چندرسانه‌ای</a>
-            <div class="a4"></div>
+          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 '">
+            <a class=' section_multimedia' href='#section_multimedia'>
+              <div class='inner '>
+                <p class='inner-tile'>
+                 چندرسانه‌ای
+                </p>
+              </div>
+            </a>
+
+            {% comment %} <div class="a4"></div> {% endcomment %}
           </div>
           <div class='col-md-3 col-sm-3 col-xs-3 tile'>
             <div class="a5"></div>
           </div>
-          <div  data-aos ='zoom-in'  class='col-md-3 col-sm-3 col-xs-3 tile on' >
-            <a class='inner-tile section_events' href='#section_events'>رویدادها</a>
+          <div  data-aos ='zoom-in'  class='col-md-3 col-sm-3 col-xs-3' >
+            <a class=' section_events' href='#section_events'>
+              <div class='inner '>
+                <p class='inner-tile'>
+                 رویدادها
+                </p>
+              </div>
+          </a>
             <div class="a6"></div>
           </div>
-          <div data-aos ='zoom-in'  class='col-md-3 col-sm-3 col-xs-3 tile on'>
-            <a class='inner-tile section_library' href='#section_library'>
-            <div class="a7">کتابخانه</div>
+          <div data-aos ='zoom-in'  class='col-md-3 col-sm-3 col-xs-3'>
+            <a class=' section_library' href='#section_library'>
+              <div class='inner '>
+                <p class='inner-tile'>
+                 کتابخانه
+                </p>
+              </div>
             </a>
           </div>
           <div class='col-md-3 col-sm-3 col-xs-3 tile'>
             <div class="a8"></div>
           </div>
-          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 tile on'>
-            <a  class= 'inner-tile section_science_net' href='#section_science_net'>درخت دانش</a>
+          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3'>
+            <a  class= ' section_science_net' href='#section_science_net'>
+              <div class='inner '>
+                <p class='inner-tile'>
+                 درخت دانش
+                </p>
+              </div>
+            </a>
             <div class="a5"></div>
           </div>
           <div class='col-md-3 col-sm-3 col-xs-3 tile'>
             <div class="a6"></div>
           </div>
-          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 tile on'>
-            <a class='inner-tile section_slider' href='#section_slider'>پژوهش ها</a>
+          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3'>
+            <a class=' section_slider' href='#section_slider'>
+              <div class='inner '>
+                <p class='inner-tile'>
+                 پژوهش ها
+                </p>
+              </div>
+            </a>
             <div class="a7"></div>
           </div>
-          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 tile on'>
-            <a class='inner-tile section_events' href='#section_events'>رویدادها</a>
+          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3'>
+            <a class=' section_events' href='#section_events'>
+              <div class='inner '>
+                <p class='inner-tile'>
+                 رویدادها
+                </p>
+              </div>
+            </a>
             <div class="a8"></div>
           </div>
         </div>
@@ -105,8 +147,13 @@ $(".section_library").click(function() {
 
 </script>
   <style>
-
-.inner-tile{
+        .inner{
+          height: 12vw;
+          width:12vw;
+          position: absolute;
+          background-color:  rgb(0, 176, 189,.5);
+        }
+        .inner-tile{
   position: relative;
   float: left;
   top: 50%;
