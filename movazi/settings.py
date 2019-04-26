@@ -40,7 +40,7 @@ SECRET_KEY = '$r2in^f=j!7t%$$u08#50rz!qage05iqr4m0w1!orhawrljqew'
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['localhost','894573f8.ngrok.io','127.0.0.1']
+ALLOWED_HOSTS = ['localhost','894573f8.ngrok.io','127.0.0.1','movazi.liara.run']
 
 JALALI_DATE_DEFAULTS = {
    'Strftime': {
