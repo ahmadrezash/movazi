@@ -39,18 +39,43 @@
                    src="{%static 'images/12967-NOLAUI.jpg' %}"></div>
               <div class="col-6">
                 <div class="row">
-                  <div class="col-6"><img alt="Cinque Terre"
-                       class="rounded img-course"
-                       src="{%static 'images/12967-NOLAUI.jpg' %}"></div>
-                  <div class="col-6"><img alt="Cinque Terre"
-                       class="rounded img-course"
-                       src="{%static 'images/12967-NOLAUI.jpg' %}"></div>
-                  <div class="col-6"><img alt="Cinque Terre"
-                       class="rounded img-course"
-                       src="{%static 'images/12967-NOLAUI.jpg' %}"></div>
-                  <div class="col-6"><img alt="Cinque Terre"
-                       class="rounded img-course"
-                       src="{%static 'images/12967-NOLAUI.jpg' %}"></div>
+                    {% for video in videos %}
+                  <div class="col-6">
+<!--                <img alt="تصویر ویدیو"-->
+<!--                     class="card-img-bottom"-->
+<!--                     src={{video.image.url}}-->
+<!--                onerror="this.src='{%static "images/video_default.jpg" %}';"-->
+<!--                >-->
+
+                  </div>
+
+
+<!--              <div class="col-3 img-course">-->
+<!--                <div class="card">-->
+<!--                <div class="card-body">-->
+<!--                <h5 class="card-title">{{poster.title}}</h5>-->
+<!--                <p class="card-text">{{poster.discription}}</p>-->
+<!--                </div><img alt="Card image cap"-->
+<!--                     class="card-img-bottom"-->
+<!--                     src={{poster.image.url}}-->
+<!--                onerror="this.src='{%static "images/poster_default.jpg" %}';"-->
+<!--                ></div>-->
+<!--              </div>-->
+
+{% endfor %}
+
+<!--                  <div class="col-6"><img alt="Cinque Terre"-->
+<!--                       class="rounded img-course"-->
+<!--                       src="{%static 'images/12967-NOLAUI.jpg' %}"></div>-->
+<!--                  <div class="col-6"><img alt="Cinque Terre"-->
+<!--                       class="rounded img-course"-->
+<!--                       src="{%static 'images/12967-NOLAUI.jpg' %}"></div>-->
+<!--                  <div class="col-6"><img alt="Cinque Terre"-->
+<!--                       class="rounded img-course"-->
+<!--                       src="{%static 'images/12967-NOLAUI.jpg' %}"></div>-->
+<!--                  <div class="col-6"><img alt="Cinque Terre"-->
+<!--                       class="rounded img-course"-->
+<!--                       src="{%static 'images/12967-NOLAUI.jpg' %}"></div>-->
                 </div>
               </div>
             </div>
@@ -80,7 +105,9 @@
                 <p class="card-text">{{poster.discription}}</p>
                 </div><img alt="Card image cap"
                      class="card-img-bottom"
-                     src={{poster.image.url}}></div>
+                     src={{poster.image.url}}
+                onerror="this.src='{%static "images/poster_default.jpg" %}';"
+                ></div>
               </div>
 
 {% endfor %}

@@ -18,8 +18,9 @@ from django.core.paginator import Paginator
 
 def index(request):
     news = News.objects.order_by('-pub_date')[:4]
+    video = Video.objects.order_by('-pub_date')[:5]
     poster = Poster.objects.order_by('-pub_date')[:4]
-    t = TemplateResponse(request, 'home.html', {'news':news,'posters':poster})
+    t = TemplateResponse(request, 'home.html', {'news':news,'posters':poster,'videos':video})
     t.render()
     return HttpResponse(t)
 

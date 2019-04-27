@@ -1,0 +1,8 @@
+.blue_background{
+background-color: rgb(0, 176, 189,.3);
+}
+
+.block_background{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+}

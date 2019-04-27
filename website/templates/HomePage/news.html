@@ -1,5 +1,5 @@
 {% load static %}
-<div class="container-fluid cards" id='section_news'>
+<div class="container-fluid cards block_background" id='section_news'>
     <h2 class="text-center"
         style="padding-bottom: 1rem">آخرین اخبار</h2>
     <div class="row">
@@ -15,7 +15,13 @@
          
            <!-- Card image -->
            <div class="view view-cascade overlay">
-             <img  class="card-img-top " src={{new.image.url}} alt="Card image cap">
+<!--             <img  class="card-img-top " src={{new.image.url}} alt="تصویر خبر">-->
+              <img alt="Card image"
+                     class="card-img-top"
+                    src = {{new.image.url}}
+                  onerror="this.src='{%static "images/news_default.jpg" %}';"
+                  >
+
              <a>
                <div class="mask rgba-white-slight"></div>
              </a>
@@ -42,9 +48,20 @@
             {% comment %} {% for new in news %}
             <div data-aos='fade-left' class="col-lg-3 col-md-6 col-sm-12 a">
               <div class="card card-cascade wider">
+<!--                  <img src="404.png" onerror="this.src='alt.png';" />-->
+
                 <img alt="Card image"
                      class="card-img-top"
                     src = {{new.image.url}}>
+
+                  <img alt="Card image"
+                     class="card-img-top"
+                    src = {{new.image.url}}
+                  onerror="this.src='{%static "images/library.jpg" %}';"
+                  >
+
+<!--                  <img src="imagenotfound.gif" alt="Image not found"  />-->
+
                 <div class="card-body">
                   <h4 class="card-title">{{new.title}}</h4>
                   <p class="card-text">{{new.summery}}</p>
@@ -66,8 +83,6 @@
         background-color: rgb(0, 176, 189,.2);
         /* opacity: .3;\ */
         /* background-op */
-        padding-top: 2rem;
-        padding-bottom: 2rem;
 
       }
       .card-text{
