@@ -60,7 +60,6 @@ class Permission(models.Model):
         verbose_name=_('content type'),
     )
     codename = models.CharField(_('codename'), max_length=100)
-
     objects = PermissionManager()
 
     class Meta:
@@ -71,7 +70,11 @@ class Permission(models.Model):
                     'codename')
 
     def __str__(self):
-        return '%s | %s' % (self.content_type, self.name)
+        return "%s | %s | %s" % (
+            self.content_type.app_label,
+            self.content_type,
+            self.name,
+        )
 
     def natural_key(self):
         return (self.codename,) + self.content_type.natural_key()
@@ -105,7 +108,7 @@ class Group(models.Model):
     members-only portion of your site, or sending them members-only email
     messages.
     """
-    name = models.CharField(_('name'), max_length=150, unique=True)
+    name = models.CharField(_('name'), max_length=80, unique=True)
     permissions = models.ManyToManyField(
         Permission,
         verbose_name=_('permissions'),
@@ -304,6 +307,7 @@ class AbstractUser(AbstractBaseUser, PermissionsMixin):
     first_name = models.CharField(_('first name'), max_length=30, blank=True)
     last_name = models.CharField(_('last name'), max_length=150, blank=True)
     email = models.EmailField(_('email address'), blank=True)
+    mojor = models.CharField(_('mojor'), max_length=30, blank=True)
     is_staff = models.BooleanField(
         _('staff status'),
         default=False,
@@ -379,9 +383,6 @@ class AnonymousUser:
 
     def __hash__(self):
         return 1  # instances always return the same hash value
-
-    def __int__(self):
-        raise TypeError('Cannot cast AnonymousUser to int. Are you trying to use it in place of User?')
 
     def save(self):
         raise NotImplementedError("Django doesn't provide a DB representation for AnonymousUser.")

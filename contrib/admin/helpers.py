@@ -81,7 +81,12 @@ class Fieldset:
     def media(self):
         if 'collapse' in self.classes:
             extra = '' if settings.DEBUG else '.min'
-            return forms.Media(js=['admin/js/collapse%s.js' % extra])
+            js = [
+                'vendor/jquery/jquery%s.js' % extra,
+                'jquery.init.js',
+                'collapse%s.js' % extra,
+            ]
+            return forms.Media(js=['admin/js/%s' % url for url in js])
         return forms.Media()
 
     def __iter__(self):
@@ -187,7 +192,7 @@ class AdminReadonlyField:
         if not self.is_first:
             attrs["class"] = "inline"
         label = self.field['label']
-        return format_html('<label{}>{}{}</label>', flatatt(attrs), capfirst(label), self.form.label_suffix)
+        return format_html('<label{}>{}:</label>', flatatt(attrs), capfirst(label))
 
     def contents(self):
         from django.contrib.admin.templatetags.admin_list import _boolean_icon
@@ -279,7 +284,6 @@ class InlineAdminFormSet:
                 continue
             if not self.has_change_permission or field_name in self.readonly_fields:
                 yield {
-                    'name': field_name,
                     'label': meta_labels.get(field_name) or label_for_field(field_name, self.opts.model, self.opts),
                     'widget': {'is_hidden': False},
                     'required': False,
@@ -291,7 +295,6 @@ class InlineAdminFormSet:
                 if label is None:
                     label = label_for_field(field_name, self.opts.model, self.opts)
                 yield {
-                    'name': field_name,
                     'label': label,
                     'widget': form_field.widget,
                     'required': form_field.required,

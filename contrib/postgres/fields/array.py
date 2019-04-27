@@ -6,6 +6,7 @@ from django.contrib.postgres.validators import ArrayMaxLengthValidator
 from django.core import checks, exceptions
 from django.db.models import Field, IntegerField, Transform
 from django.db.models.lookups import Exact, In
+from django.utils.inspect import func_supports_parameter
 from django.utils.translation import gettext_lazy as _
 
 from ..utils import prefix_validation_error
@@ -27,7 +28,8 @@ class ArrayField(CheckFieldDefaultMixin, Field):
         self.base_field = base_field
         self.size = size
         if self.size:
-            self.default_validators = [*self.default_validators, ArrayMaxLengthValidator(self.size)]
+            self.default_validators = self.default_validators[:]
+            self.default_validators.append(ArrayMaxLengthValidator(self.size))
         # For performance, only add a from_db_value() method if the base field
         # implements it.
         if hasattr(self.base_field, 'from_db_value'):
@@ -82,9 +84,6 @@ class ArrayField(CheckFieldDefaultMixin, Field):
         size = self.size or ''
         return '%s[%s]' % (self.base_field.db_type(connection), size)
 
-    def get_placeholder(self, value, compiler, connection):
-        return '%s::{}'.format(self.db_type(connection))
-
     def get_db_prep_value(self, value, connection, prepared=False):
         if isinstance(value, (list, tuple)):
             return [self.base_field.get_db_prep_value(i, connection, prepared=False) for i in value]
@@ -111,7 +110,9 @@ class ArrayField(CheckFieldDefaultMixin, Field):
         if value is None:
             return value
         return [
-            self.base_field.from_db_value(item, expression, connection)
+            self.base_field.from_db_value(item, expression, connection, {})
+            if func_supports_parameter(self.base_field.from_db_value, 'context')  # RemovedInDjango30Warning
+            else self.base_field.from_db_value(item, expression, connection)
             for item in value
         ]
 

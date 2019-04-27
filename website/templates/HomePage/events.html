@@ -31,9 +31,11 @@ id = "section_events"
             <div class="col-6">
               ahmad
             </div>
-            <div class="col-6 img-course"><img alt="Cinque Terre"
+            <div class="col-6 img-course"><img alt="تصویر رویداد"
                  class="rounded img-course"
-                 src="{% static 'images/course.jpg' %}"></div>
+                 src="{% static 'images/course.jpg' %}"
+            onerror="this.src='{%static "images/course_default.jpg" %}';"
+            ></div>
           </div>
           <style>
             .img-course{

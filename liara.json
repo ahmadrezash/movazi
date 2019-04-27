@@ -1,4 +1,6 @@
 {
   "platform": "docker",
-  "port": 8000
+  "port": 8000,
+  "volume": "/usr/src/app/movazi/media"
+
 }

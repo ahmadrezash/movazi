@@ -2,7 +2,500 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e0170d-8939-4aad-8828-2e6f94f5b66b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/contrib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ar/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ar/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ast/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ast/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ast/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ast/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/az/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/az/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/az/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/az/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/bn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/bn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/bn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ca/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ca/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/cs/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/cs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/de/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/de/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/en/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/en_AU/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/en_AU/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/en_AU/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/en_AU/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/es/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/es/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/es_CO/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/es_CO/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/es_CO/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/es_CO/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/es_MX/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/es_MX/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/es_MX/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/es_MX/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/es_VE/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/es_VE/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/es_VE/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/es_VE/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/et/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/et/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/et/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/eu/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/eu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/eu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/fa/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/fa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/fi/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/fi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/fi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/fr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/fr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/fy/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/fy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/fy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/hi/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/hi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/hi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/hr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/hr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/hr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ia/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ia/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ia/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/is/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/is/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/is/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/is/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/it/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/it/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/kab/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/kab/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/kab/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/kab/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/kn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/kn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/kn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ko/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ko/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ko/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/lb/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/lb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/lb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/lb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/lv/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/lv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/lv/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/mn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/mn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/mn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/mr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/mr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/mr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/mr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/my/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/my/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/my/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/my/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ne/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ne/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ne/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/nn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/nn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/nn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/nn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/pa/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/pa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/pa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/pa/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/pl/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/pl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ro/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ro/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ro/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/sk/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/sk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/sq/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/sq/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/sq/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/sq/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/sv/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/sv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/sv/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/sw/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/sw/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/sw/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/sw/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ta/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ta/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ta/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ta/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/te/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/te/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/te/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/te/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/tr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/tr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/tt/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/tt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/tt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/tt/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ur/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ur/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/ur/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/ur/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/vi/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/vi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/vi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/vi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/zh_Hans/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/zh_Hans/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/zh_Hant/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/zh_Hant/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/locale/zh_Hant/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/locale/zh_Hant/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/redirects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/redirects/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/backends/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/backends/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/backends/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/backends/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/backends/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/backends/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/backends/cached_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/backends/cached_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/backends/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/backends/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/backends/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/backends/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/backends/signed_cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/backends/signed_cookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/base_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/base_session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/af/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/af/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/af/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/af/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ar/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ar/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ast/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ast/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ast/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ast/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/az/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/az/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/az/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/az/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/be/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/be/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/bg/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/bg/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/bn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/bn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/bn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/br/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/br/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/br/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/br/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/bs/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/bs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/bs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ca/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ca/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/cs/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/cs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/cy/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/cy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/cy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/da/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/da/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/de/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/de/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/dsb/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/dsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/dsb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/dsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/el/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/el/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/en/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/en_AU/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/en_AU/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/en_AU/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/en_AU/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/en_GB/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/en_GB/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/en_GB/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/en_GB/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/eo/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/eo/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/eo/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/es/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/es/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/es_AR/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/es_AR/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/es_CO/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/es_CO/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/es_CO/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/es_CO/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/es_MX/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/es_MX/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/es_MX/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/es_MX/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/es_VE/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/es_VE/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/es_VE/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/es_VE/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/et/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/et/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/et/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/eu/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/eu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/eu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/fa/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/fa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/fi/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/fi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/fi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/fr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/fr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/fy/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/fy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/fy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ga/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ga/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ga/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/gd/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/gd/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/gd/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/gl/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/gl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/gl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/he/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/he/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/he/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/he/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/hi/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/hi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/hi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/hr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/hr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/hr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/hsb/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/hsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/hsb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/hsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/hu/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/hu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/hu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ia/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ia/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ia/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/id/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/id/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/id/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/id/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/io/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/io/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/io/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/io/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/is/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/is/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/is/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/is/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/it/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/it/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ja/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ja/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ka/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ka/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ka/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/kab/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/kab/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/kab/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/kab/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/kk/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/kk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/kk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/km/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/km/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/km/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/km/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/kn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/kn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/kn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ko/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ko/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ko/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/lb/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/lb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/lb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/lb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/lt/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/lt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/lt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/lv/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/lv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/lv/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/mk/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/mk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/mk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ml/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ml/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ml/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ml/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/mn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/mn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/mn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/mr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/mr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/mr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/mr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/my/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/my/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/my/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/my/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/nb/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/nb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/nb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ne/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ne/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ne/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/nl/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/nl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/nn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/nn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/nn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/nn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/os/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/os/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/os/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/os/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/pa/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/pa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/pa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/pa/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/pl/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/pl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/pt/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/pt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/pt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/pt/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/pt_BR/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/pt_BR/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ro/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ro/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ro/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ru/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sk/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sl/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sq/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sq/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sq/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sq/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sr_Latn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sr_Latn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sr_Latn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sr_Latn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sv/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sv/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sw/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sw/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/sw/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/sw/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ta/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ta/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ta/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ta/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/te/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/te/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/te/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/te/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/th/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/th/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/th/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/th/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/tr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/tr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/tt/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/tt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/tt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/tt/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/udm/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/udm/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/udm/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/udm/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/uk/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/uk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ur/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ur/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/ur/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/ur/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/uz/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/uz/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/uz/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/uz/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/vi/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/vi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/vi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/vi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/zh_Hans/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/zh_Hans/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/zh_Hant/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/zh_Hant/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/locale/zh_Hant/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/locale/zh_Hant/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/management/commands/clearsessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/management/commands/clearsessions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sessions/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sessions/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/af/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/af/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/af/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/af/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ar/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ar/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ast/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ast/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ast/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ast/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/az/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/az/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/az/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/az/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/be/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/be/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/be/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/be/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/bg/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/bg/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/bn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/bn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/bn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/br/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/br/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/br/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/br/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/bs/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/bs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/bs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ca/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ca/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/cs/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/cs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/cy/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/cy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/cy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/da/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/da/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/da/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/da/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/de/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/de/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/dsb/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/dsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/dsb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/dsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/el/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/el/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/el/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/el/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/en/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/en_AU/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/en_AU/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/en_AU/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/en_AU/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/en_GB/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/en_GB/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/en_GB/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/en_GB/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/eo/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/eo/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/eo/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/es/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/es/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/es_AR/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/es_AR/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/es_CO/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/es_CO/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/es_CO/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/es_CO/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/es_MX/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/es_MX/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/es_MX/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/es_MX/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/es_VE/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/es_VE/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/es_VE/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/es_VE/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/et/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/et/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/et/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/et/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/eu/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/eu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/eu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/fa/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/fa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/fa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/fi/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/fi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/fi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/fr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/fr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/fy/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/fy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/fy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ga/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ga/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ga/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/gd/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/gd/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/gd/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/gl/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/gl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/gl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/he/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/he/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/he/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/he/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/hi/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/hi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/hi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/hr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/hr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/hr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/hsb/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/hsb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/hsb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/hsb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/hu/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/hu/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/hu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/hy/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/hy/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/hy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/hy/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ia/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ia/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ia/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/id/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/id/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/id/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/id/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/io/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/io/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/io/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/io/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/is/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/is/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/is/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/is/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/it/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/it/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ja/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ja/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ka/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ka/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ka/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/kab/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/kab/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/kab/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/kab/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/kk/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/kk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/kk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/km/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/km/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/km/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/km/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/kn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/kn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/kn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ko/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ko/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ko/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/lb/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/lb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/lb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/lb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/lt/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/lt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/lt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/lv/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/lv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/lv/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/mk/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/mk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/mk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ml/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ml/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ml/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ml/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/mn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/mn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/mn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/mr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/mr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/mr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/mr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/my/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/my/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/my/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/my/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/nb/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/nb/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/nb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ne/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ne/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ne/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/nl/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/nl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/nn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/nn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/nn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/nn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/os/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/os/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/os/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/os/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/pa/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/pa/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/pa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/pa/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/pl/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/pl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/pt/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/pt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/pt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/pt/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/pt_BR/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/pt_BR/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ro/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ro/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ro/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ru/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sk/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sl/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sl/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sl/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sq/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sq/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sq/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sq/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sr_Latn/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sr_Latn/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sr_Latn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sr_Latn/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sv/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sv/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sv/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sv/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sw/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sw/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/sw/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/sw/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ta/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ta/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ta/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ta/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/te/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/te/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/te/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/te/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/th/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/th/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/th/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/th/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/tr/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/tr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/tt/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/tt/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/tt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/tt/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/udm/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/udm/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/udm/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/udm/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/uk/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/uk/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/uk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ur/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ur/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/ur/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/ur/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/uz/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/uz/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/uz/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/uz/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/vi/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/vi/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/vi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/vi/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/zh_Hans/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/zh_Hans/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/zh_Hant/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/zh_Hant/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/locale/zh_Hant/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/locale/zh_Hant/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/management.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/migrations/0002_alter_domain_unique.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/migrations/0002_alter_domain_unique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/sites/shortcuts.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/sites/shortcuts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movazi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movazi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/12967-NOLAUI-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/HomePage/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/events.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,26 +506,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/templates/HomePage/multimedia.html">
+        <entry file="file://$PROJECT_DIR$/website/templates/HomePage/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="420">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/website/templates/HomePage/events.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420" />
+            <state relative-caret-position="145">
+              <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movazi/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+            <state relative-caret-position="140">
+              <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -72,6 +567,7 @@
         <option value="$PROJECT_DIR$/website/templates/HomePage/feederEmail.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/news.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" />
+        <option value="$PROJECT_DIR$/website/templates/HomePage/events.html" />
         <option value="$PROJECT_DIR$/movazi/settings.py" />
       </list>
     </option>
@@ -163,9 +659,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="32" width="1853" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18753417" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18753417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -176,7 +671,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49945354" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32890365" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.251634" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4956427" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054646" side_tool="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297062" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -259,13 +754,6 @@
     <entry file="file://$PROJECT_DIR$/website/templates/blog/article_all.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/HomePage/scienceNet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -329,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/HomePage/library.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -355,10 +836,31 @@
         <state relative-caret-position="-420" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/movazi/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+        <state relative-caret-position="140">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
         </state>
       </provider>
     </entry>
