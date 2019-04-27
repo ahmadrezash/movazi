@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e0170d-8939-4aad-8828-2e6f94f5b66b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movazi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movazi/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movazi/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            <state relative-caret-position="333">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movazi/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="48" column="36" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="-77">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -179,7 +180,7 @@
     <frame x="67" y="32" width="1853" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18753417" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37984496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -190,7 +191,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49945354" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32890365" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4956427" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2647059" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054646" side_tool="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297062" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -378,15 +379,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movazi/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="-77">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/movazi/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        <state relative-caret-position="333">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>

@@ -31,7 +31,6 @@ TIME_ZONE = 'Asia/Tehran'
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 ROOT_URLCONF = 'movazi.urls'
 MEDIA_URL = '/media/'
@@ -48,6 +47,7 @@ STATICFILES_DIRS = [
     # os.path.join(BASE_DIR, "movazi/static"),
     os.path.join(BASE_DIR, "movazi/static"),
 ]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '$r2in^f=j!7t%$$u08#50rz!qage05iqr4m0w1!orhawrljqew'
