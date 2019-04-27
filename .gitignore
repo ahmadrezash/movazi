@@ -25,20 +25,24 @@
 ######################
 *.log
 *.sql
-*.sqlite
+#*.sqlite
 
 
 # Images #
 ######################
-*.png
-*.jpg
-*.svg
-*.psd
+#*.png
+#*.jpg
+#*.svg
+#*.psd
 
 
 # Images #
 ######################
-*.MOV
-*.mkv
+#*.MOV
+#*.mkv
 
+
+# Directory #
+######################
+media
 
