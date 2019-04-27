@@ -31,7 +31,23 @@ TIME_ZONE = 'Asia/Tehran'
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+ROOT_URLCONF = 'movazi.urls'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATICFILES_ROOT = os.path.join(BASE_DIR, 'static')
+
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.normpath(os.path.join(BASE_DIR, "static")),
+)
+
+STATICFILES_DIRS = [
+    # os.path.join(BASE_DIR, "movazi/static"),
+    os.path.join(BASE_DIR, "movazi/static"),
+]
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '$r2in^f=j!7t%$$u08#50rz!qage05iqr4m0w1!orhawrljqew'
@@ -102,23 +118,7 @@ MIDDLEWARE = [
 
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-ROOT_URLCONF = 'movazi.urls'
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-STATICFILES_ROOT = os.path.join(BASE_DIR, 'static')
-
-STATIC_URL = '/static/'
-
-STATICFILES_DIRS = (
-    os.path.normpath(os.path.join(BASE_DIR, "static")),
-)
-
-STATICFILES_DIRS = [
-    # os.path.join(BASE_DIR, "movazi/static"),
-    os.path.join(BASE_DIR, "movazi/static"),
-]
 def show_toolbar(request):
   return True
 DEBUG_TOOLBAR_CONFIG = {

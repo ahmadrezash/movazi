@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e0170d-8939-4aad-8828-2e6f94f5b66b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/website/static/css/home_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movazi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movazi/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movazi/templates/main_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/movazi/templates/main_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/HomePage/cooperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/cooperation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/HomePage/counter.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/counter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/HomePage/feederEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/feederEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/HomePage/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +12,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/templates/HomePage/multimedia.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="47" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-420" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movazi/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -60,13 +66,13 @@
         <option value="$PROJECT_DIR$/website/templates/HomePage/library.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/cooperation.html" />
         <option value="$PROJECT_DIR$/movazi/templates/main_base.html" />
-        <option value="$PROJECT_DIR$/movazi/settings.py" />
         <option value="$PROJECT_DIR$/website/templates/home.html" />
         <option value="$PROJECT_DIR$/website/static/css/home_page.css" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/counter.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/feederEmail.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/news.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" />
+        <option value="$PROJECT_DIR$/movazi/settings.py" />
       </list>
     </option>
   </component>
@@ -92,7 +98,7 @@
             <path>
               <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
               <item name="movazi" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="movazi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,13 +294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movazi/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="42" column="90" selection-start-line="42" selection-start-column="90" selection-end-line="42" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/HomePage/feederEmail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -348,6 +347,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movazi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
     </entry>
