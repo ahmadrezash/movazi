@@ -6,3 +6,8 @@ background-color: rgb(0, 176, 189,.3);
         padding-top: 2rem;
         padding-bottom: 2rem;
 }
+
+a:hover{
+  color: rgb(0, 176, 189);
+  text-decoration: none;
+  }
