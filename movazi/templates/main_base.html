@@ -1,25 +1,15 @@
 {% load static %}
 {% load crispy_forms_tags %}
+{% load compress %}
 
 <html>
 <header>
+  {% compress css %}
+  <link rel="icon" href={% static 'images/logo.png' %} type="image/ico"/>
   <link rel="shortcut icon" type="image/png" href=''{% static "images/logo.png" %}'/>
   <link rel="stylesheet" href={% static 'css/bootstrap-rtl.min.css' %}>
   <link rel="stylesheet" href={% static 'fonts/fontawesome-free-5.8.1-web/css/all.css' %}>
-  <script src= {% static 'js/bootstrap.min.js' %}></script>   
-  <script src= {% static "js/jquery-2.2.4.min.js" %}></script>
-{% comment %} /                   static/admin/jquery.ui.datepicker.jalali/scripts/jquery.ui.core.js  {% endcomment %}
-{% comment %} admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css {% endcomment %}
-  {% comment %} <script src="{% static 'admin/js/django_jalali.min.js' %}"></script>
-    <link rel="stylesheet" href={% static 'admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css' %}> {% endcomment %}
-{% comment %} <script src={% static 'css/material.css' %}></script> {% endcomment %}
-{% comment %} <link rel="stylesheet" href={% static 'css/material.css' %}> {% endcomment %}
 <link rel="stylesheet" href={% static 'css/aos.css' %} />
-<script src={% static 'js/aos.js' %}></script>
-
-<link rel="stylesheet" href={% static 'MDB/css/mdb.css' %} />
-<script src={% static 'MDB/js/mdb.js' %}></script>
-<script src={% static 'js/scrollme.js' %}></script>
 <style>
 @font-face {
     font-family: 'yekan';
@@ -33,6 +23,31 @@
     }
 
 </style>
+<link rel="stylesheet" href={% static 'MDB/css/mdb.css' %} />
+<style>
+footer a:hover {
+  color: rgba(0, 176, 189); !important;
+}
+nav div ul li a:hover {
+  color: rgba(0, 176, 189); !important;
+}
+</style>
+{% endcompress %}
+
+  {% compress js %}
+  <script src= {% static 'js/bootstrap.min.js' %}></script>   
+  <script src= {% static "js/jquery-2.2.4.min.js" %}></script>
+{% comment %} /                   static/admin/jquery.ui.datepicker.jalali/scripts/jquery.ui.core.js  {% endcomment %}
+{% comment %} admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css {% endcomment %}
+  {% comment %} <script src="{% static 'admin/js/django_jalali.min.js' %}"></script>
+    <link rel="stylesheet" href={% static 'admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css' %}> {% endcomment %}
+{% comment %} <script src={% static 'css/material.css' %}></script> {% endcomment %}
+{% comment %} <link rel="stylesheet" href={% static 'css/material.css' %}> {% endcomment %}
+<script src={% static 'js/aos.js' %}></script>
+
+<script src={% static 'MDB/js/mdb.js' %}></script>
+<script src={% static 'js/scrollme.js' %}></script>
+{% endcompress %}
 
     <meta charset="utf-8">
     <meta content="width=device-width,initial-sclae=1,shrink-to-fit=no"
@@ -50,12 +65,4 @@
             {% block footer %} {% endblock footer %}
 
 </body>
-<style>
-footer a:hover {
-  color: rgba(0, 176, 189); !important;
-}
-nav div ul li a:hover {
-  color: rgba(0, 176, 189); !important;
-}
-</style>
 </html>

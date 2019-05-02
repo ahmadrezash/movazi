@@ -1,10 +1,8 @@
 {% extends 'main/WebsiteBase.html' %}
 {% load static %}
+{% load compress %}
 
 {% block content %}
-<script>
-  AOS.init();
-</script>
 <div class='scrollme'>
   {% include 'HomePage/header.html' %}
   {% include 'HomePage/news.html' %}
@@ -17,6 +15,7 @@
   {% include 'HomePage/library.html' %}
   {% include 'HomePage/cooperation.html' %}
   <a class="btn-floating btn-large blue scrollToTop"><i class="fa fa-arrow-up"></i></a>
+  {% compress css %}
     <link rel="stylesheet" href={% static 'css/home_page.css' %}>
   <style>
   .scrollToTop{
@@ -33,7 +32,13 @@
   linear-gradient(141deg, rgb(0,0,0,1), rgb(0,0,0,.5), rgb(0,0,0,0));
   }
   </style>
+{% endcompress %}
+
+  {% compress js %}
+
   <script>
+    AOS.init();
+
   $(document).ready(function(){
     //Check to see if the window is top if not then display button
     $(window).scroll(function(){
@@ -50,5 +55,6 @@
     });
 });
   </script>
+  {% endcompress %}
   </div>
 {% endblock %}

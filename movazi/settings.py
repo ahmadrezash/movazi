@@ -49,12 +49,19 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    # other finders..
+    'compressor.finders.CompressorFinder',
+)
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '$r2in^f=j!7t%$$u08#50rz!qage05iqr4m0w1!orhawrljqew'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+COMPRESS_ENABLED = True
 
 ALLOWED_HOSTS = ['localhost','894573f8.ngrok.io','127.0.0.1','movazi.liara.run','mowazi.ir']
 
@@ -86,12 +93,10 @@ JALALI_DATE_DEFAULTS = {
 INSTALLED_APPS = [
     # 'bootstrap4',
     'crispy_forms',
+    'compressor',
     # 'debug_toolbar',
     'django_jalali',
-       # 'jquery',
     'jalali_date',
-    # 'bootstrap_datepicker_plus',
-    # 'versatileimagefield',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -101,7 +106,6 @@ INSTALLED_APPS = [
     'website',
     'panel',
     # 'django_comments',
-    # 'mptt',
 ]
 
 MIDDLEWARE = [

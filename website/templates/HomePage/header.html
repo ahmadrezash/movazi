@@ -1,5 +1,5 @@
 {% load static %}
-
+{% load compress %}
 
 
 <div class="container-fluid tile-bg block_background"
@@ -96,6 +96,8 @@ id='secion_header'>
       </div>
     </div>
   </div>
+    {% compress js %}
+
 <script>
 $(".section_news").click(function() {
     var offset = 20; //Offset of 20px
@@ -141,6 +143,10 @@ $(".section_library").click(function() {
 });
 
 </script>
+
+{% endcompress %}
+
+  {% compress css %}
   <style>
         .inner{
           height: 12vw;
@@ -196,6 +202,8 @@ $(".section_library").click(function() {
 
 
   </style>
+  {% endcompress %}
+
   <div class="container-fluid">
     <div class="row">
       <div class="col"></div>
