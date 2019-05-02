@@ -7,22 +7,20 @@ id='secion_header'>
     
 
 <div class="grid-container">
-<div class="grid-item off left-blank">2</div>
+    <div class="grid-item left-blank">1</div>
+    <a data-aos ='zoom-in' class=' grid-item section_news' href='#section_news'>
+            <div class='inner-tile'>
+            اخبار
+            </div>
+    </a>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
     <a data-aos ='zoom-in' class=' grid-item section_multimedia' href='#section_multimedia'>
             <div class='inner-tile'>
             چندرسانه‌ای
             </div>
     </a>
-
-    <div class="grid-item off">2</div>
-    <div class="grid-item off">3</div>  
-
-    <a data-aos ='zoom-in' class=' grid-item section_multimedia' href='#section_multimedia'>
-            <div class='inner-tile'>
-            چندرسانه‌ای
-            </div>
-    </a>
-    <div class="grid-item off">5</div>
+    <div class="grid-item">4</div>
     <a data-aos ='zoom-in' class=' grid-item section_events' href='#section_events'>
             <div class='inner-tile'>
             رویدادها
@@ -33,20 +31,20 @@ id='secion_header'>
             پژوهش‌ها
             </div>
     </a>
-    <div class="grid-item off">8</div>
-      <a data-aos ='zoom-in' class=' grid-item section_library' href='#section_library'>
+    <div class="grid-item">5</div>
+    <a data-aos ='zoom-in' class=' grid-item section_library' href='#section_library'>
             <div class='inner-tile'>
             کتابخانه
             </div>
       </a>
-    <div class="grid-item off">6</div>  
-    <div class="grid-item off">7</div>
-        <a data-aos ='zoom-in' class=' grid-item section_science_net' href='#section_science_net'>
+    <div class="grid-item">6</div>  
+    <div class="grid-item">7</div>
+    <a data-aos ='zoom-in' class=' grid-item section_science_net' href='#section_science_net'>
             <div class='inner-tile'>
             درخت‌دانش
             </div>
     </a>
-        <div class="grid-item off right-blank">2</div>
+    <div class="grid-item right-blank">8</div>
 
 </div>
 </div>
@@ -125,9 +123,7 @@ $(".section_library").click(function() {
             background-repeat: no-repeat;
             background-size: cover;
             height: auto;
-<!--            padding-top: 2rem;-->
-<!--            padding-bottom: 2rem;-->
-  position: relative;
+            position: relative;
 
             /* margin-bottom: 2rem; */
         }
@@ -172,8 +168,8 @@ $(".section_library").click(function() {
    grid-row: 1 / 4;
 }
 
-.grid-container div:nth-child(13){
-     grid-column: 5;
+.grid-container div:nth-child(14){
+     grid-column: 6;
    grid-row: 1 / 4;
 }
 .grid-item {
@@ -193,6 +189,11 @@ $(".section_library").click(function() {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  }
+  div.grid-item{
+    color:rgba(0, 0, 0, 0);
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
   }
 .off{
 visibility: hidden;}
