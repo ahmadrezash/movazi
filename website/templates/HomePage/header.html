@@ -4,98 +4,52 @@
 
 <div class="container-fluid tile-bg block_background"
 id='secion_header'>
-    <div class="row blog">
-      <div class="col-3"></div>
-      <div class="col-6">
-        <!-- <div class='col-md-6'><div><h4>@blog.Name</h4></div></div> -->
-        <div class="row">
-          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 '>
-            <a class=' section_multimedia' href='#section_multimedia'>
-              <div class='inner '>
-                <p class='inner-tile'>
-                 چندرسانه‌ای
-                </p>
-              </div>
-            </a>
-        </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile'>
-            <div class="a1"></div>
-          </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile'>
-            <div class="a3"></div>
-          </div>
-          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3 '>
-            <a class=' section_multimedia' href='#section_multimedia'>
-              <div class='inner '>
-                <p class='inner-tile'>
-                 چندرسانه‌ای
-                </p>
-              </div>
-            </a>
-        </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile'>
-            <div class="a5"></div>
-          </div>
-          <div data-aos ='zoom-in'  class='col-md-3 col-sm-3 col-xs-3' >
-            <a class=' section_events' href='#section_events'>
-              <div class='inner '>
-                <p class='inner-tile'>
-                 رویدادها
-                </p>
-              </div>
-          </a>
-            <div class="a6"></div>
-          </div>
-          <div data-aos ='zoom-in'  class='col-md-3 col-sm-3 col-xs-3'>
-            <a class=' section_library' href='#section_library'>
-              <div class='inner '>
-                <p class='inner-tile'>
-                 کتابخانه
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile'>
-            <div class="a8"></div>
-          </div>
-          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3'>
-            <a  class= ' section_science_net' href='#section_science_net'>
-              <div class='inner '>
-                <p class='inner-tile'>
-                 درخت دانش
-                </p>
-              </div>
-            </a>
-            <div class="a5"></div>
-          </div>
-          <div class='col-md-3 col-sm-3 col-xs-3 tile'>
-            <div class="a6"></div>
-          </div>
-          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3'>
-            <a class=' section_slider' href='#section_slider'>
-              <div class='inner '>
-                <p class='inner-tile'>
-                 پژوهش ها
-                </p>
-              </div>
-            </a>
-            <div class="a7"></div>
-          </div>
-          <div data-aos ='zoom-in' class='col-md-3 col-sm-3 col-xs-3'>
-            <a class=' section_events' href='#section_events'>
-              <div class='inner '>
-                <p class='inner-tile'>
-                 رویدادها
-                </p>
-              </div>
-            </a>
-            <div class="a8"></div>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    
+
+<div class="grid-container">
+<div class="grid-item off left-blank">2</div>
+    <a data-aos ='zoom-in' class=' grid-item section_multimedia' href='#section_multimedia'>
+            <div class='inner-tile'>
+            چندرسانه‌ای
+            </div>
+    </a>
+
+    <div class="grid-item off">2</div>
+    <div class="grid-item off">3</div>  
+
+    <a data-aos ='zoom-in' class=' grid-item section_multimedia' href='#section_multimedia'>
+            <div class='inner-tile'>
+            چندرسانه‌ای
+            </div>
+    </a>
+    <div class="grid-item off">5</div>
+    <a data-aos ='zoom-in' class=' grid-item section_events' href='#section_events'>
+            <div class='inner-tile'>
+            رویدادها
+            </div>
+    </a>
+    <a data-aos ='zoom-in' class=' grid-item section_slider' href='#section_slider'>
+            <div class='inner-tile'>
+            پژوهش‌ها
+            </div>
+    </a>
+    <div class="grid-item off">8</div>
+      <a data-aos ='zoom-in' class=' grid-item section_library' href='#section_library'>
+            <div class='inner-tile'>
+            کتابخانه
+            </div>
+      </a>
+    <div class="grid-item off">6</div>  
+    <div class="grid-item off">7</div>
+        <a data-aos ='zoom-in' class=' grid-item section_science_net' href='#section_science_net'>
+            <div class='inner-tile'>
+            درخت‌دانش
+            </div>
+    </a>
+        <div class="grid-item off right-blank">2</div>
+
+</div>
+</div>
     {% compress js %}
 
 <script>
@@ -164,6 +118,7 @@ $(".section_library").click(function() {
   font-size:2rem;
   }
         .tile-bg{
+          text-align:center;
             background-image: url({%static 'images/header_back.jpg' %}) !important;
             /* max-height: 100%;
             max-width: 100%; */
@@ -172,6 +127,8 @@ $(".section_library").click(function() {
             height: auto;
 <!--            padding-top: 2rem;-->
 <!--            padding-bottom: 2rem;-->
+  position: relative;
+
             /* margin-bottom: 2rem; */
         }
         .tile{
@@ -198,6 +155,54 @@ $(".section_library").click(function() {
         border-width: 1px;
 
     }
+    .grid-container {
+      
+  display: grid;
+  align-text:center;
+
+  grid-template-columns: auto 10rem 10rem 10rem 10rem auto;
+    grid-template-rows: 10rem 10rem 10rem;
+
+  margin: 0;
+
+
+}
+.grid-container div:nth-child(1){
+     grid-column: 0;
+   grid-row: 1 / 4;
+}
+
+.grid-container div:nth-child(13){
+     grid-column: 5;
+   grid-row: 1 / 4;
+}
+.grid-item {
+
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin:2px;
+  text-align: center;
+  position: relative;
+
+  color: black;
+  font-size:2rem;
+  background-color:  rgb(0, 176, 189,.5);
+
+}
+.inner-tile{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+.off{
+visibility: hidden;}
+        .inner{
+              position: relative;
+
+          height: 2rem;
+          width:2rem;
+          position: absolute;
+        }
 
 
 
