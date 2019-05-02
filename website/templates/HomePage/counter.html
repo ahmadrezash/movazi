@@ -1,33 +1,26 @@
 {% load static %}
+<script src={% static 'js/progressbar.min.js' %}></script>
+    {% comment %} <link rel="stylesheet" href={% static 'css/styles.css' %}> {% endcomment %}
+
 <div class="container-fluid blue_background block_background" id='section_counter'>
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-3 col-sm-6">
-<!--            <img class="icon"-->
-<!--                 src="{%static 'images/book.svg' %}">-->
-              <i class="fas fa-book-open fa-5x"></i>
-                 <h5> 25</h5>
+            <div id="circle" class='circle'>
+            </div>
             <h5>کتاب ها و پژوهش ها</h5>
           </div>
           <div class="col-lg-3 col-sm-6">
-<!--            <img class="icon"-->
-<!--                 src="{%static 'images/write-board.svg' %}">-->
-                 <i class="fas fa-chalkboard-teacher fa-5x"></i>
-                 <h5> 10</h5>
+            <div id="circle2" class='circle'></div>
             <h5>دوره ها</h5>
           </div>
           <div class="col-lg-3 col-sm-6">
-<!--            <img class="icon"-->
-<!--                 src="{%static 'images/handshake-1.svg' %}">-->
-              <i class="fas fa-handshake fa-5x"></i>
-                 <h5>5</h5>
+              <div id="circle3" class='circle'></div>
             <h5>همکاری ها</h5>
           </div>
           <div class="col-lg-3 col-sm-6">
-<!--            <img class="icon"-->
-<!--                 src="{%static 'images/video-lecture.svg' %}">-->
-              <i class="fas fa-video fa-5x"></i>
-            <h5>24</h5>
+              
+            <div id="circle4" class='circle'>
             <h5>ویدیو ها</h5>
           </div>
           <style>
@@ -42,3 +35,159 @@
         </div>
       </div>
     </div>
+
+
+
+
+<style>
+div.circle{
+  color:#000000;
+}
+i.fas{
+  color: #000000;
+}
+.circle {
+  margin: 20px;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+</style>
+<script>
+
+
+// progressbar.js@1.0.0 version is used
+// Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
+var bar = new ProgressBar.Circle(circle, {
+  color: '#000000',
+  // This has to be the same size as the maximum width to
+  // prevent clipping
+  strokeWidth: 6,
+  value:0.6,
+  trailWidth: 1,
+  easing: 'easeInOut',
+  duration: 1400,
+  text: {
+    autoStyleContainer: false
+  },
+  from: { color: '#00b0bd', width: 1 },
+  to: { color: '#00b0bd', width: 6 },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+    circle.path.setAttribute('stroke-width', state.width);
+
+    var value = Math.round( (circle.value() * 20).toString() );
+    if (value === 0) {
+      circle.setText('');
+    } else {
+      circle.setText( '<i class="fas fa-book-open fa-3x color"></i>' +value);
+    }
+
+  }
+});
+bar.text.style.fontSize = '2rem';
+bar.animate(1.0)
+
+
+
+var bar = new ProgressBar.Circle(circle2, {
+  color: '#000000',
+  // This has to be the same size as the maximum width to
+  // prevent clipping
+  strokeWidth: 6,
+  value:0.6,
+  trailWidth: 1,
+  easing: 'easeInOut',
+  duration: 1400,
+  text: {
+    autoStyleContainer: false
+  },
+  from: { color: '#00b0bd', width: 1 },
+  to: { color: '#00b0bd', width: 6 },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+    circle.path.setAttribute('stroke-width', state.width);
+
+    var value = Math.round( (circle.value() * 20).toString() );
+    if (value === 0) {
+      circle.setText('');
+    } else {
+      circle.setText( '<i class="fas fa-chalkboard-teacher fa-3x color"></i>' +value);
+    }
+
+  }
+});
+bar.text.style.fontSize = '2rem';
+bar.animate(1.0)
+
+
+
+
+var bar = new ProgressBar.Circle(circle3, {
+  color: '#000000',
+  // This has to be the same size as the maximum width to
+  // prevent clipping
+  strokeWidth: 6,
+  value:0.6,
+  trailWidth: 1,
+  easing: 'easeInOut',
+  duration: 1400,
+  text: {
+    autoStyleContainer: false
+  },
+  from: { color: '#00b0bd', width: 1 },
+  to: { color: '#00b0bd', width: 6 },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+    circle.path.setAttribute('stroke-width', state.width);
+
+    var value = Math.round( (circle.value() * 4).toString() );
+    if (value === 0) {
+      circle.setText('');
+    } else {
+      circle.setText( '<i class="fas fa-handshake fa-3x"></i>' +value);
+    }
+
+  }
+});
+bar.text.style.fontSize = '2rem';
+bar.animate(1.0)
+
+
+
+
+
+var bar = new ProgressBar.Circle(circle4, {
+  color: '#000000',
+  // This has to be the same size as the maximum width to
+  // prevent clipping
+  strokeWidth: 6,
+  value:0.6,
+  trailWidth: 1,
+  easing: 'easeInOut',
+  duration: 1400,
+  text: {
+    autoStyleContainer: false
+  },
+  from: { color: '#00b0bd', width: 1 },
+  to: { color: '#00b0bd', width: 6 },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+    circle.path.setAttribute('stroke-width', state.width);
+
+    var value = Math.round( (circle.value() * 24).toString() );
+    if (value === 0) {
+      circle.setText('');
+    } else {
+      circle.setText( '<i class="fas fa-video fa-3x"></i>' +value);
+    }
+
+  }
+});
+bar.text.style.fontSize = '2rem';
+bar.animate(1.0)
+</script>
