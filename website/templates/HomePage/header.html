@@ -8,38 +8,38 @@ id='secion_header'>
 
 <div class="grid-container">
     <div class="grid-item left-blank">1</div>
-    <a data-aos ='zoom-in' class=' grid-item section_news' href='#section_news'>
+    <a data-aos ='zoom-in' id='news' class=' grid-item section_news' href='#'>
             <div class='inner-tile'>
             اخبار
             </div>
     </a>
     <div class="grid-item">2</div>
     <div class="grid-item">3</div>
-    <a data-aos ='zoom-in' class=' grid-item section_multimedia' href='#section_multimedia'>
+    <a data-aos ='zoom-in' class=' grid-item section_multimedia' href='#'>
             <div class='inner-tile'>
             چندرسانه‌ای
             </div>
     </a>
     <div class="grid-item">4</div>
-    <a data-aos ='zoom-in' class=' grid-item section_events' href='#section_events'>
+    <a data-aos ='zoom-in' class=' grid-item section_events' href='#'>
             <div class='inner-tile'>
             رویدادها
             </div>
     </a>
-    <a data-aos ='zoom-in' class=' grid-item section_slider' href='#section_slider'>
+    <a data-aos ='zoom-in' class=' grid-item section_slider' href='#'>
             <div class='inner-tile'>
             پژوهش‌ها
             </div>
     </a>
     <div class="grid-item">5</div>
-    <a data-aos ='zoom-in' class=' grid-item section_library' href='#section_library'>
+    <a data-aos ='zoom-in' class=' grid-item section_library' href='#'>
             <div class='inner-tile'>
             کتابخانه
             </div>
       </a>
     <div class="grid-item">6</div>  
     <div class="grid-item">7</div>
-    <a data-aos ='zoom-in' class=' grid-item section_science_net' href='#section_science_net'>
+    <a data-aos ='zoom-in' class=' grid-item section_science_net' href='#'>
             <div class='inner-tile'>
             درخت‌دانش
             </div>
@@ -48,23 +48,26 @@ id='secion_header'>
 
 </div>
 </div>
-    {% compress js %}
+    {% comment %} {% compress js %} {% endcomment %}
 
 <script>
-$(".section_news").click(function() {
+
+$("#news").click(function() {
     var offset = 20; //Offset of 20px
 
     $('html, body').animate({
         scrollTop: $("#section_news").offset().top + offset -110
     }, 2000);
 });
+
 $(".section_multimedia").click(function() {
     var offset = 20; //Offset of 20px
 
     $('html, body').animate({
         scrollTop: $("#section_multimedia").offset().top + offset -110
-    }, 2000);
+    }, 5000);
 });
+
 $(".section_events").click(function() {
     var offset = 20; //Offset of 20px
 
@@ -76,7 +79,7 @@ $(".section_science_net").click(function() {
     var offset = 20; //Offset of 20px
 
     $('html, body').animate({
-        scrollTop: $("#section_science_net").offset().top + offset -110
+        scrollTop: $("#section_science_net").offset().top + offset -310
     }, 2000);
 });
 $(".section_slider").click(function() {
@@ -84,19 +87,19 @@ $(".section_slider").click(function() {
 
     $('html, body').animate({
         scrollTop: $("#section_slider").offset().top + offset -110
-    }, 2000);
+    }, 1500);
 });
 $(".section_library").click(function() {
     var offset = 20; //Offset of 20px
 
     $('html, body').animate({
         scrollTop: $("#section_library").offset().top + offset -110
-    }, 2000);
+    }, 5000);
 });
 
 </script>
 
-{% endcompress %}
+{% comment %} {% endcompress %} {% endcomment %}
 
   {% compress css %}
   <style>

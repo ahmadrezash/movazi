@@ -1,0 +1,16 @@
+
+.title{
+  color:white;
+}
+div.circle{
+  color:#000000;
+}
+i.fas{
+  color: #000000;
+}
+.circle {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}

@@ -23,16 +23,16 @@
 
     <div class="row" styles='background-color: lightblue;'>
 
-      <div class="col-md-3">
-        {% include 'blog/main/right_sidebar.html' %}
+      <div class="col-md-2">
+        {% comment %} {% include 'blog/main/right_sidebar.html' %} {% endcomment %}
       </div>
-        <div class="col-md-6">
+        <div class="col-md-8">
           {% block blog %}
           {% endblock blog %}
         </div>
-      <div class="col-md-3">
-        {% include 'blog/main/left_sidebar.html' %}
-      </div>
+      {% comment %} <div class="col-md-"> {% endcomment %}
+        {% comment %} {% include 'blog/main/left_sidebar.html' %} {% endcomment %}
+      {% comment %} </div> {% endcomment %}
 
     </div>
 

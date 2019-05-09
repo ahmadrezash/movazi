@@ -1,9 +1,29 @@
 {% load static %}
-    <div class="container-fluid block_background blue_background" id='section_library'
+<style>
+.parallax2 {
+        /* The image used */
+        background-image:    linear-gradient(
+      rgba(0, 176, 189,.6), 
+      rgba(0, 176, 189,.6)
+),
+     url({%static 'images/library.jpg' %}) !important;
+        /* Set a specific height */
+ 
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+     }
+
+</style>
+    <div class='container-fluid parallax2 '>
+    <div class="container block_background" id='section_library'
         >
       <div  data-aos="zoom-in" class="container">
         <div class="row">
-          <div class="col-lg-4 col-sm-10">
+          <div class="col-lg-4 col-sm-10" style='color:white'>
             <h2 class="">کتابخانه موازی</h2><br>
             <p class="desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
             بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد
@@ -32,4 +52,5 @@
           </style>
         </div>
       </div>
+    </div>
     </div>
