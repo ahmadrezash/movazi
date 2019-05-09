@@ -63,6 +63,13 @@ SECRET_KEY = '$r2in^f=j!7t%$$u08#50rz!qage05iqr4m0w1!orhawrljqew'
 DEBUG = True
 COMPRESS_ENABLED = True
 
+# CACHES = {
+#    'default': {
+#       'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+#       'LOCATION': '/var/tmp/django_cache',
+#    }
+# }
+
 ALLOWED_HOSTS = ['localhost','894573f8.ngrok.io','127.0.0.1','movazi.liara.run','mowazi.ir']
 
 JALALI_DATE_DEFAULTS = {
@@ -118,6 +125,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.gzip.GZipMiddleware',
     # 'debug_toolbar.middleware.DebugToolbarMiddleware',
+#     'django.middleware.cache.UpdateCacheMiddleware',
+#    'django.middleware.common.CommonMiddleware',
+#    'django.middleware.cache.FetchFromCacheMiddleware',
 ]
 
 
