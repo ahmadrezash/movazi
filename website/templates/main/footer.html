@@ -2,7 +2,8 @@
       <div id="footer-top">
         <style>
         #footer-top{
-          background-color:rgba(0, 176, 189);
+          background-color:rgba(0, 176, 189,.9);
+          background-color:rgb(179, 224, 252);
         }
         </style>
         <div class="container">
@@ -11,17 +12,43 @@
             <!-- Grid column -->
             <div class="col-md-6 col-lg-6 text-center text-md-left mb-4 mb-0 align-middle">
               <h6 class="mb-0 "
-                  style="color: white">در شبکه های اجتماعی با ما در ارتباط باشید:</h6>
+                  style="color: black">در شبکه های اجتماعی با ما در ارتباط باشید:</h6>
             </div>
             <div class="col-md-10 col-lg-6 text-lg-right text-sm-center">
+              <a class="social" href="#"><i class="fab fa-telegram fa-3x"></i></a>
               <a class="social" href="#"><i class="fab fa-instagram fa-3x"></i></a>
               <a class="social" href="#"><i class="fab fa-youtube fa-3x"></i></a>
-              <a class="social" href="#"><i class="fab fa-telegram fa-3x"></i></a>
               <a class="social" href="#"><i class="fab fa-twitter fa-3x"></i></a>
               <a class="social" href="#"><i class="fab fa-facebook fa-3x"></i></a>
-              <a class="social" href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+              {% comment %} <a class="social" href="#"><i class="fab fa-linkedin fa-3x"></i></a> {% endcomment %}
+              {% comment %} <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a> {% endcomment %}
+              {% comment %} <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a> {% endcomment %}
+              {% comment %} <a class="btn-floating btn-lg btn-yt" type="button" role="button"><i class="fab fa-youtube"></i></a> {% endcomment %}
+              {% comment %} <a class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fab fa-instagram"></i></a> {% endcomment %}
 
-              <style>
+
+  <style>
+
+              .fa-facebook, .fa-facebook-square {
+    color: #3b5998;
+}
+.fa-twitter, .fa-twitter-square {
+    color: #00aced
+}
+
+.fa-youtube, .fa-youtube-play, .fa-youtube-square {
+    color: #bb0000
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+.fa-telegram {
+    color: #0088cc;
+}
+
+   
+
                 .social{
                 margin-right:1rem;
                 }
