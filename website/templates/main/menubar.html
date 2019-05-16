@@ -2,17 +2,22 @@
 
 <title></title><!-- fixed-top -->
   <!--=================== Menubar =====================-->
-  <nav class="navbar navbar-light bg-light navbar-expand-lg sticky-top colorize">
+  {% comment %} <nav class="navbar navbar-expand-lg navbar-dark primary-color sticky-top colorize">
     <a class="navbar-brand"
          href="#">
       <img src={% static "images/logo.png" %}
          style='width:10rem'></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
     <div class="collapse navbar-collapse"
          id="navbarCollapse">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mr-auto mr-auto">
         <li class="navbar-item">
           <a class="nav-link"
-              href="/">خانه</a>
+              href="/"><span class="sr-only">خانه</span></a>
         </li>
         <li class="navbar-item">
           <a class="nav-link"
@@ -56,29 +61,111 @@
               href={% url 'contact_us' %}>ارتباط با موازی</a>
         </li>
       </ul>
+          <form class="form-inline">
+      <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="جستجو" aria-label="Search">
+      </div>
+    </form>
     </div>
-    {% if user.is_authenticated %}
+
+      </nav> {% endcomment %}
+
+  
+
+
+
+
+
+
+
+
+  <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top color-nav">
+  <!-- Navbar brand -->
+      <a class="navbar-brand"
+         href="/">
+      <img src={% static "images/logo.png" %}
+         style='width:10rem'></a>
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">خانه
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/news">اخبار</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/article">مقاله ‌ها </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={% url 'course_pagination'  %}>دوره‌ها</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> کتابخانه</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#"> شبکه‌دانش</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href={% url 'published_pagination'  %}>انتشارات</a>
+      </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown multi-level-dropdown">
+        <a href="#" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle w-100">چندرسانه‌ای</a>
+        <ul class="dropdown-menu mt-2 rounded-0 border-0 z-depth-1 color-nav">
+          <li class="dropdown-item dropdown-submenu p-0 background">
+            <a href="/poster" data-toggle="dropdown" class=" text-white w-100 nav-link">پوستر </a>
+          </li>
+          <li class="dropdown-item dropdown-submenu background">
+            <a href="/video" data-toggle="dropdown" class=" text-white w-100 nav-link">ویدیو </a>
+
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={% url 'about_us' %}>درباره موازی</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" {% url 'contact_us' %}>ارتباط با موازی</a>
+      </li>
+    </ul>
+    <!-- Links -->
+<form class="form-inline">
+      {% comment %} <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="جستجو" aria-label="Search">
+      </div> {% endcomment %}
+    </form>
+  </div>
+  <!-- Collapsible content -->
+{% if user.is_authenticated %}
         <a href= {% url 'panel'  %} class='btn purple-gradient btn-rounded btn-sm'>پنل کاربری</a>
     {% else %}
         <a href={% url 'login' %} class='btn purple-gradient btn-rounded btn-sm'>ورود</a>
     {% endif %}
+</nav>
     <style>
         .navbar-item{
           text-decoration-color: blue
         }
-        .colorize{
+        .color-nav{
           opacity: 0.9;
+            background:rgb(211,211,211);
         }
-        ul .navbar-item:hover{
-          background:rgba(0, 176, 189,.5) !important;
+
+        .nav-item:hover{
+          background:rgba(0, 176, 189) !important;
+        }
+        .nav-link{
+          color:rgb(48,48,48) !important;
         }
     </style>
-      </nav><!--=================== Tile Header =====================-->
-      {% comment %} <script>
-        var width = $(window).width();
-        $(window).resize(function () {
-            if (width <= 1000) {
-                $('nav').addClass('navbar-light amber lighten-4 mb-4');
-            }
-        });
-      </script> {% endcomment %}
+<!--/.Navbar-->
