@@ -44,5 +44,5 @@ db.sqlite3
 
 # Directory #
 ######################
-media
+# media
 #node_modules
