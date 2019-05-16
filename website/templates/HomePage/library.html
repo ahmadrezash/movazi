@@ -10,15 +10,18 @@
         /* Set a specific height */
  
         /* Create the parallax scrolling effect */
-        background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         
      }
-
+.f{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 </style>
-    <div class='container-fluid parallax2 '>
+<div data-jarallax data-speed="0.2" class="jarallax text-center">
+  <img class="jarallax-img f" src={%static 'images/library.jpg' %} alt="">
     <div class="container block_background" id='section_library'
         >
       <div  class="container">
