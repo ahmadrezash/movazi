@@ -70,7 +70,7 @@ COMPRESS_ENABLED = True
 #    }
 # }
 
-ALLOWED_HOSTS = ['localhost','894573f8.ngrok.io','127.0.0.1','movazi.liara.run','mowazi.ir']
+ALLOWED_HOSTS = ['localhost','894573f8.ngrok.io','127.0.0.1','movazi1.liara.run','movazi2.liara.run','mowazi.ir']
 
 JALALI_DATE_DEFAULTS = {
    'Strftime': {
