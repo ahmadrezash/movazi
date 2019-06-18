@@ -123,10 +123,10 @@
         <a href="#" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle w-100">چندرسانه‌ای</a>
         <ul class="dropdown-menu mt-2 rounded-0 border-0 z-depth-1 color-nav">
           <li class="dropdown-item dropdown-submenu p-0 background">
-            <a href="/poster" data-toggle="dropdown" class=" text-white w-100 nav-link">پوستر </a>
+            <a href={% url 'poster_pagination' %} data-toggle="dropdown" class="text-white w-100 nav-link">پوستر </a>
           </li>
           <li class="dropdown-item dropdown-submenu background">
-            <a href="/video" data-toggle="dropdown" class=" text-white w-100 nav-link">ویدیو </a>
+            <a href={% url 'video_pagination' %} data-toggle="dropdown" class=" text-white w-100 nav-link">ویدیو </a>
 
           </li>
         </ul>
@@ -135,7 +135,7 @@
         <a class="nav-link" href={% url 'about_us' %}>درباره موازی</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" {% url 'contact_us' %}>ارتباط با موازی</a>
+        <a class="nav-link" href={% url 'contact_us' %}>ارتباط با موازی</a>
       </li>
     </ul>
     <!-- Links -->
