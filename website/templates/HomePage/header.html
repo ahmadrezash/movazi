@@ -3,226 +3,236 @@
 
 
 <div class="container-fluid tile-bg block_background"
-id='secion_header'>
-    
+     id='secion_header'>
 
-<div class="grid-container">
-    <div class="grid-item left-blank">1</div>
-    <a data-aos ='zoom-in' id='news' class=' grid-item section_news' href='#'>
-            <div class='inner-tile'>
-            اخبار
-            </div>
-    </a>
-    <div class="grid-item">2</div>
-    <div class="grid-item">3</div>
-    <a data-aos ='zoom-in' class=' grid-item section_multimedia' href='#'>
-            <div class='inner-tile'>
-            چندرسانه‌ای
-            </div>
-    </a>
-    <div class="grid-item">4</div>
-    <a data-aos ='zoom-in' class=' grid-item section_events' href='#'>
-            <div class='inner-tile'>
-            رویدادها
-            </div>
-    </a>
-    <a data-aos ='zoom-in' class=' grid-item section_slider' href='#'>
-            <div class='inner-tile'>
-            پژوهش‌ها
-            </div>
-    </a>
-    <div class="grid-item">5</div>
-    <a data-aos ='zoom-in' class=' grid-item section_library' href='#'>
-            <div class='inner-tile'>
-            کتابخانه
-            </div>
-      </a>
-    <div class="grid-item">6</div>  
-    <div class="grid-item">7</div>
-    <a data-aos ='zoom-in' class=' grid-item section_science_net' href='#'>
-            <div class='inner-tile'>
-            درخت‌دانش
-            </div>
-    </a>
-    <div class="grid-item right-blank">8</div>
 
+    <div class="grid-container">
+        <div class="grid-item left-blank">1</div>
+        <a data-aos='zoom-in' id='news' class=' grid-item section_news' href='#'>
+            <div class='inner-tile'>
+                <i class="fas fa-newspaper fa-3x"></i>
+                اخبار
+            </div>
+        </a>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <a data-aos='zoom-in' class=' grid-item section_multimedia' href='#'>
+            <div class='inner-tile'>
+                <li class="fas fa-image fa-3x"></li>
+                چندرسانه‌ای
+            </div>
+        </a>
+        <div class="grid-item">4</div>
+        <a data-aos='zoom-in' class=' grid-item section_events' href='#'>
+            <div class='inner-tile'>
+                <li class="fas fa-chalkboard-teacher fa-3x"></li>
+                رویدادها
+            </div>
+        </a>
+        <a data-aos='zoom-in' class=' grid-item section_slider' href='#'>
+            <div class='inner-tile'>
+                <li class="fas fa-book fa-3x"></li>
+                پژوهش‌ها
+            </div>
+        </a>
+        <div class="grid-item">5</div>
+        <a data-aos='zoom-in' class=' grid-item section_library' href='#'>
+            <div class='inner-tile'>
+                <i class="fas fa-book-open fa-3x"></i>
+                کتابخانه
+            </div>
+        </a>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <a data-aos='zoom-in' class=' grid-item section_science_net' href='#'>
+            <div class='inner-tile'>
+                <i class="fas fa-project-diagram fa-3x"></i>
+                درخت‌دانش
+            </div>
+        </a>
+        <div class="grid-item right-blank">8</div>
+
+    </div>
 </div>
-</div>
-    {% compress js %}
+{% compress js %}
 
-<script>
+    <script>
 
-$("#news").click(function() {
-    var offset = 20; //Offset of 20px
+        $("#news").click(function () {
+            var offset = 20; //Offset of 20px
 
-    $('html, body').animate({
-        scrollTop: $("#section_news").offset().top + offset -110
-    }, 2000);
-});
+            $('html, body').animate({
+                scrollTop: $("#section_news").offset().top + offset - 110
+            }, 2000);
+        });
 
-$(".section_multimedia").click(function() {
-    var offset = 20; //Offset of 20px
+        $(".section_multimedia").click(function () {
+            var offset = 20; //Offset of 20px
 
-    $('html, body').animate({
-        scrollTop: $("#section_multimedia").offset().top + offset -110
-    }, 5000);
-});
+            $('html, body').animate({
+                scrollTop: $("#section_multimedia").offset().top + offset - 110
+            }, 5000);
+        });
 
-$(".section_events").click(function() {
-    var offset = 20; //Offset of 20px
+        $(".section_events").click(function () {
+            var offset = 20; //Offset of 20px
 
-    $('html, body').animate({
-        scrollTop: $("#section_events").offset().top + offset -110
-    }, 2000);
-});
-$(".section_science_net").click(function() {
-    var offset = 20; //Offset of 20px
+            $('html, body').animate({
+                scrollTop: $("#section_events").offset().top + offset - 110
+            }, 2000);
+        });
+        $(".section_science_net").click(function () {
+            var offset = 20; //Offset of 20px
 
-    $('html, body').animate({
-        scrollTop: $("#section_science_net").offset().top + offset -110
-    }, 3000);
-});
-$(".section_slider").click(function() {
-    var offset = 20; //Offset of 20px
+            $('html, body').animate({
+                scrollTop: $("#section_science_net").offset().top + offset - 110
+            }, 3000);
+        });
+        $(".section_slider").click(function () {
+            var offset = 20; //Offset of 20px
 
-    $('html, body').animate({
-        scrollTop: $("#section_slider").offset().top + offset -110
-    }, 1500);
-});
-$(".section_library").click(function() {
-    var offset = 20; //Offset of 20px
+            $('html, body').animate({
+                scrollTop: $("#section_slider").offset().top + offset - 110
+            }, 1500);
+        });
+        $(".section_library").click(function () {
+            var offset = 20; //Offset of 20px
 
-    $('html, body').animate({
-        scrollTop: $("#section_library").offset().top + offset -110
-    }, 6000);
-});
+            $('html, body').animate({
+                scrollTop: $("#section_library").offset().top + offset - 110
+            }, 6000);
+        });
 
-</script>
+    </script>
 
 {% endcompress %}
 
-  {% compress css %}
-  <style>
-    .grid-item{
-      border-radius: 30px !important;
-      }
+{% compress css %}
+    <style>
+        .grid-item {
+            border-radius: 30px !important;
+        }
 
-    .inner-tile{
-      position: relative;
-      float: left;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: black;
-      font-size:2rem;
-      }
+        .inner-tile {
+            position: relative;
+            float: left;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            font-size: 1.5rem;
+        }
 
-    .tile-bg{
-      text-align:center;
-      background-image: url({%static 'images/header_back.jpg' %}) !important;
-      /* max-height: 100%;
-      max-width: 100%; */
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: auto;
-      position: relative;
-      /* margin-bottom: 2rem; */
-      }
-    .tile{
-      /* background-color: rgb(0, 255, 149); */
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-bottom: 0px;
-      padding-top: 0px;
-      margin: 0px;
-      /* padding:  0px 0px 0px 0px !important; */
-      }
-    .col-md-3>div {      
-      height: 20% !important;
-      padding-top: 100%;
-       }
+        .tile-bg {
+            text-align: center;
+            background-image: url({%static 'images/header_back.jpg' %}) !important;
+            /* max-height: 100%;
+            max-width: 100%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: auto;
+            position: relative;
+            /* margin-bottom: 2rem; */
+        }
 
-    .on {
-      background-color:  rgb(0, 176, 189,.5);
-      /* border: 1px; */
-      border-style: solid;
-      border-width: 1px;
-      }
-@media only screen and (max-width: 1000px) {
-    .grid-container {  
-      display: grid;
-      align-text:center;
-      grid-template-columns: auto 30vw 30vw  auto;
-      grid-template-rows: 30vw 30vw 30vw 30vw 30vw 30vw;
-      margin: 0;
-      }
+        .tile {
+            /* background-color: rgb(0, 255, 149); */
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            margin: 0px;
+            /* padding:  0px 0px 0px 0px !important; */
+        }
 
-    .grid-container div:nth-child(1){
-      grid-column: 0;
-      grid-row: 1 / 6;
-      }
+        .col-md-3 > div {
+            height: 20% !important;
+            padding-top: 100%;
+        }
 
-    .grid-container div:nth-child(14){
-      grid-column: 4;
-      grid-row: 1 / 6;
-      }
+        .on {
+            {#background-color: rgb(0, 176, 189, .5);#}
+            /* border: 1px; */
+            {#border-style: solid;#}
+            {#border-width: 1px;#}
+        }
 
-    .grid-item {
-      border: 1px solid rgba(0, 0, 0, 0.8);
-      margin:2px;
-      text-align: center;
-      position: relative;
-      color: black;
-      font-size:2rem;
-      background-color:  rgb(0, 176, 189,.5);
-      }
-}
+        @media only screen and (max-width: 1000px) {
+            .grid-container {
+                display: grid;
+                align-text: center;
+                grid-template-columns: auto 30vw 30vw auto;
+                grid-template-rows: 30vw 30vw 30vw 30vw 30vw 30vw;
+                margin: 0;
+            }
 
-@media only screen and (min-width: 1000px) {
-    .grid-container {  
-      display: grid;
-      align-text:center;
-      grid-template-columns: auto 10rem 10rem 10rem 10rem auto;
-      grid-template-rows: 10rem 10rem 10rem;
-      margin: 0;
-      }
+            .grid-container div:nth-child(1) {
+                grid-column: 0;
+                grid-row: 1 / 6;
+            }
 
-    .grid-container div:nth-child(1){
-      grid-column: 0;
-      grid-row: 1 / 4;
-      }
+            .grid-container div:nth-child(14) {
+                grid-column: 4;
+                grid-row: 1 / 6;
+            }
 
-    .grid-container div:nth-child(14){
-      grid-column: 6;
-      grid-row: 1 / 4;
-      }
+            .grid-item {
+                {#border: 1px solid rgba(0, 0, 0, 0.8);#}
+                margin: 2px;
+                text-align: center;
+                position: relative;
+                color: black;
+                font-size: 1.5rem;
+                background-color: rgba(0, 176, 189, .5);
+            }
+        }
 
-    .grid-item {
-      border: 1px solid rgba(0, 0, 0, 0.8);
-      margin:2px;
-      text-align: center;
-      position: relative;
-      color: black;
-      font-size:2rem;
-      background-color:  rgb(0, 176, 189,.5);
-      }
-}
-    .inner-tile{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      }
+        @media only screen and (min-width: 1000px) {
+            .grid-container {
+                display: grid;
+                align-text: center;
+                grid-template-columns: auto 10rem 10rem 10rem 10rem auto;
+                grid-template-rows: 10rem 10rem 10rem;
+                margin: 0;
+            }
 
-    div.grid-item{
-      color:rgba(0, 0, 0, 0);
-      background-color:rgba(0, 0, 0, 0);
-      border: 1px solid rgba(0, 0, 0, 0);
-      }
+            .grid-container div:nth-child(1) {
+                grid-column: 0;
+                grid-row: 1 / 4;
+            }
 
-    .off{
-      visibility: hidden;
-  }
+            .grid-container div:nth-child(14) {
+                grid-column: 6;
+                grid-row: 1 / 4;
+            }
 
-  </style>
-  {% endcompress %}
+            .grid-item {
+                {#border: 1px solid rgba(0, 0, 0, 0.8);#}
+                margin: 2px;
+                text-align: center;
+                position: relative;
+                color: black;
+                font-size: 1.5rem;
+                background-color: rgba(0, 176, 189, .5);
+            }
+        }
+
+        .inner-tile {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        div.grid-item {
+            color: rgba(0, 0, 0, 0);
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid rgba(0, 0, 0, 0);
+        }
+
+        .off {
+            visibility: hidden;
+        }
+
+    </style>
+{% endcompress %}

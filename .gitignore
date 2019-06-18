@@ -20,6 +20,10 @@
 *.rar
 *.tar
 *.zip
+
+# Folder #
+############
+venv
 .idea
 
 # Logs and databases #
