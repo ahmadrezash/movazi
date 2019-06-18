@@ -2,25 +2,33 @@
 {% block content %}
     {% load static %}
     <div class='container-fluid' style="margin-bottom: 2rem">
+        {#---------------First Part----------------------#}
         <div class='row'>
             <div class='col-2'></div>
             <div class='col-8 text-center'>
                 {#<div class='text-center'>#}
-                <h3 style="margin-top: 2rem">
-                    درباره ی
-                </h3>
-
-                <img src={% static 'images/logo.png' %}>
-                <h1 style='color:rgb(0,176,189)'>
-                    موسسه مطالعات علم و دین موازی
-
-                </h1>
-
+                <div style="margin-top:2rem;margin-bottom:2rem;">
+                    <img src={% static 'images/logo.png' %}>
+                    <h3 style=' color:rgb(151, 149, 155)'>
+                        موسسه مطالعات علم و دین موازی
+                    </h3>
+                </div>
+                {#-------------Section-------------#}
                 <div class="row">
-                    <div class="col-2 text-center light-blue darken-4 text-white" >
-                        اهداف
+                    {#-------------Title of Section-------------#}
+                    <div class="col-2 grey align-right lighten-1 title-bck">
+                        <div style="display: table; height: 13rem; overflow: hidden;">
+                            <div style="display: table-cell; vertical-align: middle;">
+                                <h2 class="title-of-box">
+                                    <div>
+                                        انگیزه‌ها و نیازها
+                                    </div>
+                                </h2>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-10 gr">
+                    {#-------------Desciption of Section-------------#}
+                    <div class="col-10 desc-bck">
                         <p style="text-align: justify; text-justify: inter-word;">
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
                             چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
@@ -32,21 +40,28 @@
                             چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
                             تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
                         </p>
-                        <style>
-                            .gr{
-                                background-image: linear-gradient(to left, rgb(1,87,155),rgb(179,229,252), rgb(255,255,255));
-                                {#  background-image: linear-gradient(red, yellow);#}
 
-                            }
-                        </style>
                     </div>
                 </div>
-                <div class="row light-green darken-4" style="padding-bottom: 2rem"></div>
+                {#-------------Section Splitter-------------#}
+                <div class="row splitter" style="padding-bottom: 1rem;"></div>
+
+                {#-------------Section-------------#}
                 <div class="row">
-                    <div class="col-2 text-center light-blue darken-4 text-white" >
-                        انگیزه
+                    {#-------------Title of Section-------------#}
+                    <div class="col-2 grey align-right lighten-1 title-bck">
+                        <div style="display: table; height: 13rem; overflow: hidden;">
+                            <div style="display: table-cell; vertical-align: middle;">
+                                <h2 class="title-of-box">
+                                    <div>
+                                        ماهیت موازی
+                                    </div>
+                                </h2>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-10 gr">
+                    {#-------------Desciption of Section-------------#}
+                    <div class="col-10 desc-bck">
                         <p style="text-align: justify; text-justify: inter-word;">
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
                             چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
@@ -58,21 +73,28 @@
                             چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
                             تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
                         </p>
-                        <style>
-                            .gr{
-                                background-image: linear-gradient(to left, rgb(1,87,155),rgb(179,229,252), rgb(255,255,255));
-                                {#  background-image: linear-gradient(red, yellow);#}
 
-                            }
-                        </style>
                     </div>
                 </div>
-                <div class="row light-green darken-4" style="padding-bottom: 2rem"></div>
+                {#-------------Section Splitter-------------#}
+                <div class="row splitter" style="padding-bottom: 1rem;"></div>
+
+                {#-------------Section-------------#}
                 <div class="row">
-                    <div class="col-2 text-center light-blue darken-4 text-white" >
-                         کارگروه‌ها
+                    {#-------------Title of Section-------------#}
+                    <div class="col-2 grey align-right lighten-1 title-bck">
+                        <div style="display: table; height: 13rem; overflow: hidden;">
+                            <div style="display: table-cell; vertical-align: middle;">
+                                <h2 class="title-of-box">
+                                    <div>
+                                        استقلال منابع و اهداف موازی
+                                    </div>
+                                </h2>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-10 gr">
+                    {#-------------Desciption of Section-------------#}
+                    <div class="col-10 desc-bck">
                         <p style="text-align: justify; text-justify: inter-word;">
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
                             چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
@@ -84,22 +106,28 @@
                             چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
                             تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
                         </p>
-                        <style>
-                            .gr{
-                                background-image: linear-gradient(to left, rgb(1,87,155),rgb(179,229,252), rgb(255,255,255));
-                                padding-top: 1rem;
-                                {#  background-image: linear-gradient(red, yellow);#}
 
-                            }
-                        </style>
                     </div>
                 </div>
-                <div class="row light-green darken-4" style="padding-bottom: 2rem"></div>
+                {#-------------Section Splitter-------------#}
+                <div class="row splitter" style="padding-bottom: 1rem;"></div>
+
+                {#-------------Section-------------#}
                 <div class="row">
-                    <div class="col-2 text-center light-blue darken-4 text-white" >
-                         اعضا
+                    {#-------------Title of Section-------------#}
+                    <div class="col-2 grey align-right lighten-1 title-bck">
+                        <div style="display: table; height: 13rem; overflow: hidden;">
+                            <div style="display: table-cell; vertical-align: middle;">
+                                <h2 class="title-of-box">
+                                    <div>
+                                        انگیزه‌ها و نیازها
+                                    </div>
+                                </h2>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-10 gr">
+                    {#-------------Desciption of Section-------------#}
+                    <div class="col-10 desc-bck">
                         <p style="text-align: justify; text-justify: inter-word;">
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
                             چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
@@ -111,18 +139,262 @@
                             چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
                             تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
                         </p>
-                        <style>
-                            .gr{
-                                background-image: linear-gradient(to left, rgb(1,87,155),rgb(179,229,252), rgb(255,255,255));
-                                padding-top: 1rem;
-                                {#  background-image: linear-gradient(red, yellow);#}
 
-                            }
-                        </style>
                     </div>
                 </div>
-                <div class="row light-green darken-4" style="padding-bottom: 2rem"></div>
+                {#-------------Section Splitter-------------#}
+                <div class="row splitter" style="padding-bottom: 1rem;"></div>
             </div>
         </div>
+
+        {#---------------Second Part----------------------#}
+        <div class="row text-center">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="text-center big-title">
+                    <h1 class="p-title">
+                        آمار فعالیت‌ها و دستاوردها
+                    </h1>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class='col-2'></div>
+            <div class='col-8'>
+                {#---------------Part Title----------------------#}
+                <div style="margin-top:2rem;margin-bottom:2rem;">
+                    <div class="row">
+
+                        <div class="col-4"></div>
+                        <div class="col-4">
+
+                            <div class="module-border-wrap">
+                                <div class="module">
+                                    <h2>
+                                        کارگروه‌های علمی و دپارتمان‌ها
+                                    </h2>
+                                </div>
+                            </div>
+                            <style>
+                                .big-title {
+                                    background-image: radial-gradient(rgb(0, 123, 255), white);
+                                    height: 5em;
+                                    display: flex;
+
+                                    align-items: center;
+                                    justify-content: center
+                                }
+
+                                .p-title {
+                                    text-align: center;
+                                    margin-bottom: 0px !important;
+                                }
+
+                                .module-border-wrap {
+                                {#max-width: 250px;#}{#padding: 1rem;#} position: relative;
+                                    background: linear-gradient(to bottom, rgb(242, 135, 4), rgb(255, 255, 255));
+                                    padding: 0px;
+                                    padding-right: .5rem;
+                                    margin: 0px;
+                                    max-width: 250px;
+                                }
+
+                                .module {
+                                {#background: '';#} color: #007bff;
+                                    background-image: linear-gradient(to bottom, rgb(189, 189, 189), rgb(255, 255, 255));
+
+                                    padding: 1rem;
+                                }
+
+                            </style>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="row" style="margin-bottom: 1rem;">
+                        {#-------------Title of Section-------------#}
+                        <div class="col-2 grey align-right lighten-1 title-bck">
+                            <div style="display: table; height: 13rem; overflow: hidden;">
+                                <div style="display: table-cell; vertical-align: middle;">
+                                    <h2 class="title-of-box">
+                                        <div>
+                                            <img src={% static 'images/background2.jpg' %} alt="Norway"
+                                                 style="float:left;max-width:100%;max-height:50%;">
+                                        </div>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        {#-------------Desciption of Section-------------#}
+                        <div class="col-10 desc-bck">
+                            <h3 class="sub-title">گروه فیزیک</h3>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            </p>
+                            <button type="button" class="btn btn-outline-primary btn-rounded waves-effect"
+                                    style="float: left">مطالعه بیشتر
+                                <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 1rem;">
+                        {#-------------Title of Section-------------#}
+                        <div class="col-2 grey align-right lighten-1 title-bck">
+                            <div style="display: table; height: 13rem; overflow: hidden;">
+                                <div style="display: table-cell; vertical-align: middle;">
+                                    <h2 class="title-of-box">
+                                        <div>
+                                            <img src={% static 'images/background2.jpg' %} alt="Norway"
+                                                 style="float:left;max-width:100%;max-height:50%;">
+                                        </div>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        {#-------------Desciption of Section-------------#}
+                        <div class="col-10 desc-bck">
+                            <h3 class="sub-title">گروه علوم زیستی</h3>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            </p>
+                            <button type="button" class="btn btn-outline-primary btn-rounded waves-effect"
+                                    style="float: left">مطالعه بیشتر
+                                                                <i class="fas fa-arrow-left"></i>
+
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 1rem;">
+                        {#-------------Title of Section-------------#}
+                        <div class="col-2 grey align-right lighten-1 title-bck">
+                            <div style="display: table; height: 13rem; overflow: hidden;">
+                                <div style="display: table-cell; vertical-align: middle;">
+                                    <h2 class="title-of-box">
+                                        <div>
+                                            <img src={% static 'images/background2.jpg' %} alt="Norway"
+                                                 style="float:left;max-width:100%;max-height:50%;">
+                                        </div>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        {#-------------Desciption of Section-------------#}
+                        <div class="col-10 desc-bck">
+                            <h3 class="sub-title">گروه علوم شناختی</h3>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            </p>
+                            <button type="button" class="btn btn-outline-primary btn-rounded waves-effect"
+                                    style="float: left">مطالعه بیشتر
+                                                                <i class="fas fa-arrow-left"></i>
+
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        {#---------------Third Part----------------------#}
+        <div class="row">
+    <div class='col-2'></div>
+            <div class='col-8'>
+                {#---------------Part Title----------------------#}
+                <div style="margin-top:2rem;margin-bottom:2rem;">
+                    <div class="row">
+
+                        <div class="col-4"></div>
+                        <div class="col-4">
+
+                            <div class="module-border-wrap">
+                                <div class="module">
+                                    <h2>
+                                        معرفی اعضای اصلی
+                                    </h2>
+                                </div>
+                            </div>
+
+        </div>
+                    </div>
+                </div>
+
     </div>
+
+    </div>
+    </div>
+    <style>
+
+        .sub-title {
+            color: #007bff;
+        }
+
+        .title-of-box {
+            color: #007bff;
+        }
+
+        .title-bck {
+            background-image: linear-gradient(to left, rgb(189, 189, 189), rgb(255, 255, 255));
+        }
+
+        .splitter {
+            background-image: linear-gradient(to left, rgb(242, 135, 4), rgb(255, 255, 255));
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .desc-bck {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+
+        .part2-title {
+            background-image: linear-gradient(to bottom, rgb(189, 189, 189), rgb(255, 255, 255));
+
+        }
+
+        .p-title {
+            text-align: center;
+            margin-bottom: 0px !important;
+            color: white;
+        }
+    </style>
 {% endblock content %}
