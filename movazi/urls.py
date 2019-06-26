@@ -16,11 +16,7 @@ Including another URLconf
 from django.urls import path
 
 from django.contrib import admin
-from django.urls import include, path
-from website import views as website_views
-from panel.views import ProfileView as profile
 from . import Seed_view
-from django.conf import settings
 from django.conf.urls import  url,include  # For django versions before 2.0
 from django.urls import path  # For django versions from 2.0 and up
 from django.conf.urls.static import static
@@ -30,9 +26,9 @@ from django.conf import settings
 urlpatterns = [
 
     # Panel URL's
-    path('panel/',include('panel.urls'),name='user_panel'),
+    path('panel/', include('panel.urls'),name='user_panel'),
     # Website URL's
-    path('',include('website.urls')),
+    path('', include('website.urls')),
 
     # For Test
     path('admin', admin.site.urls),

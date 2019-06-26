@@ -1,0 +1,28 @@
+<div class="row" style="margin-bottom: 1rem;">
+        {% load static %}
+
+    {#-------------Title of Section-------------#}
+    <div class="col-2 grey align-right lighten-1 title-bck">
+        <div style="display: table; height: 13rem; overflow: hidden;">
+            <div style="display: table-cell; vertical-align: middle;">
+                <h2 class="title-of-box">
+                    <div>
+                        <img src={% static 'images/background2.jpg' %} alt="Norway"
+                             style="float:left;max-width:100%;max-height:50%;">
+                    </div>
+                </h2>
+            </div>
+        </div>
+    </div>
+    {#-------------Desciption of Section-------------#}
+    <div class="col-10 desc-bck">
+        <h3 class="sub-title">{{ title }}</h3>
+        <p style="text-align: justify; text-justify: inter-word;">
+            {{ desc }}
+        </p>
+        <button type="button" class="btn btn-outline-primary btn-rounded waves-effect"
+                style="float: left">مطالعه بیشتر
+            <i class="fas fa-arrow-left"></i>
+        </button>
+    </div>
+</div>
