@@ -24,6 +24,7 @@
             </div>
         </div>
 
+
         {#---------------Second Part----------------------#}
         <div class="row text-center">
             <div class="col-2"></div>
@@ -33,13 +34,59 @@
                         آمار فعالیت‌ها و دستاوردها
                     </h1>
                 </div>
+                {% include 'HomePage/counter.html' with color="#076286" %}
             </div>
 
         </div>
-        <div class="row">
-            <div class='col-2'></div>
-            <div class='col-8'>
+
+        <div class="row" style="margin-top:2rem">
+            <div class='col-2' ></div>
+            <div class='col-8 '>
                 {#---------------Part Title----------------------#}
+                <div class="row">
+
+                    <div class="col-4 " style="margin-top: 2rem"></div>
+                    <div class="col-4">
+
+                        <div class="module-border-wrap">
+                            <div class="module">
+                                <h2>
+                                    کارگروه‌ه‌ها و دپارتمان‌های‌ علمی
+                                </h2>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <style>
+                    .big-title {
+                        background-image: radial-gradient(rgb(0, 123, 255), white);
+                        height: 10em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center
+                    }
+
+                    .p-title {
+                        text-align: center;
+                        margin-bottom: 0px !important;
+                    }
+
+                    .module-border-wrap {
+                    {#max-width: 250px;#}{#padding: 1rem;#} position: relative;
+                        background: linear-gradient(to bottom, rgb(242, 135, 4), rgb(255, 255, 255));
+                        padding: 0px;
+                        padding-right: .5rem;
+                        margin: 0px;
+                        max-width: 250px;
+                    }
+
+                    .module {
+                    {#background: '';#} color: #007bff;
+                        background-image: linear-gradient(to bottom, rgb(189, 189, 189), rgb(255, 255, 255));
+                        padding: 1rem;
+                    }
+                </style>
                 <div style="margin-top:2rem;margin-bottom:2rem;">
                     {% include "gadget/about-us-p2.html" with title='فیزیک' desc='a' %}
                     {% include "gadget/about-us-p2.html" with title='زیست' desc='a' %}
