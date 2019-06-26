@@ -6,6 +6,8 @@
           <div class="col-1"></div>
       <div class="col-10">
         <div class="row">
+        {% if news == null %}
+        {% else %}
             {% for new in news %}
 
         <!-- Card Narrower -->
@@ -42,35 +44,8 @@
 </div>
 </div>
             {% endfor %}
+{% endif %}
 
-<!-- Card Narrower -->
-
-            {% comment %} {% for new in news %}
-            <div data-aos='fade-left' class="col-lg-3 col-md-6 col-sm-12 a">
-              <div class="card card-cascade wider">
-<!--                  <img src="404.png" onerror="this.src='alt.png';" />-->
-
-                <img alt="Card image"
-                     class="card-img-top"
-                    src = {{new.image.url}}>
-
-                  <img alt="Card image"
-                     class="card-img-top"
-                    src = {{new.image.url}}
-                  onerror="this.src='{%static "images/library.jpg" %}';"
-                  >
-
-<!--                  <img src="imagenotfound.gif" alt="Image not found"  />-->
-
-                <div class="card-body">
-                  <h4 class="card-title">{{new.title}}</h4>
-                  <p class="card-text">{{new.summery}}</p>
-                  <a class="btn btn-primary btn-rounded"
-                       href={% url 'news_single' slug=new.slug %}>بیشتر بخوانید...</a>
-                </div>
-              </div>
-            </div>
-            {% endfor %} {% endcomment %}
             </div>
 
         </div>
