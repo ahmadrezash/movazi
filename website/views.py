@@ -16,6 +16,15 @@ from panel.models.CategoryModels             import Category
 # Pagination
 from django.core.paginator import Paginator
 
+from django.shortcuts import render
+from django.views.generic import View
+from django.http import HttpResponse # Add this
+
+from django.core.mail import send_mail
+
+from website.form import ContactForm
+
+
 def index(request):
     news = News.objects.order_by('-pub_date')[:4]
     video = Video.objects.order_by('-pub_date')[:5]
@@ -24,17 +33,38 @@ def index(request):
     t.render()
     return HttpResponse(t)
 
+
 # Single Pages
+
+# def contact_us(request):
+#     t = TemplateResponse(request, 'contact_us.html')
+#     t.render()
+#     return HttpResponse(t)
+
+
 def contact_us(request):
-    t = TemplateResponse(request, 'contact_us.html')
-    t.render()
-    return HttpResponse(t)
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            # send email code goes here
+            sender_name = form.cleaned_data['name']
+            sender_email = form.cleaned_data['email']
+
+            message = "{0} has sent you a new message:\n\n{1}".format(sender_name, form.cleaned_data['message'])
+            send_mail('New Enquiry', message, sender_email, ['ahmad.sharif.abc@gmail.com'], fail_silently=False)
+            return render(request, 'home.html')
+    else:
+        form = ContactForm()
+
+    return render(request, 'contact_us.html', {'form': form})
+
 
 def about_us(request):
     t = TemplateResponse(request, 'about_us.html')
     t.render()
     return HttpResponse(t)
-    
+
+
 def blog_main(request):
     t = TemplateResponse(request, 'blog/index.html', {})
     t.render()
@@ -42,7 +72,9 @@ def blog_main(request):
 
 # Model Pages
 
+
 ## Articles
+
 def article_pagination(request):
     article_list = Article.objects.all()
     paginator = Paginator(article_list, 4)
@@ -51,6 +83,7 @@ def article_pagination(request):
     cats = Category.objects.all()
 
     return render(request, 'blog/article_all.html', {'posts': article_list,'cats':cats})
+
 
 def article_single(request,slug):
     cats = Category.objects.all()
@@ -66,10 +99,12 @@ def news_pagination(request):
     cats = Category.objects.all()
     return render(request, 'blog/news_all.html', {'posts': article_list,'cats':cats})
 
+
 def news_single(request,slug):
     cats = Category.objects.all()
     article =News.objects.filter(slug=slug).get()
     return render(request, 'blog/news_single.html', {'post': article,'cats':cats})
+
 
 def poster_pagination(request):
     article_list = Poster.objects.all()
@@ -79,6 +114,7 @@ def poster_pagination(request):
     cats = Category.objects.all()
 
     return render(request, 'blog/poster_all.html', {'posts': article_list,'cats':cats})
+
 
 def poster_single(request,slug):
     cats = Category.objects.all()
@@ -94,6 +130,7 @@ def video_pagination(request):
     cats = Category.objects.all()
 
     return render(request, 'blog/video_all.html', {'posts': article_list,'cats':cats})
+
 
 def video_single(request,slug):
     cats = Category.objects.all()
@@ -111,11 +148,11 @@ def published_pagination(request):
 
     return render(request, 'blog/published_all.html', {'posts': published_list,'cats':cats})
 
+
 def published_single(request,slug):
     cats = Category.objects.all()
     published = Published.objects.filter(slug=slug).get()
     return render(request, 'blog/published_single.html', {'post': published,'cats':cats})
-
 
 
 def course_pagination(request):
@@ -127,12 +164,14 @@ def course_pagination(request):
 
     return render(request, 'blog/course_all.html', {'posts': course_list,'cats':cats})
 
+
 def course_single(request,slug):
     cats    = Category.objects.all()
     course  = Course.objects.filter(slug=slug).get()
     session = CourseSession.objects.filter(course=course)
 
     return render(request, 'blog/course_single.html', {'post': course,'cats':cats,"sessions":session})
+
 
 def course_session_single(request,course,session):
     cats = Category.objects.all()

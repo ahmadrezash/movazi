@@ -56,6 +56,13 @@ STATICFILES_FINDERS = (
     'compressor.finders.CompressorFinder',
 )
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'apikey'
+EMAIL_HOST_PASSWORD = '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'
+EMAIL_USE_TLS = True
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '$r2in^f=j!7t%$$u08#50rz!qage05iqr4m0w1!orhawrljqew'
 
@@ -139,6 +146,7 @@ def show_toolbar(request):
 DEBUG_TOOLBAR_CONFIG = {
   "SHOW_TOOLBAR_CALLBACK" : show_toolbar,
 }
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
