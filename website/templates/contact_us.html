@@ -2,94 +2,86 @@
 {% block content %}
     {% load crispy_forms_tags %}
     {% load static %}
-    <div class='container-fluid ' style="margin-bottom: 2rem">
 
-        {#---------------First Part----------------------#}
-        <div class='row'>
-            <div class='col-2'></div>
-            <div class='col-8 text-center'>
-                {#<div class='text-center'>#}
-                <div style="margin-top:2rem;margin-bottom:2rem;">
-                    <img src={% static 'images/logo.png' %}>
-                    <h3 style=' color:rgb(151, 149, 155)'>
-                        موسسه مطالعات علم و دین موازی
-                    </h3>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class='col-3'></div>
-            <div class='col-6'>
+    {#---------------First Part----------------------#}
+    <div class='row bk'>
 
+        <div class='col-2'></div>
+        <div class='col-6 '>
+            <div style="margin-top:2rem;margin-bottom:2rem;">
+                <img src={% static 'images/logo.png' %}>
                 <form method="post">
                     {% csrf_token %}
                     {{ form.name|as_crispy_field }}
-                    {{ form.email|as_crispy_field }}
+                    <div class="row">
+                        <div class="col-6">{{ form.phone_number|as_crispy_field }}</div>
+                        <div class="col-6">{{ form.email|as_crispy_field }}</div>
+                    </div>
                     {{ form.message|as_crispy_field }}
+
                     <input class="btn btn-primary" type="submit" value="ثبت"/>
                 </form>
+                <h3 style=' color:rgb(151, 149, 155)'>
+                </h3>
             </div>
         </div>
-        {#            <h2>Contact Us</h2>#}
-
-        <div class="container">
-            <!-- Grid row-->
-            <div class="row py-4 d-flex align-items-center align-middle">
-                <!-- Grid column -->
-                <div class="col-md-12 col-lg-12 text-center mb-4 mb-0 align-middle">
-                    <h6 class="mb-0 "
-                        style="color: black"> ما در ارتباط باشید:</h6>
-                </div>
-                <div class="col-md-12 col-lg-12 text-center">
-                    <a class="social" href="https://t.me/mowazi_institute"><i class="fab fa-telegram fa-3x"></i></a>
-                    <a class="social" href="https://www.instagram.com/mowazi_institute/"><i
-                            class="fab fa-instagram fa-3x"></i></a>
-                    <a class="social" href="#"><i class="fab fa-youtube fa-3x"></i></a>
-                    <a class="social" href="#"><i class="fas fa-envelope fa-3x"></i></a>
-                    {% comment %} <a class="social" href="#"><i class="fab fa-linkedin fa-3x"></i></a> {% endcomment %}
-                    {% comment %} <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a> {% endcomment %}
-                    {% comment %} <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a> {% endcomment %}
-                    {% comment %} <a class="btn-floating btn-lg btn-yt" type="button" role="button"><i class="fab fa-youtube"></i></a> {% endcomment %}
-                    {% comment %} <a class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fab fa-instagram"></i></a> {% endcomment %}
-
-
-                    <style>
-
-                        .fa-envelope, .fa-facebook-square {
-                            color: #3b5998;
-                        }
-
-                        .fa-twitter, .fa-twitter-square {
-                            color: #00aced
-                        }
-
-                        .fa-youtube, .fa-youtube-play, .fa-youtube-square {
-                            color: #bb0000
-                        }
-
-                        .fa-instagram {
-                            color: #517fa4;
-                        }
-
-                        .fa-telegram {
-                            color: #0088cc;
-                        }
-
-
-                        .social {
-                            margin-right: 1rem;
-                        }
-                    </style>
-                </div><!-- Grid column -->
-                <!-- Grid column -->
-            </div><!-- Grid row-->
-        </div>
+        <div class='col-2'></div>
+        <div class='col-2' style=""><img style="max-width: 100%;height: auto;" src={% static 'images/nav_img.webp' %}></div>
 
     </div>
+{#    <div class="row">#}
+{#        <div class='col-1'></div>#}
+{#        <div class='col-6'></div>#}
+{#        <div class="container">#}
+{#            <!-- Grid row-->#}
+{#            <div class="row py-4 d-flex align-items-center align-middle">#}
+{#                <!-- Grid column -->#}
+{#                <div class="col-md-12 col-lg-12 text-center mb-4 mb-0 align-middle">#}
+{#                    <h6 class="mb-0 "#}
+{#                        style="color: black"> ما در ارتباط باشید:</h6>#}
+{#                </div>#}
+{#                <div class="col-md-12 col-lg-12 text-center">#}
+{#                    <a class="social" href="https://t.me/mowazi_institute"><i class="fab fa-telegram fa-3x"></i></a>#}
+{#                    <a class="social" href="https://www.instagram.com/mowazi_institute/"><i#}
+{#                            class="fab fa-instagram fa-3x"></i></a>#}
+{#                    <a class="social" href="#"><i class="fab fa-youtube fa-3x"></i></a>#}
+{#                    <a class="social" href="#"><i class="fas fa-envelope fa-3x"></i></a>#}
+{#                    <style>#}
+{##}
+{#                        .fa-envelope, .fa-facebook-square {#}
+{#                            color: #3b5998;#}
+{#                        }#}
+{##}
+{#                        .fa-twitter, .fa-twitter-square {#}
+{#                            color: #00aced#}
+{#                        }#}
+{##}
+{#                        .fa-youtube, .fa-youtube-play, .fa-youtube-square {#}
+{#                            color: #bb0000#}
+{#                        }#}
+{##}
+{#                        .fa-instagram {#}
+{#                            color: #517fa4;#}
+{#                        }#}
+{##}
+{#                        .fa-telegram {#}
+{#                            color: #0088cc;#}
+{#                        }#}
+{##}
+{##}
+{#                        .social {#}
+{#                            margin-right: 1rem;#}
+{#                        }#}
+{#                    </style>#}
+{#                </div><!-- Grid column -->#}
+{#                <!-- Grid column -->#}
+{#            </div><!-- Grid row-->#}
+{#        </div>#}
+{##}
+{#    </div>#}
     <style>
         .bk {
-            background: linear-gradient(to bottom, rgb(0, 123, 255), rgb(204, 229, 255), rgb(255, 255, 255));
-
+            background: linear-gradient(to bottom, rgb(159, 225, 249), rgb(221, 246, 255), rgb(255, 255, 255));
         }
     </style>
 
