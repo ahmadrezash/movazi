@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e0170d-8939-4aad-8828-2e6f94f5b66b" name="Default Changelist" comment="">
+    <list default="true" id="54e0170d-8939-4aad-8828-2e6f94f5b66b" name="Default Changelist" comment="Start again after ramadan">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/HomePage/counter.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/counter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movazi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movazi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/panel/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/057d9bd9ec54.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/085e1b20f35e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/0f8ec34e5fb1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/16a84ee02160.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/198ad6b6c310.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/2271c62ebb55.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/2bac901decc1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/2eb001fe1cc9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/3258d6938ff2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/40ab96b8d4f8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/4469616e2c5a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/4fa880e0c5a5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/5491e9addb8e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/5d37c9335c67.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/609eec1c307b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/682b2cbd29ce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/7364b17574fe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/79b9fb9d4dfd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/7d4dd72640fd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/7e8769303fb2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/8d7359dbfce1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/94f41f07309c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/9ccf29730f06.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/a7c13f4d230d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/a7c40ee64adf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/b3271b9e9ab8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/b8b330fa11d6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/b919a0a51428.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/ba986303bbf3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/ced343c5cda0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/d0fe6156065c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/d742c657e81c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/e12098f9d64b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/e722f06f01ee.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/e9b95678e748.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CACHE/css/f563527fff0d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,38 +53,146 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="panel_news: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="movazi2" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/website/templates/HomePage/counter.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/templates/contact_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="-594">
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#path#1;n#svg#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#113#140#0#HTML" expanded="true" />
+                <element signature="e#378#421#0#HTML" expanded="true" />
+                <element signature="e#508#541#0#HTML" expanded="true" />
+                <element signature="e#998#1018#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movazi/templates/main_base.html">
+        <entry file="file://$PROJECT_DIR$/website/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="108">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding>
+                <element signature="e#11#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movazi/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="154" column="47" selection-start-line="154" selection-start-column="47" selection-end-line="154" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/panel/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/panel/admin.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/panel/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/panel/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movazi/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+              <folding>
+                <element signature="e#630#658#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http+docker://localunixsocket</find>
-      <find>docker-entrypoint.sh</find>
-      <find>jp</find>
       <find>Card image cap</find>
       <find>img</find>
       <find>STATIC_ROOT</find>
@@ -52,11 +201,38 @@
       <find>marg</find>
       <find>a:</find>
       <find>col-3</find>
+      <find>آخرین</find>
+      <find>bor</find>
+      <find>font</find>
+      <find>«</find>
+      <find>---------}</find>
+      <find>دپ</find>
+      <find>new</find>
+      <find>میث</find>
+      <find>ahmad</find>
+      <find>incl</find>
+      <find>aos</find>
+      <find>آما</find>
+      <find>foo</find>
+      <find>gra</find>
+      <find>temp</find>
+      <find>stati</find>
+      <find>'/</find>
+      <find>movazi</find>
+      <find>panel</find>
+      <find>website</find>
+      <find>templ</find>
+      <find>apps</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -64,29 +240,53 @@
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/entrypoint.sh" />
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/liara.json" />
-        <option value="$PROJECT_DIR$/website/templates/main/menubar.html" />
         <option value="$PROJECT_DIR$/movazi/templates/main_base.html" />
-        <option value="$PROJECT_DIR$/website/templates/HomePage/news.html" />
-        <option value="$PROJECT_DIR$/movazi/urls.py" />
-        <option value="$PROJECT_DIR$/movazi/settings.py" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/feederEmail.html" />
-        <option value="$PROJECT_DIR$/website/templates/HomePage/header.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/scienceNet.html" />
-        <option value="$PROJECT_DIR$/website/templates/HomePage/slider.html" />
-        <option value="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" />
         <option value="$PROJECT_DIR$/website/static/css/home_page.css" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/cooperation.html" />
+        <option value="$PROJECT_DIR$/website/templates/blog/course_all.html" />
+        <option value="$PROJECT_DIR$/website/templates/blog/article_single.html" />
+        <option value="$PROJECT_DIR$/website/templates/blog/news_all.html" />
+        <option value="$PROJECT_DIR$/website/templates/blog/poster_all.html" />
+        <option value="$PROJECT_DIR$/website/templates/blog/published_all.html" />
+        <option value="$PROJECT_DIR$/website/templates/blog/video_all.html" />
+        <option value="$PROJECT_DIR$/website/templates/blog/main/right_sidebar.html" />
+        <option value="$PROJECT_DIR$/website/templates/blog/main/blog_base.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/library.html" />
+        <option value="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" />
+        <option value="$PROJECT_DIR$/website/templates/HomePage/slider.html" />
+        <option value="$PROJECT_DIR$/website/templates/HomePage/header.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/website/templates/main/menubar.html" />
+        <option value="$PROJECT_DIR$/static/CACHE/css/4bd3f0c96e82.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/website/templates/gadget.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/events.html" />
-        <option value="$PROJECT_DIR$/website/templates/main/footer.html" />
+        <option value="$PROJECT_DIR$/website/templates/HomePage/news.html" />
+        <option value="$PROJECT_DIR$/website/templates/gadget/member.html" />
+        <option value="$PROJECT_DIR$/website/templates/gadget/contac-us-p1.html" />
+        <option value="$PROJECT_DIR$/website/templates/gadget/about-us-p2.html" />
+        <option value="$PROJECT_DIR$/website/templates/gadget/about-us-p3.html" />
         <option value="$PROJECT_DIR$/website/templates/home.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/counter.html" />
+        <option value="$PROJECT_DIR$/website/templates/about_us.html" />
+        <option value="$PROJECT_DIR$/panel/templates/Forms/NewsForm.html" />
+        <option value="$PROJECT_DIR$/panel/views/ArticleView.py" />
+        <option value="$PROJECT_DIR$/website/form.py" />
+        <option value="$PROJECT_DIR$/website/templates/contact_us.html" />
+        <option value="$PROJECT_DIR$/website/templates/main/footer.html" />
+        <option value="$PROJECT_DIR$/website/urls.py" />
+        <option value="$PROJECT_DIR$/website/views.py" />
+        <option value="$PROJECT_DIR$/movazi/urls.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/panel/apps.py" />
+        <option value="$PROJECT_DIR$/movazi/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="67" />
     <option name="y" value="32" />
     <option name="width" value="927" />
@@ -102,57 +302,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movazi" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="movazi2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movazi2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,9 +313,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/website/templates/gadget" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/website/templates/gadget" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -179,19 +339,30 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
+    <configuration name="movazi" type="Python.DjangoServer" factoryName="Django server">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="movazi.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Docker.Dockerfile" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -203,8 +374,68 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555558241184</updated>
+      <workItem from="1559943275217" duration="120000" />
+      <workItem from="1559943397560" duration="514000" />
+      <workItem from="1559945055917" duration="6014000" />
+      <workItem from="1560327840274" duration="10649000" />
+      <workItem from="1560836199204" duration="20473000" />
+      <workItem from="1560922135236" duration="625000" />
+      <workItem from="1561530425386" duration="16834000" />
     </task>
+    <task id="LOCAL-00001" summary="Start again after ramadan">
+      <created>1559943820631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559943820631</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Start again after ramadan2">
+      <created>1560837830777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560837830777</updated>
+    </task>
+    <task id="LOCAL-00003" summary="about-us first part and two">
+      <created>1560852169531</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560852169531</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Start again after ramadan">
+      <created>1560853850699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560853850699</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Start again after ramadan">
+      <created>1561533117526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561533117526</updated>
+    </task>
+    <task id="LOCAL-00006" summary="another change for about-us">
+      <created>1561537731940</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561537731940</updated>
+    </task>
+    <task id="LOCAL-00007" summary="start contact us">
+      <created>1561547934809</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561547934809</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55229000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -216,264 +447,406 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="32" width="1853" height="1048" extended-state="6" />
+    <frame x="-1" y="-32" width="1922" height="1113" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14543466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49947423" visible="true" weight="0.17688172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5005258" side_tool="true" weight="0.19462365" />
+      <window_info anchor="bottom" id="manage.py@test1" weight="0.32912722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946237" weight="0.5423529" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3564669" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49945354" weight="0.3297062" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32890365" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49917987" visible="true" weight="0.2647059" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008201" side_tool="true" weight="0.2647059" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297062" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49945354" weight="0.3282353" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49892473" weight="0.3270242" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4983871" weight="0.2647059" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5016129" side_tool="true" weight="0.2647059" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32912722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.23870967" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3295699" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/movazi/static/MD.BootstrapPersianDateTimePicker" />
+      <path value="$PROJECT_DIR$/movazi/static/pkg/MD.BootstrapPersianDateTimePicker" />
+      <path value="$PROJECT_DIR$/panel/static/MD.BootstrapPersianDateTimePicker" />
+    </ignored-roots>
+    <MESSAGE value="Start again after ramadan2" />
+    <MESSAGE value="about-us first part and two" />
+    <MESSAGE value="Start again after ramadan" />
+    <MESSAGE value="another change for about-us" />
+    <MESSAGE value="start contact us" />
+    <option name="LAST_COMMIT_MESSAGE" value="start contact us" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movazi/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/panel/static/MD.BootstrapPersianDateTimePicker/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/contrib/admin/locale/es/LC_MESSAGES/django.po" />
-    <entry file="file:///usr/lib/python2.7/dist-packages/docker/tls.py" />
-    <entry file="file:///usr/bin/docker-compose" />
-    <entry file="file:///usr/lib/python2.7/dist-packages/docker/transport/ssladapter.py" />
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/test1.iml">
+    <entry file="file://$PROJECT_DIR$/website/templates/blog/video_all.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="38" />
+        <state relative-caret-position="59">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/psycopg2/__init__.py">
+    <entry file="file://$PROJECT_DIR$/website/templates/blog/published_all.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="110" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="114" selection-end-column="4" />
+        <state relative-caret-position="162">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/website/templates/blog/poster_all.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="180">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entrypoint.sh">
+    <entry file="file://$PROJECT_DIR$/website/templates/blog/news_all.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="180">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="file://$PROJECT_DIR$/website/templates/blog/article_single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="270">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/website/templates/blog/main/right_sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="234">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+    <entry file="file://$PROJECT_DIR$/website/static/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://3ea464a9-6eea-46d6-bed5-d4fb3cd54f88/schema/main/table/panel_category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="fbf6fe57-3c2b-46ad-9b47-a94a0adce809">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liara.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/blog/article_all.html">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3ea464a9-6eea-46d6-bed5-d4fb3cd54f88/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/main/menubar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../lib/python3.6/site-packages/django/db/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movazi/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="86" column="19" lean-forward="true" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movazi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/feederEmail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/scienceNet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="522">
+          <caret line="128" column="44" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/HomePage/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#8;n#div#1;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/static/css/home_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/multimedia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="2" column="125" selection-start-line="2" selection-start-column="125" selection-end-line="2" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/cooperation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="375">
+          <caret line="218" selection-start-line="110" selection-start-column="11" selection-end-line="236" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/HomePage/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/main/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="72">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/HomePage/slider.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="198">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/multimedia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/CACHE/css/4bd3f0c96e82.css" />
+    <entry file="file://$PROJECT_DIR$/website/static/images/background2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/static/images/course_default.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/blog/gadget/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="1" lean-forward="true" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/gadget.html" />
+    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/blog/gadget/author&amp;date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3ea464a9-6eea-46d6-bed5-d4fb3cd54f88/schema/main/table/panel_news">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d2a359dd-bbb9-47d5-b217-7a180e57ed49">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="34" selection-start-line="32" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/gadget/member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/gadget/about-us-p1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/gadget/about-us-p3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#93#135#0#DjangoTemplate" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#img#0;n#div#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="e#933#980#0#DjangoTemplate" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="684">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movazi/templates/main_base.html">
+    <entry file="file://$PROJECT_DIR$/website/templates/blog/main/blog_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/HomePage/counter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="90">
+          <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/about_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#path#1;n#svg#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#113#140#0#HTML" expanded="true" />
+            <element signature="e#377#420#0#HTML" expanded="true" />
+            <element signature="e#507#540#0#HTML" expanded="true" />
+            <element signature="e#9474#9801#0#HTML" />
+            <element signature="e#1572#1595#0#HTML" expanded="true" />
+            <element signature="e#1813#1837#0#HTML" expanded="true" />
+            <element signature="e#9987#10030#0#HTML" expanded="true" />
+            <element signature="e#20502#20545#0#HTML" expanded="true" />
+            <element signature="e#24710#25534#0#HTML" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/models/NewsModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/views/ArticleView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/forms/ArticleForm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" selection-start-line="19" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib64/python3.6/site-packages/django/core/mail/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/gadget/about-us-p2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/templates/Forms/NewsForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="91" />
+          <folding>
+            <element signature="e#997#1023#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/main/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/main/WebsiteBase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#113#140#0#HTML" expanded="true" />
+            <element signature="e#378#421#0#HTML" expanded="true" />
+            <element signature="e#508#541#0#HTML" expanded="true" />
+            <element signature="e#998#1018#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panel/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movazi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <folding>
+            <element signature="e#630#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="e#11#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movazi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="154" column="47" selection-start-line="154" selection-start-column="47" selection-end-line="154" selection-end-column="47" />
         </state>
       </provider>
     </entry>

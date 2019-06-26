@@ -2,8 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/movazi/static/MD.BootstrapPersianDateTimePicker" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/movazi/static/pkg/MD.BootstrapPersianDateTimePicker" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/panel/static/MD.BootstrapPersianDateTimePicker" vcs="Git" />
   </component>
 </project>

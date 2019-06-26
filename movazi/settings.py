@@ -106,6 +106,7 @@ JALALI_DATE_DEFAULTS = {
 
 INSTALLED_APPS = [
     # 'bootstrap4',
+    'website',
     'crispy_forms',
     'compressor',
     # 'debug_toolbar',
@@ -117,7 +118,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'website',
     'panel',
     # 'django_comments',
 ]
@@ -150,7 +150,10 @@ DEBUG_TOOLBAR_CONFIG = {
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS':  [os.path.join(BASE_DIR, 'movazi/templates')],
+        'DIRS':  [os.path.join(BASE_DIR, 'movazi/templates'),
+                  os.path.join(BASE_DIR, "website/templates/"),
+                  os.path.join(BASE_DIR, "panel/templates/"),
+                  ],
         # 'DIRS':  [os.path.join(BASE_DIR, '')],
 
         'APP_DIRS': True,
