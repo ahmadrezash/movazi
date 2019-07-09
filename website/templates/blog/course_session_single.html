@@ -4,51 +4,83 @@
 {% load jformat %}
 
 {% block title %}
-موازی بلاگ
+	موازی بلاگ
 {% endblock title %}
 {% comment %} {% block head %}
   <link href={% static 'css/blog-home.css' %} rel="stylesheet">
     <script src={% static 'vendor/jquery/jquery.min.js' %}></script>
   <script src={% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}></script>
 {% endblock head %} {% endcomment %}
-  <!-- Bootstrap core CSS -->
-  {% comment %} <link href={% static 'css/bootstrap.min.css' %} rel="stylesheet"> {% endcomment %}
+<!-- Bootstrap core CSS -->
+{% comment %} <link href={% static 'css/bootstrap.min.css' %} rel="stylesheet"> {% endcomment %}
 
-  <!-- Custom styles for this template -->
+<!-- Custom styles for this template -->
 
 {% block blog %}
 
 
-  <!-- Page Content -->
-  <div class="container" >
+	<!-- Page Content -->
+	<div class="container">
 
-    <div class="row" styles='background-color: lightblue;'>
-
-        
-           <div class='col-{{ w | default:"12" }}'>
-        <div class="card mb-4">
-          {% comment %} <img class="card-img-top" src="{% static 'images/750x300.png' %}" alt="Card image cap"> {% endcomment %}
-          <img class="card-img-top" src=" {{post.image_index.url}}" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">{{post.title}}</h2>
-            <p class="card-text">
-            {{post.full_text}}
-            </p>
-            {% comment %} <a href="#" class="btn btn-primary">بیشتر بخوانید... </a> {% endcomment %}
-          </div>
-          <td>
-
-          <div class="card-footer text-muted">
-            {{post.author_id}}
-            -
-            {{post.pub_date}}
-          </div>
-        </div>
-    </div>
-      </div>
+		<div class="row" styles='background-color: lightblue;'>
 
 
-  </div>
+			<div class='col-{{ w | default:"12" }}'>
+				<div class="card mb-4">
+					{% comment %} <img class="card-img-top" src="{% static 'images/750x300.png' %}" alt="Card image cap"> {% endcomment %}
+					{#					<img class="card-img-top" src=" {{ post.image_index.url }}" alt="Card image cap">#}
+					<div class="card-body">
+						<h2 class="card-title">{{ post.title }}</h2>
+
+						<div class="card-body">
+							<div class="row">
+								<div class="col-6">
+									<div class="row"><img class="card-img-top" src=" {{ post.image_index.url }}" alt="Card image cap"></div>
+									<div class="row"><p class="fa-align-justify"><i class="far fa-edit"></i> <strong>خلاصه:</strong>
+										{{ post.summery }}</p>
+									</div>
+
+
+								</div>
+								<div class="col-3">
+									<p><i class="far fa-edit"></i> <strong> عنوان:</strong>{{ post.title }}</p>
+									<p><i class="far fa-edit"></i> <strong>زیرعنوان:</strong> {{ post.subtitle }}</p>
+									<p><i class="far fa-edit"></i> <strong>سخنران:</strong> {{ post.speaker }}</p>
+									<p><i class="far fa-edit"></i> <strong>زمان:</strong> {{ post.time }}</p>
+									<p><i class="far fa-edit"></i> <strong>مخاطب:</strong> {{ post.audience }}</p>
+
+								</div>
+								<div class="col-3">
+									<p><i class="far fa-edit"></i> <strong>زمان برگزاری:</strong> {{ post.holding_date }}</p>
+									<p><i class="far fa-edit"></i> <strong>مخاطبین:</strong> {{ post.audience }}</p>
+									<p><i class="far fa-edit"></i> <strong>مخاطبین:</strong> {{ post.audience }}</p>
+									<p><i class="far fa-edit"></i> <strong>سطح علمی:</strong> {{ post.scientific_level }}</p>
+									<p><i class="far fa-edit"></i> <strong>پیش‌نیازها:</strong> {{ post.prerequisite }}</p>
+
+								</div>
+
+							</div>
+							{% comment %} <a href="#" class="btn btn-primary">بیشتر بخوانید... </a> {% endcomment %}
+						</div>
+
+						{#						<p class="card-text">#}
+						{#							{{ post.full_text }}#}
+						{#						</p>#}
+						{% comment %} <a href="#" class="btn btn-primary">بیشتر بخوانید... </a> {% endcomment %}
+					</div>
+					<td>
+
+						<div class="card-footer text-muted">
+							{{ post.author_id }}
+							-
+							{{ post.pub_date }}
+						</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
 
 
 
