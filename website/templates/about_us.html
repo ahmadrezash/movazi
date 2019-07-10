@@ -1,166 +1,276 @@
 {% extends "main/WebsiteBase.html" %}
 {% block content %}
-    {% load static %}
-    <div class='container-fluid' style="margin-bottom: 2rem">
+	{% load static %}
+	<div class='container-fluid' style="margin-bottom: 2rem">
 
-        {#---------------First Part----------------------#}
-        <div class='row'>
-            <div class='col-2'></div>
-            <div class='col-8 text-center'>
-                {#<div class='text-center'>#}
-                <div style="margin-top:2rem;margin-bottom:2rem;">
-                    <img src={% static 'images/logo.png' %}>
-                    <h3 style=' color:rgb(151, 149, 155)'>
-                        موسسه مطالعات علم و دین موازی
-                    </h3>
-                </div>
-
-                {% include "gadget/about-us-p1.html" with title='انگیزه‌ها و نیازها' desc='a' %}
-                {% include "gadget/about-us-p1.html" with title='ماهیت موازی' desc='a' %}
-                {% include "gadget/about-us-p1.html" with title='استقلال منابع و اهداف موازی' desc='a' %}
-                {% include "gadget/about-us-p1.html" with title='انگیزه‌ها و نیازها' desc='a' %}
+		{#---------------First Part----------------------#}
+		<div class='row'>
+			<div class='col-2'></div>
+			<div class='col-8 text-center'>
+				{#<div class='text-center'>#}
+				<div style="margin-top:2rem;margin-bottom:2rem;">
+					<img src={% static 'images/logo.png' %}>
+					<h3 style=' color:rgb(151, 149, 155)'>
+						موسسه مطالعات علم و دین موازی
+					</h3>
+				</div>
 
 
-            </div>
-        </div>
+				{#-------------Section-------------#}
+				<div class="row">
+					{#-------------Title of Section-------------#}
+					<div class="col-2 grey align-right lighten-1 title-bck">
+						<div style="display: table; height: 13rem; overflow: hidden;">
+							<div style="display: table-cell; vertical-align: middle;">
+								<h2 class="title-of-box">
+									<div>
+										'انگیزه‌ها و نیازها'
+									</div>
+								</h2>
+							</div>
+						</div>
+					</div>
+					{#-------------Desciption of Section-------------#}
+					<div class="col-10 desc-bck">
+						<p style="text-align: justify; text-justify: inter-word;">
+							علم‌زدگی جوامع اسلامی به صورت نامتوازن و داغ شدن مباحث الحادی به بهانه‌ی پیشرفت‌ها و مباحث علوم تجربی، چالشی جدید است و زیست‌شناسی، فیزیک و علوم شناختی در این میان بیشتر از بقیه‌ی علوم مورد استناد قرار می‌گیرند.تحقیق میدانیو ارتباط با نهادهای فرهنگی کشورهایی چون هند، پاکستان، افغانستان، ترکیه، عراق، لبنان، ایران و حتی اقلیت‌های جمعیتی مسلمان در کشورهایی چون کانادا و آمریکا، نشان می‌دهد مسئله‌ی الحادِ مبتنی بر علم، رشد فراگیر و قابل توجهی داشته و دست نیاز فعالان فرهنگی
+							مسلمان و به خصوص شیعه،به سوی هر کسی که در این راستا مددی برساند، دراز است.
+						</p>
+
+					</div>
+				</div>
+				{#-------------Section Splitter-------------#}
+				<div class="row splitter" style="padding-bottom: 1rem;"></div>
+				{#-------------Section-------------#}
+				<div class="row">
+					{#-------------Title of Section-------------#}
+					<div class="col-2 grey align-right lighten-1 title-bck">
+						<div style="display: table; height: 13rem; overflow: hidden;">
+							<div style="display: table-cell; vertical-align: middle;">
+								<h2 class="title-of-box">
+									<div>
+										ماهیت موازی
+									</div>
+								</h2>
+							</div>
+						</div>
+					</div>
+					{#-------------Desciption of Section-------------#}
+					<div class="col-10 desc-bck">
+						<p style="text-align: justify; text-justify: inter-word;">
+							موسسۀ مطالعات علم و دین موازی در سال 1395 بر مبنای احساس همین نیازها و پیشبینی چنین چالش بزرگی در خاورمیانه و جوامع اسلامی، شکل گرفته است.برای پیش برد دقیق تر و مثمرتر رویه های پژوهشی و علمی در موازی، زیرگروههای تخصصی علوم زیستی، فیزیک و علوم شناختی در این مجموعه برای شروع و هدایت این کنکاش تشکیل شده است که هر کدام به طور تخصصی بر موضوعات شاخه و حیطۀ علمی خود متمرکز هستند. </p>
+
+					</div>
+				</div>
+				{#-------------Section Splitter-------------#}
+				<div class="row splitter" style="padding-bottom: 1rem;"></div>
+				{#-------------Section-------------#}
+				<div class="row">
+					{#-------------Title of Section-------------#}
+					<div class="col-2 grey align-right lighten-1 title-bck">
+						<div style="display: table; height: 13rem; overflow: hidden;">
+							<div style="display: table-cell; vertical-align: middle;">
+								<h2 class="title-of-box">
+									<div>
+										استقلال منابع و اهداف موازی
+									</div>
+								</h2>
+							</div>
+						</div>
+					</div>
+					{#-------------Desciption of Section-------------#}
+					<div class="col-10 desc-bck">
+						<p style="text-align: justify; text-justify: inter-word;">
+
+							منابع مالی مورد نیاز برای این فعالیتاین مجموعه، با تکیه بر حمایتهای مالی غیردولتی افراد دغدغهمند تامین می‌شود. علاوه بر این،از مجرای انجام طرحهایپژوهشی و آموزشی،موازی سعی در تأمین هزینههای خود داشته و دارد.همین غیردولتی و غیرانتفاعی بودن عملاً موجب استقلال موازی در اتخاذ جهت گیری های علمی و راهبردی بوده و خواهد بود.
+						</p>
+
+					</div>
+				</div>
+				{#-------------Section Splitter-------------#}
+				<div class="row splitter" style="padding-bottom: 1rem;"></div>
+				{#-------------Section-------------#}
+				<div class="row">
+					{#-------------Title of Section-------------#}
+					<div class="col-2 grey align-right lighten-1 title-bck">
+						<div style="display: table; height: 13rem; overflow: hidden;">
+							<div style="display: table-cell; vertical-align: middle;">
+								<h2 class="title-of-box">
+									<div>
+										راهبردهای جزئی
+									</div>
+								</h2>
+							</div>
+						</div>
+					</div>
+					{#-------------Desciption of Section-------------#}
+					<div class="col-10 desc-bck">
+						<p style="text-align: justify; text-justify: inter-word;">
+							تلاش برای پر کردن خلأ مرجعیت علمی و دینی در زمینه‌ی شبهات علمی الحادی برای نشردهندگان،علاقمندان، و عموم در جوامع اسلامی، اصلی ترین هدف دفتر مطالعات علم و دین موازی است.
+							جهت دستیابی به این هدف کلی، چند راهبرد مشخص در برنامه ریزی های اجرایی موازی قرار گرفت:
+
+							+ برنامه ریزی آموزشی، تنظیم طرح دروس مرتبط
+							+ تربیت نیروی انسانی متخصص و توانمند از لحاظ علمی
+						</p>
+						<ul >
+							<li>تالیف و ترجمۀ ادبیات نظری علمی</li>
+							<li>  برنامه ریزی آموزشی، تنظیم طرح دروس مرتبط</li>
+							<li>  برگزاری دوره ها و کارگاه های متنوع و متمرکز</li>
+							<li> تربیت نیروی انسانی متخصص و توانمند از لحاظ علمی</li>
+						</ul>
+					</div>
+				</div>
+				{#-------------Section Splitter-------------#}
+				<div class="row splitter" style="padding-bottom: 1rem;"></div>
 
 
-        {#---------------Second Part----------------------#}
-        <div class="row text-center">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <div class="text-center big-title">
-                    <h1 class="p-title">
-                        آمار فعالیت‌ها و دستاوردها
-                    </h1>
-                </div>
-                {% include 'HomePage/counter.html' with color="#076286" %}
-            </div>
-
-        </div>
-
-        <div class="row" style="margin-top:2rem">
-            <div class='col-2' ></div>
-            <div class='col-8 '>
-                {#---------------Part Title----------------------#}
-                <div class="row">
-
-                    <div class="col-4 " style="margin-top: 2rem"></div>
-                    <div class="col-4">
-
-                        <div class="module-border-wrap">
-                            <div class="module">
-                                <h2>
-                                    کارگروه‌ه‌ها و دپارتمان‌های‌ علمی
-                                </h2>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <style>
-                    .big-title {
-                        background-image: radial-gradient(rgb(0, 123, 255), white);
-                        height: 10em;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center
-                    }
-
-                    .p-title {
-                        text-align: center;
-                        margin-bottom: 0px !important;
-                    }
-
-                    .module-border-wrap {
-                    {#max-width: 250px;#}{#padding: 1rem;#} position: relative;
-                        background: linear-gradient(to bottom, rgb(242, 135, 4), rgb(255, 255, 255));
-                        padding: 0px;
-                        padding-right: .5rem;
-                        margin: 0px;
-                        max-width: 250px;
-                    }
-
-                    .module {
-                    {#background: '';#} color: #007bff;
-                        background-image: linear-gradient(to bottom, rgb(189, 189, 189), rgb(255, 255, 255));
-                        padding: 1rem;
-                    }
-                </style>
-                <div style="margin-top:2rem;margin-bottom:2rem;">
-                    {% include "gadget/about-us-p2.html" with title='فیزیک' desc='a' %}
-                    {% include "gadget/about-us-p2.html" with title='زیست' desc='a' %}
-                    {% include "gadget/about-us-p2.html" with title='علوم‌شناختی' desc='a' %}
-                </div>
-            </div>
-        </div>
+				{#				{% include "gadget/about-us-p1.html" with title='انگیزه‌ها و نیازها' desc='a' %}#}
+				{#				{% include "gadget/about-us-p1.html" with title='ماهیت موازی' desc='a' %}#}
+				{#				{% include "gadget/about-us-p1.html" with title='استقلال منابع و اهداف موازی' desc='a' %}#}
+				{#				{% include "gadget/about-us-p1.html" with title='انگیزه‌ها و نیازها' desc='a' %}#}
 
 
-        {#---------------Third Part----------------------#}
-        <div class="row">
-            <div class='col-2'></div>
-            <div class='col-8'>
-                {#---------------Part Title----------------------#}
-                <div style="margin-top:2rem;margin-bottom:2rem;">
-                    <div class="row">
-
-                        <div class="col-4"></div>
-                        <div class="col-4">
-
-                            <div class="module-border-wrap">
-                                <div class="module">
-                                    <h2>
-                                        معرفی اعضای اصلی
-                                    </h2>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    {% include "gadget/about-us-p3.html" with title='دکتر میثم توکلی' desc='a' %}
-                    {% include "gadget/about-us-p3.html" with title='دکتر حامد مقتدری' desc='a' %}
-
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-    <style>
-
-        .sub-title {
-            color: #007bff;
-        }
-
-        .title-of-box {
-            color: #007bff;
-        }
-
-        .title-bck {
-            background-image: linear-gradient(to left, rgb(189, 189, 189), rgb(255, 255, 255));
-        }
-
-        .splitter {
-            background-image: linear-gradient(to left, rgb(242, 135, 4), rgb(255, 255, 255));
-            padding-bottom: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .desc-bck {
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-        }
+			</div>
+		</div>
 
 
-        .part2-title {
-            background-image: linear-gradient(to bottom, rgb(189, 189, 189), rgb(255, 255, 255));
+		{#---------------Second Part----------------------#}
+		<div class="row text-center">
+			<div class="col-2"></div>
+			<div class="col-8">
+				{#				<div class="text-center big-title">#}
+				{#					<h1 class="p-title">#}
+				{#						آمار فعالیت‌ها و دستاوردها#}
+				{#					</h1>#}
+				{#				</div>#}
+				{% include 'HomePage/counter.html' with color="#000000" %}
+			</div>
 
-        }
+		</div>
 
-        .p-title {
-            text-align: center;
-            margin-bottom: 0px !important;
-            color: white;
-        }
-    </style>
+		<div class="row" style="margin-top:2rem">
+			<div class='col-2'></div>
+			<div class='col-8 '>
+				{#---------------Part Title----------------------#}
+				<div class="row">
+
+					<div class="col-4 " style="margin-top: 2rem"></div>
+					<div class="col-4">
+
+						<div class="module-border-wrap">
+							<div class="module">
+								<h2>
+									کارگروه‌ه‌ها و دپارتمان‌های‌ علمی
+								</h2>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<style>
+					.big-title {
+						background-image: radial-gradient(rgb(0, 123, 255), white);
+						height: 10em;
+						display: flex;
+						align-items: center;
+						justify-content: center
+					}
+
+					.p-title {
+						text-align: center;
+						margin-bottom: 0px !important;
+					}
+
+					.module-border-wrap {
+					{#max-width: 250px;#}{#padding: 1rem;#} position: relative;
+						background: linear-gradient(to bottom, rgb(242, 135, 4), rgb(255, 255, 255));
+						padding: 0px;
+						padding-right: .5rem;
+						margin: 0px;
+						max-width: 250px;
+					}
+
+					.module {
+					{#background: '';#} color: #007bff;
+						background-image: linear-gradient(to bottom, rgb(189, 189, 189), rgb(255, 255, 255));
+						padding: 1rem;
+					}
+				</style>
+				<div style="margin-top:2rem;margin-bottom:2rem;">
+					{% include "gadget/about-us-p2.html" with title='فیزیک' desc='کارگروه فیزیک در دفتر مطالعات علم و دین موازی  با هدف....		' %}
+					{% include "gadget/about-us-p2.html" with title='زیست' desc='کارگروه زیست در دفتر مطالعات علم و دین موازی  با هدف....		' %}
+					{% include "gadget/about-us-p2.html" with title='علوم‌شناختی' desc='کارگروه علوم‌شناختی در دفتر مطالعات علم و دین موازی  با هدف....		' %}
+				</div>
+			</div>
+		</div>
+
+
+		{#---------------Third Part----------------------#}
+		<div class="row">
+			<div class='col-2'></div>
+			<div class='col-8'>
+				{#---------------Part Title----------------------#}
+				<div style="margin-top:2rem;margin-bottom:2rem;">
+					<div class="row">
+
+						<div class="col-4"></div>
+						<div class="col-4">
+
+							<div class="module-border-wrap">
+								<div class="module">
+									<h2>
+										معرفی اعضای اصلی
+									</h2>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					{% include "gadget/about-us-p3.html" with title='دکتر میثم توکلی' desc='عضپ هیات علمی انجمن حکمت و فلسفه ایران' %}
+					{% include "gadget/about-us-p3.html" with title='دکتر حامد مقتدری' desc='عضو هیات علمی و مدیر مرکز رشد دانشگاه الزهرا' %}
+					{% include "gadget/about-us-p3.html" with title='دکتر زینب خدایی' desc='پژوهشگر، نویسنده و مترجم' %}
+
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<style>
+
+		.sub-title {
+			color: #007bff;
+		}
+
+		.title-of-box {
+			color: #007bff;
+		}
+
+		.title-bck {
+			background-image: linear-gradient(to left, rgb(189, 189, 189), rgb(255, 255, 255));
+		}
+
+		.splitter {
+			background-image: linear-gradient(to left, rgb(242, 135, 4), rgb(255, 255, 255));
+			padding-bottom: 1rem;
+			margin-bottom: 1rem;
+		}
+
+		.desc-bck {
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+
+
+		.part2-title {
+			background-image: linear-gradient(to bottom, rgb(189, 189, 189), rgb(255, 255, 255));
+
+		}
+
+		.p-title {
+			text-align: center;
+			margin-bottom: 0px !important;
+			color: white;
+		}
+	</style>
 {% endblock content %}
