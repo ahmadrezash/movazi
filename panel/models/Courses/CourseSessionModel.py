@@ -22,6 +22,7 @@ class CourseSession(models.Model):
 	speaker = models.CharField(max_length=200)
 	table_of_content = models.CharField(max_length=200)
 	file = models.FileField(upload_to='course/session')
+	# file = models.TextField(editable=False)
 	resources = models.FileField(upload_to='document/Courses/resourses')
 	category = models.ForeignKey(Category, on_delete=models.CASCADE)
 

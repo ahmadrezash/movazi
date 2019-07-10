@@ -24,33 +24,57 @@
 					{#					<img class="card-img-top" src=" {{ post.image_index.url }}" alt="Card image cap">#}
 
 					<div class="card-body">
+						{#						<div class="row">#}
+						{#							<div class="col-6">#}
+						{#								<div class="row"><img class="card-img-top" src=" {{ post.image_index.url }}" alt="Card image cap"></div>#}
+						<div class="row" style="padding-top: 2rem;"><p class="fa-align-justify"><i class="far fa-edit"></i> <strong>خلاصه:</strong>
+							{{ post.summery }}</p>
+						</div>
+						{##}
+						{##}
+						{#							</div>#}
+						{#							<div class="col-6">#}
+
+						{#							</div>#}
+						{#						</div>#}
+						{% comment %} <a href="#" class="btn btn-primary">بیشتر بخوانید... </a> {% endcomment %}
 						<div class="row">
-							<div class="col-6">
-								<div class="row"><img class="card-img-top" src=" {{ post.image_index.url }}" alt="Card image cap"></div>
-								<div class="row"><p class="fa-align-justify"><i class="far fa-edit"></i> <strong>خلاصه:</strong>
+							<div class="col-2"></div>
+							<div class="col-8"><img class="card-img-top" src=" {{ post.image_index.url }}" alt="Card image cap"></div>
+							<div class="col-2"></div>
+							<div class="col-1"></div>
+							<div class="col-10">
+								<hr style="padding-top:2rem; ">
+								<div class="row">
+									<div class="col-4">
+										<p><i class="far fa-edit"></i> <strong> عنوان:</strong>{{ post.title }}</p>
+										<p><i class="far fa-edit"></i> <strong>زیرعنوان:</strong> {{ post.subtitle }}</p>
+										<p><i class="far fa-edit"></i> <strong>سخنران:</strong> {{ post.speaker }}</p>
+
+
+									</div>
+									<div class="col-4">
+										<p><i class="far fa-edit"></i> <strong>تعداد جلسات:</strong> {{ post.session }}</p>
+										<p><i class="far fa-edit"></i> <strong>محل برگزاری:</strong> {{ post.holding_loc }}</p>
+										<p><i class="far fa-edit"></i> <strong>زمان:</strong> {{ post.holding_date }}</p>
+
+									</div>
+									<div class="col-4">
+										<p><i class="far fa-edit"></i> <strong>مخاطبین:</strong> {{ post.audience }}</p>
+										<p><i class="far fa-edit"></i> <strong>سطح علمی:</strong> {{ post.scientific_level }}</p>
+										<p><i class="far fa-edit"></i> <strong>پیش‌نیازها:</strong> {{ post.prerequisite }}</p>
+
+									</div>
+								</div>
+								<hr>
+								<div class="row" style="padding-top: 2rem;"><p class="fa-align-justify"><i class="far fa-edit"></i> <strong>خلاصه:</strong>
 									{{ post.summery }}</p>
 								</div>
-
-
-							</div>
-							<div class="col-3">
-								<p><i class="far fa-edit"></i> <strong> عنوان:</strong>{{ post.title }}</p>
-								<p><i class="far fa-edit"></i> <strong>زیرعنوان:</strong> {{ post.subtitle }}</p>
-								<p><i class="far fa-edit"></i> <strong>سخنران:</strong> {{ post.speaker }}</p>
-								<p><i class="far fa-edit"></i> <strong>تعداد جلسات:</strong> {{ post.session }}</p>
-								<p><i class="far fa-edit"></i> <strong>محل برگزاری:</strong> {{ post.holding_loc }}</p>
-
-							</div>
-							<div class="col-3">
-								<p><i class="far fa-edit"></i> <strong>زمان برگزاری:</strong> {{ post.holding_date }}</p>
-								<p><i class="far fa-edit"></i> <strong>مخاطبین:</strong> {{ post.audience }}</p>
-								<p><i class="far fa-edit"></i> <strong>سطح علمی:</strong> {{ post.scientific_level }}</p>
-								<p><i class="far fa-edit"></i> <strong>پیش‌نیازها:</strong> {{ post.prerequisite }}</p>
-
+								<hr>
 							</div>
 
 						</div>
-						{% comment %} <a href="#" class="btn btn-primary">بیشتر بخوانید... </a> {% endcomment %}
+
 					</div>
 					<td>
 						<div class="container">
