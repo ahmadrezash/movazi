@@ -38,6 +38,8 @@ urlpatterns = [
     path('course/main'             , views.course_pagination        , name = 'course_pagination'),
     path('course/<str:slug>'       , views.course_single            , name = 'course_single'),  
 
+    # path('download-bd'       , views.DownloadDB            , name = 'download-bd'),
+
     # path('course/<str:course>/session/all'                  , views.course_single            , name = 'course_session_single'),  
     path('course/<str:course>/session/<str:session>'        , views.course_session_single            , name = 'course_session_single'),  
   
