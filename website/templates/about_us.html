@@ -17,7 +17,7 @@
 
 
 				{#-------------Section-------------#}
-				<div class="row">
+				<div class="row" data-aos='fade-left'>
 					{#-------------Title of Section-------------#}
 					<div class="col-2 grey align-right lighten-1 title-bck">
 						<div style="display: table; height: 13rem; overflow: hidden;">
@@ -42,7 +42,7 @@
 				{#-------------Section Splitter-------------#}
 				<div class="row splitter" style="padding-bottom: 1rem;"></div>
 				{#-------------Section-------------#}
-				<div class="row">
+				<div class="row" data-aos='fade-left'>
 					{#-------------Title of Section-------------#}
 					<div class="col-2 grey align-right lighten-1 title-bck">
 						<div style="display: table; height: 13rem; overflow: hidden;">
@@ -65,7 +65,7 @@
 				{#-------------Section Splitter-------------#}
 				<div class="row splitter" style="padding-bottom: 1rem;"></div>
 				{#-------------Section-------------#}
-				<div class="row">
+				<div class="row" data-aos='fade-left'>
 					{#-------------Title of Section-------------#}
 					<div class="col-2 grey align-right lighten-1 title-bck">
 						<div style="display: table; height: 13rem; overflow: hidden;">
@@ -90,7 +90,7 @@
 				{#-------------Section Splitter-------------#}
 				<div class="row splitter" style="padding-bottom: 1rem;"></div>
 				{#-------------Section-------------#}
-				<div class="row">
+				<div class="row" data-aos='fade-left'>
 					{#-------------Title of Section-------------#}
 					<div class="col-2 grey align-right lighten-1 title-bck">
 						<div style="display: table; height: 13rem; overflow: hidden;">
@@ -129,7 +129,6 @@
 				<div class="row splitter" style="padding-bottom: 1rem;"></div>
 
 
-
 			</div>
 		</div>
 
@@ -143,7 +142,7 @@
 				{#						آمار فعالیت‌ها و دستاوردها#}
 				{#					</h1>#}
 				{#				</div>#}
-				{% include 'HomePage/counter.html' with color="#000000" %}
+				{% include 'HomePage/counter.html' with color="#ffffff" color2="000000" %}
 			</div>
 
 		</div>
@@ -160,7 +159,7 @@
 						<div class="module-border-wrap">
 							<div class="module">
 								<h2>
-									کارگروه‌ه‌ها و دپارتمان‌های‌ علمی
+									کارگروه‌ها و دپارتمان‌های‌ علمی
 								</h2>
 							</div>
 						</div>
@@ -197,9 +196,16 @@
 					}
 				</style>
 				<div style="margin-top:2rem;margin-bottom:2rem;">
-					{% include "gadget/about-us-p2.html" with title='فیزیک' desc='کارگروه فیزیک در دفتر مطالعات علم و دین موازی  با هدف....		' %}
-					{% include "gadget/about-us-p2.html" with title='زیست' desc='کارگروه زیست در دفتر مطالعات علم و دین موازی  با هدف....		' %}
-					{% include "gadget/about-us-p2.html" with title='علوم‌شناختی' desc='کارگروه علوم‌شناختی در دفتر مطالعات علم و دین موازی  با هدف....		' %}
+					<div data-aos='fade-left'>
+						{% include "gadget/about-us-p2.html" with title='فیزیک' desc='کارگروه فیزیک در دفتر مطالعات علم و دین موازی  با هدف....		' %}
+					</div>
+					<div data-aos='fade-left'>
+
+						{% include "gadget/about-us-p2.html" with title='زیست' desc='کارگروه زیست در دفتر مطالعات علم و دین موازی  با هدف....		' %}
+					</div>
+					<div data-aos='fade-left'>
+						{% include "gadget/about-us-p2.html" with title='علوم‌شناختی' desc='کارگروه علوم‌شناختی در دفتر مطالعات علم و دین موازی  با هدف....		' %}
+					</div>
 				</div>
 			</div>
 		</div>
@@ -226,10 +232,29 @@
 
 						</div>
 					</div>
-					{% include "gadget/about-us-p3.html" with title='دکتر میثم توکلی' desc='عضپ هیات علمی انجمن حکمت و فلسفه ایران' %}
-					{% include "gadget/about-us-p3.html" with title='دکتر حامد مقتدری' desc='عضو هیات علمی و مدیر مرکز رشد دانشگاه الزهرا' %}
-					{% include "gadget/about-us-p3.html" with title='دکتر زینب خدایی' desc='پژوهشگر، نویسنده و مترجم' %}
+					<div class="desc1" data-aos='fade-left'>
+						{% include "gadget/about-us-p3.html" with title='دکتر میثم توکلی'  desc='عضو هیات علمی انجمن حکمت و فلسفه ایران' %}
+					</div>
+					<div class="desc2" data-aos='fade-left'>
+						{% include "gadget/about-us-p3.html" with title='دکتر حامد مقتدری'  desc='عضو هیات علمی و مدیر مرکز رشد دانشگاه الزهرا' %}
 
+						{#						{% include "gadget/about-us-p3.html" with title= 'دکتر حامد مقتدری' desc='عضو هیات علمی و مدیر مرکز رشد دانشگاه الزهرا' %}#}
+					</div>
+					<div class="desc3" data-aos='fade-left'>
+
+						{% include "gadget/about-us-p3.html" with title='دکتر زینب خدایی'  desc='پژوهشگر، نویسنده و مترجم' %}
+					</div>
+					<script>
+                        $(".desc1 img").ready(function () {
+                            $(".desc1 img").attr("src", "{% static 'images/tavakkoli.jpg' %}");
+                        });
+                        $(".desc2 img").ready(function () {
+                            $(".desc2 img").attr("src", "{% static 'images/tavakkoli.jpg' %}");
+                        });
+                        $(".desc3 img").ready(function () {
+                            $(".desc3 img").attr("src", "{% static 'images/Dr.Khodaee.jpeg' %}");
+                        });
+					</script>
 				</div>
 
 			</div>

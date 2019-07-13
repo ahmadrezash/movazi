@@ -43,7 +43,7 @@
 {% compress css %}
     <style>
         .title {
-            color: white;
+            color: {{ color2|default:"white" }};
         }
 
         div.circle {
@@ -96,7 +96,7 @@
                 if (value === 0) {
                     circle.setText('');
                 } else {
-                    circle.setText('<i class="fas fa-book-open fa-1x color" style="color:white "></i>' + '<p style="color:white">' + value + '</p>');
+                    circle.setText('<i class="fas fa-book-open fa-1x color" style="color:{{ color2|default:"white" }} "></i>' + '<p style="color:{{ color2|default:"white" }}">' + value + '</p>');
                 }
 
             }
@@ -128,7 +128,7 @@
                 if (value === 0) {
                     circle.setText('');
                 } else {
-                    circle.setText('<i class="fas fa-chalkboard-teacher fa-1x color" style="color:white"></i>' + '<p style="color:white">' + value + '</p>');
+                    circle.setText('<i class="fas fa-chalkboard-teacher fa-1x color" style="color:{{ color2|default:"white" }}"></i>' + '<p style="color:{{ color2|default:"white" }}">' + value + '</p>');
                 }
 
             }
@@ -160,7 +160,7 @@
                 if (value === 0) {
                     circle.setText('');
                 } else {
-                    circle.setText('<i class="fas fa-handshake fa-1x" style="color:white"></i>' + '<p style="color:white">' + value + '</p>');
+                    circle.setText('<i class="fas fa-handshake fa-1x" style="color:{{ color2|default:"white" }}"></i>' + '<p style="color:{{ color2|default:"white" }}">' + value + '</p>');
                 }
 
             }
@@ -192,7 +192,7 @@
                 if (value === 0) {
                     circle.setText('');
                 } else {
-                    circle.setText('<i class="fas fa-video fa-1x" style="color:white"></i>' + '<p style="color:white">' + value + '</p>');
+                    circle.setText('<i class="fas fa-video fa-1x" style="color:{{ color2|default:"white" }}"></i>' + '<p style="color:{{ color2|default:"white" }}">' + value + '</p>');
                 }
 
             }
