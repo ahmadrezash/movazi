@@ -58,6 +58,12 @@
 										<div class="col-1"></div>
 										<div class="col-10">
 											<hr>
+											<style>
+												div p {
+													text-align: justify;
+													text-justify: inter-word;
+												}
+											</style>
 											<div class="row" style="padding-top: 2rem;"><p class="align-justify"><i class="far fa-edit"></i><strong>خلاصه:</strong>
 												{{ post.summery }}</p>
 											</div>
@@ -89,13 +95,11 @@
 												width: 100%;
 												height: 100%;
 												flex-direction: column;
-												{#background-color: blue;#}
-												overflow: hidden;
+											{#background-color: blue;#} overflow: hidden;
 											}
 
 											.first-row {
-												{#background-color: lime;#}
-												padding-top: 2rem;
+											{#background-color: lime;#} padding-top: 2rem;
 											}
 
 											.second-row {

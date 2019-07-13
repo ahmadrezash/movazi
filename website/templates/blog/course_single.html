@@ -18,18 +18,19 @@
 
 			<div class='col-{{ w | default:"12" }}'>
 				<div class="card mb-4">
-					<h2 class="card-title">{{ post.title }}</h2>
 
 					{% comment %} <img class="card-img-top" src="{% static 'images/750x300.png' %}" alt="Card image cap"> {% endcomment %}
 					{#					<img class="card-img-top" src=" {{ post.image_index.url }}" alt="Card image cap">#}
 
 					<div class="card-body">
+						<h2 class="card-title">{{ post.title }}</h2>
+
 						{#						<div class="row">#}
 						{#							<div class="col-6">#}
 						{#								<div class="row"><img class="card-img-top" src=" {{ post.image_index.url }}" alt="Card image cap"></div>#}
-						<div class="row" style="padding-top: 2rem;"><p class="fa-align-justify"><i class="far fa-edit"></i> <strong>خلاصه:</strong>
-							{{ post.summery }}</p>
-						</div>
+						{#						<div class="row" style="padding-top: 2rem;"><p class="fa-align-justify"><i class="far fa-edit"></i> <strong>خلاصه:</strong>#}
+						{#							{{ post.summery }}</p>#}
+						{#						</div>#}
 						{##}
 						{##}
 						{#							</div>#}
@@ -67,7 +68,13 @@
 									</div>
 								</div>
 								<hr>
-								<div class="row" style="padding-top: 2rem;"><p class="fa-align-justify"><i class="far fa-edit"></i> <strong>خلاصه:</strong>
+								<style>
+									div p {
+										text-align: justify;
+										text-justify: inter-word;
+									}
+								</style>
+								<div class="row" style="padding-top: 2rem;"><p><i class="far fa-edit"></i> <strong>خلاصه:</strong>
 									{{ post.summery }}</p>
 								</div>
 								<hr>

@@ -3,49 +3,102 @@
 
 
 {% block title %}
-موازی بلاگ
+	موازی بلاگ
 {% endblock title %}
 {% comment %} {% block head %}
   <link href={% static 'css/blog-home.css' %} rel="stylesheet">
     <script src={% static 'vendor/jquery/jquery.min.js' %}></script>
   <script src={% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}></script>
 {% endblock head %} {% endcomment %}
-  <!-- Bootstrap core CSS -->
-  {% comment %} <link href={% static 'css/bootstrap.min.css' %} rel="stylesheet"> {% endcomment %}
+<!-- Bootstrap core CSS -->
+{% comment %} <link href={% static 'css/bootstrap.min.css' %} rel="stylesheet"> {% endcomment %}
 
-  <!-- Custom styles for this template -->
+<!-- Custom styles for this template -->
 
 {% block blog %}
 
 
-  <!-- Page Content -->
-  <div class="container" >
+	<!-- Page Content -->
+	<div class="container">
 
-    <div class="row" styles='background-color: lightblue;'>
-
-        
-           <div class='col-{{ w | default:"12" }}'>
-        <div class="card mb-4">
-          {% comment %} <img class="card-img-top" src="{% static 'images/750x300.png' %}" alt="Card image cap"> {% endcomment %}
-          <img class="card-img-top" src=" {{post.image_index.url}}" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">{{post.title}}</h2>
-            <p class="card-text">
-            {{post.full_text}}
-            </p>
-            {% comment %} <a href="#" class="btn btn-primary">بیشتر بخوانید... </a> {% endcomment %}
-          </div>
-          <div class="card-footer text-muted">
-            {{post.author_id}}
-            -
-            {{post.pub_date}}
-          </div>
-        </div>
-    </div>
-      </div>
+		<div class="row" styles='background-color: lightblue;'>
 
 
-  </div>
+			<div class='col-{{ w | default:"12" }}'>
+				<div class="card mb-4">
+					{% comment %} <img class="card-img-top" src="{% static 'images/750x300.png' %}" alt="Card image cap"> {% endcomment %}
+					<img class="card-img-top" src=" {{ post.image_index.url }}" alt="Card image cap">
+					<div class="card-body">
+						<h2 class="card-title">{{ post.title }}</h2>
+
+						<div class="card-body">
+							<div class="row">
+								<div class="col-6">
+									<div class="row"><img class="card-img-top" src=" {{ post.image_index.url }}" alt="Card image cap"></div>
+
+
+								</div>
+								<div class="col-6">
+									<div class="row" style="padding-top: 2rem;">
+										<div class="col-6">
+											<p><i class="far fa-edit"></i> <strong> عنوان:</strong>{{ post.title }}</p>
+											<p><i class="far fa-edit"></i> <strong>زیرعنوان:</strong> {{ post.subtitle }}</p>
+											<p><i class="far fa-edit"></i> <strong>موضوع:</strong> {{ post.subject }}</p>
+
+										</div>
+										<div class="col-6">
+											<p><i class="far fa-edit"></i> <strong>نویسنده:</strong> {{ post.author }}</p>
+											<p><i class="far fa-edit"></i> <strong>تاریخ انتشار:</strong> {{ post.publishing_date }}</p>
+
+										</div>
+
+									</div>
+									<div class="row">
+
+										<div class="col-1"></div>
+										<div class="col-10">
+											<hr>
+											<style>
+												div p {
+													text-align: justify;
+													text-justify: inter-word;
+												}
+											</style>
+											<div class="row" style="padding-top: 2rem;"><p class="align-justify"><i class="far fa-edit"></i><strong>خلاصه:</strong>
+												{{ post.summery }}</p>
+											</div>
+											<hr>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-1"></div>
+								<div class="col-10">
+									{#									<div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 2rem;width:100%;   "></span>#}
+									{#										<iframe src="https://www.aparat.com/video/video/embed/videohash/kXjI7/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>#}
+									{#									</div>#}
+									{#									<#}
+
+								</div>
+								<div class="col-1"></div>
+
+							</div>
+						</div>
+
+					</div>
+
+					<div class="card-footer text-muted">
+						{{ post.author_id }}
+						-
+						{{ post.pub_date }}
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
 
 
 
