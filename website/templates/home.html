@@ -28,33 +28,34 @@
 }
     .bkg{
 
-      background:
-  linear-gradient(141deg, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0.0));
-  }
-  </style>
-{% endcompress %}
+					background: linear-gradient(141deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0));
+				}
+			</style>
+		{% endcompress %}
 
-  {% compress js %}
+		{% compress js %}
 
-  <script>
-    AOS.init();
+			<script>
+                AOS.init();
 
-  $(document).ready(function(){
-    //Check to see if the window is top if not then display button
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 100) {
-            $('.scrollToTop').fadeIn();
-        } else {
-            $('.scrollToTop').fadeOut();
-        }
-    });
-    //Click event to scroll to top
-    $('.scrollToTop').click(function(){
-        $('html, body').animate({scrollTop : 0},800);
-        return false;
-    });
-});
-  </script>
-  {% endcompress %}
-  </div>
+                $(document).ready(function () {
+                    //Check to see if the window is top if not then display button
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 100) {
+                            $('.scrollToTop').fadeIn();
+                        } else {
+                            $('.scrollToTop').fadeOut();
+                        }
+                    });
+                    //Click event to scroll to top
+                    $('.scrollToTop').click(function () {
+                        $('html, body').animate({scrollTop: 0}, 800);
+                        return false;
+                    });
+                });
+			</script>
+		{% endcompress %}
+	</div>
+	{% include 'main/footer.html' %}
+
 {% endblock %}
