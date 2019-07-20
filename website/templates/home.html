@@ -1,32 +1,41 @@
-{% extends 'main/WebsiteBase.html' %}
+{% extends 'main_base.html' %}
 {% load static %}
 {% load compress %}
-
+{% block header %}
+{#	<div id="fixed_menu">#}
+		{% include 'main/menubar.html' %}
+{#	</div>#}
+{% endblock header %}
 {% block content %}
-<div class='scrollme'>
-  {% include 'HomePage/header.html' %}
-  {% include 'HomePage/news.html' %}
-  {% include 'HomePage/events.html' %}
-  {% include 'HomePage/slider.html' %}
-  {% include 'HomePage/multimedia.html' %}
-  {% include 'HomePage/counter.html' %}
-  {% include 'HomePage/scienceNet.html' %}
-  {% include 'HomePage/library.html' %}
-  {% include 'HomePage/feederEmail.html' %}
-  {% include 'HomePage/cooperation.html' %}
-  <a class="btn-floating btn-large blue scrollToTop"><i class="fa fa-arrow-up"></i></a>
-  {% compress css %}
-    <link rel="stylesheet" href={% static 'css/home_page.css' %}>
-  <style>
-  .scrollToTop{
-    width:40px;
-    height: 40px;
-    position:fixed;
-    left:30px;
-    bottom:30px;
-    display:none;
-}
-    .bkg{
+
+
+	<div class='scrollme'>
+		{% include 'HomePage/header.html' %}
+		{% include 'HomePage/news.html' %}
+		{% include 'HomePage/events.html' %}
+		{% include 'HomePage/slider.html' %}
+		{% include 'HomePage/multimedia.html' %}
+		{% include 'HomePage/counter.html' %}
+		{% include 'HomePage/scienceNet.html' %}
+		{% include 'HomePage/library.html' %}
+		{% include 'HomePage/feederEmail.html' %}
+		{% include 'HomePage/cooperation.html' %}
+		<a class="btn-floating btn-large blue scrollToTop"><i class="fa fa-arrow-up"></i></a>
+		{% include 'main/footer.html' %}
+
+		{% compress css %}
+			<link rel="stylesheet" href={% static 'css/home_page.css' %}>
+			<style>
+				.scrollToTop {
+					width: 40px;
+					height: 40px;
+					position: fixed;
+					left: 30px;
+					bottom: 30px;
+					display: none;
+				}
+
+				.bkg {
 
 					background: linear-gradient(141deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0));
 				}
@@ -56,6 +65,5 @@
 			</script>
 		{% endcompress %}
 	</div>
-	{% include 'main/footer.html' %}
 
 {% endblock %}

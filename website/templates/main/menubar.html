@@ -72,7 +72,7 @@
 
 
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top color-nav color-p" tabindex="200">
+<ul class="navbar navbar-expand-lg navbar-dark sticky-top color-nav color-p" tabindex="200" id="{{ menu_name|default:"fixed_menu" }}">
 	<style>
 		.color-p {
 			background: rgb(0, 0, 0);
@@ -154,7 +154,7 @@
 		ورود
 		</a>
 	{% endif %}
-</nav>
+</ul>
 <style>
 	.navbar-item {
 		text-decoration-color: blue
@@ -169,7 +169,7 @@
 		background: rgba(0, 176, 189) !important;
 	}
 
-	.nav-link {
+	#menubar .nav-link {
 		color: rgb(255, 255, 255) !important;
 	}
 </style>

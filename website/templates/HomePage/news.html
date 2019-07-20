@@ -1,73 +1,76 @@
 {% load static %}
 <div class="container-fluid cards block_background" id='section_news'>
-    <h2 class="text-center"
-        style="padding-bottom: 1rem">آخرین اخبار</h2>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
-            <div class="row">
-                {% for new in news %}
+	<h2 class="text-center"
+	    style="padding-bottom: 1rem">آخرین اخبار</h2>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-10">
+			<div class="row">
+				{% for new in news %}
 
-                    <!-- Card Narrower -->
-                    <div data-aos='fade-left' class="col-lg-3 col-md-6 col-sm-12 a">
+					<!-- Card Narrower -->
+					<div data-aos='fade-left' class="col-lg-3 col-md-6 col-sm-12 a">
 
-                        <div data-aos='fade-left' class="card card-cascade wider">
+						<div data-aos='fade-left' class="card card-cascade wider">
 
-                            <!-- Card image -->
-                            <div class="view view-cascade overlay">
-                                <!--             <img  class="card-img-top " src={{new.image.url}} alt="تصویر خبر">-->
-                                <img alt="Card image"
-                                     class="card-img-top"
-                                     src={{ new.image.url }}
-                                             onerror="this.src='{% static "images/news_default.jpg" %}';"
-                                >
+							<!-- Card image -->
+							<div class="view view-cascade overlay">
+								<!--             <img  class="card-img-top " src={{new.image.url}} alt="تصویر خبر">-->
+								<img alt="Card image"
+								     class="card-img-top"
+								     src={{ new.image.url }}
+										     onerror="this.src='{% static "images/news_default.jpg" %}';"
+								>
 
-                                <a>
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
+								<a>
+									<div class="mask rgba-white-slight"></div>
+								</a>
+							</div>
 
-                            <!-- Card content -->
-                            <div class="card-body card-body-cascade">
+							<!-- Card content -->
+							<div class="card-body card-body-cascade">
 
-                                <!-- Label -->
-                                {% comment %} <h5 class="pink-text pb-2 pt-1"><i class="fas fa-utensils"></i> Culinary</h5> {% endcomment %}
-                                <!-- Title -->
-                                <h4 class="font-weight-bold card-title">{{ new.title }}</h4>
-                                <!-- Text -->
-                                <p class="card-text">{{ new.summery }}</p>
-                                <!-- Button -->
-                                <a class="btn btn-unique light-blue accent-3"
-                                   href={% url 'news_single' slug=new.slug %}>بیشتر بخوانید...</a>
-                            </div>
-                        </div>
-                    </div>
-                {% empty %}
-                    هنوز خبری منتشر نشده است
-                {% endfor %}
+								<!-- Label -->
+								{% comment %} <h5 class="pink-text pb-2 pt-1"><i class="fas fa-utensils"></i> Culinary</h5> {% endcomment %}
+								<!-- Title -->
+								<h4 class="font-weight-bold card-title">{{ new.title }}</h4>
+								<!-- Text -->
+								<p class="card-text">{{ new.summery }}</p>
+								<!-- Button -->
+								<a class="btn btn-unique light-blue accent-3"
+								   href={% url 'news_single' slug=new.slug %}>بیشتر بخوانید...</a>
+							</div>
+						</div>
+					</div>
+				{% empty %}
+					هنوز خبری منتشر نشده است
+				{% endfor %}
 
-            </div>
+			</div>
 
-        </div>
-    </div>
+		</div>
+	</div>
 </div>
 </div>
 <style>
+	#section_news {
+		height: 100%;
+	}
 
-    .cards {
-        background-color: rgba(0, 176, 189, .2);
-        /* opacity: .3;\ */
-        /* background-op */
+	.cards {
+		background-color: rgba(0, 176, 189, .2);
+		/* opacity: .3;\ */
+		/* background-op */
 
-    }
+	}
 
-    .card-text {
-        text-align: justify;
-        text-justify: inter-word;
+	.card-text {
+		text-align: justify;
+		text-justify: inter-word;
 
-    }
+	}
 
-    .card {
-        margin-bottom: 1rem;
-    }
+	.card {
+		margin-bottom: 1rem;
+	}
 </style><br></div>
