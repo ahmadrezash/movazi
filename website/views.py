@@ -137,7 +137,9 @@ def video_single(request, slug):
 	cats = Category.objects.all()
 	article = Video.objects.filter(slug=slug).get()
 	return render(request, 'blog/video_single.html', {'post': article, 'cats': cats})
-	# return render(request, 'test.html', {'a': article})
+
+
+# return render(request, 'test.html', {'a': article})
 
 
 def published_pagination(request):
@@ -180,15 +182,16 @@ def course_session_single(request, course, session):
 	return render(request, 'blog/course_session_single.html', {'post': course, 'cats': cats})
 
 
-# import os
-# import ser
-#
-# def DownloadDB(request):
-# 	file_path = settings.MEDIA_ROOT + '/' + 'db.sqlite3'
-# 	file_wrapper = FileWrapper(file(file_path, 'rb'))
-# 	file_mimetype = mimetypes.guess_type(file_path)
-# 	response = HttpResponse(file_wrapper, content_type=file_mimetype)
-# 	response['X-Sendfile'] = file_path
-# 	response['Content-Length'] = os.stat(file_path).st_size
-# 	response['Content-Disposition'] = 'attachment; filename=%s/' % smart_str(file_name)
-# 	return response
+import os
+from django.conf import settings
+from django.http import HttpResponse, Http404
+
+
+def download(request, path='db.sqlite3'):
+	file_path = os.path.join(settings.MEDIA_ROOT, path)
+	if os.path.exists(file_path):
+		with open(file_path, 'rb') as fh:
+			response = HttpResponse(fh.read(), content_type="application/vnd.ms-excel")
+			response['Content-Disposition'] = 'inline; filename=' + os.path.basename(file_path)
+			return response
+	raise Http404
