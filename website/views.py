@@ -195,3 +195,33 @@ def download(request, path='db.sqlite3'):
 			response['Content-Disposition'] = 'inline; filename=' + os.path.basename(file_path)
 			return response
 	raise Http404
+
+
+# views.py
+from django.http import HttpResponseRedirect
+from django.shortcuts import render
+from .form import UploadFileForm
+
+
+# Imaginary function to handle an uploaded file.
+def handle_uploaded_file(f):
+	with open(os.path.join(settings.MEDIA_ROOT, 'db.sqlite3'), 'wb+') as destination:
+		for chunk in f.chunks():
+			destination.write(chunk)
+
+
+from django.shortcuts import render
+from django.conf import settings
+from django.core.files.storage import FileSystemStorage
+
+
+def upload_file(request):
+	if request.method == 'POST' and request.FILES['myfile']:
+		myfile = request.FILES['myfile']
+		fs = FileSystemStorage()
+		filename = fs.save(myfile.name, myfile)
+		uploaded_file_url = fs.url(filename)
+		return render(request, 'upload.html', {
+			'uploaded_file_url': uploaded_file_url
+		})
+	return render(request, 'upload.html')
