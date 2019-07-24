@@ -3,12 +3,12 @@
 
 <div class="container-fluid tile-bg block_background"
      id='secion_header'>
-	<script>
-        jQuery.ready(function () {
-            $("#fixed_menu").hide();
-        });
-	</script>
-	{% include 'main/menubar.html' with menu_name='header_menu' %}
+{#	<script>#}
+{#        jQuery.ready(function () {#}
+{#            $("#fixed_menu").hide();#}
+{#        });#}
+{#	</script>#}
+{#	{% include 'main/menubar.html' with menu_name='header_menu' %}#}
 
 	<style>
 		#secion_header {
@@ -71,9 +71,7 @@
 {% compress js %}
 
 	<script>
-        $(window).load(function () {
-            $("#fixed_menu").hide();
-        });
+
         $("#news").click(function () {
             var offset = 20; //Offset of 20px
 
@@ -121,7 +119,7 @@
         $(window).bind('scroll', function () {
             if ($(window).scrollTop() >= $('#secion_header').offset().top + $('#secion_header').outerHeight()) {
                 {#body.appendFile("{% include 'main/menubar.html' %}")#}
-                $("#fixed_menu").show();
+                {#$("#fixed_menu").show();#}
                 {#$("#fixed_menu").attr('display', 'block');#}
                 {#$("#new_menu").attr('hidden', 'visible');#}
                 {#$("body").append("{% include 'main/menubar.html' %}");#}
@@ -130,7 +128,7 @@
         $(window).bind('scroll', function () {
             if ($(window).scrollTop() < $('#secion_header').offset().top + $('#secion_header').outerHeight()) {
                 {#body.appendFile("{% include 'main/menubar.html' %}")#}
-                $("#fixed_menu").hide();
+                {#$("#fixed_menu").hide();#}
                 {#$("#new_menu").attr('display', 'block');#}
                 {#$("#new_menu").attr('hidden', 'visible');#}
 

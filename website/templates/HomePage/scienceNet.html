@@ -1,47 +1,47 @@
 {% load static %}
-<div class="container-fluid block_background" id ="section_science_net"
-         style="padding-top: 2rem; padding-bottom: 2rem;">
-      <h2 class="text-center">شبکه دانش</h2><br>
-      <div class="row">
-        <div class="col-3"></div>
-        <div class="col-6 contain">
-          <img alt="Cinque Terre"
-               class="rounded img-course"
-               src="{%static 'images/science_net.jpg' %}"
-               style="height: 25rem;"> <a class="btn btn-primary">شبکه دانش را از نزدیک ببینید</a>
-        </div>
-        <style>
-        /* Container needed to position the button. Adjust the width as needed */
-        .contain {
-        position: relative;
-        width: 50%;
-        }
+<div class="container-fluid block_background" id="section_science_net"
+     style="padding: 0px;height: 100%">
+	<h2 class="text-center">شبکه دانش</h2><br>
+	<div class="row">
+		<div class="col-3"></div>
+		<div class="col-6 contain">
+			<img alt="Cinque Terre"
+			     class="rounded img-course"
+			     src="{% static 'images/science_net.jpg' %}"
+			     style="height: 25rem;"> <a class="btn btn-primary">شبکه دانش را از نزدیک ببینید</a>
+		</div>
+		<style>
+			/* Container needed to position the button. Adjust the width as needed */
+			.contain {
+				position: relative;
+				width: 50%;
+			}
 
-        /* Make the image responsive */
-        .contain img {
-        width: 100%;
-        height: auto;
-        }
+			/* Make the image responsive */
+			.contain img {
+				width: 100%;
+				height: auto;
+			}
 
-        /* Style the button and place it in the middle of the container/image */
-        .contain .btn {
-        position: absolute;
-        top:80%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        /* background-color: #555; */
-        /* color: white; */
-        font-size: 16px;
-        padding: 12px 24px;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-        }
+			/* Style the button and place it in the middle of the container/image */
+			.contain .btn {
+				position: absolute;
+				top: 80%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+				/* background-color: #555; */
+				/* color: white; */
+				font-size: 16px;
+				padding: 12px 24px;
+				border: none;
+				cursor: pointer;
+				border-radius: 5px;
+			}
 
-        .contain .btn:hover {
-        /* background-color: black; */
-        } 
-        </style>
-      </div>
-    </div>
+			.contain .btn:hover {
+				/* background-color: black; */
+			}
+		</style>
+	</div>
+</div>

@@ -1,55 +1,50 @@
 {% load static %}
 <style>
-.parallax2 {
-        /* The image used */
-     url({%static 'images/library.jpg' %}) !important;
-        /* Set a specific height */
- 
-        /* Create the parallax scrolling effect */
-        {#background-position: center;#}
-        {#background-repeat: no-repeat;#}
-        {#background-size: cover;#}
-        
-     }
-.f{
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
+	.parallax2 {
+		/* The image used */
+	url({%static 'images/library.jpg' %}) !important;
+		/* Set a specific height */
+
+		/* Create the parallax scrolling effect */
+	{#background-position: center;#}{#background-repeat: no-repeat;#}{#background-size: cover;#}
+
+	}
+
+	.f {
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+		filter: grayscale(100%);
+	}
 </style>
-<div data-jarallax data-speed="0.2" class="jarallax text-center">
-  <img class="jarallax-img f" src={%static 'images/library.jpg' %} alt="">
-    <div class="container block_background" id='section_library'
-        >
-      <div  class="container">
-        <div class="row">
-          <div class="col-lg-4 col-sm-10" style='color:white'>
-            <h2 class="">کتابخانه موازی</h2><br>
-            <p class="desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-            بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد
-            کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
-          <a class="btn btn-primary">کتابخانه را از نزدیک ببینید</a>
-          </div>
+<div data-jarallax data-speed="0.2" class="jarallax text-center" style="height: 100%;">
+	<img class="jarallax-img f" src={% static 'images/library.jpg' %} alt="">
+	<div class="container block_background" id='section_library'
+	>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-sm-10" style='color:white'>
+					<h2 class="">کتابخانه موازی</h2><br>
+					<p class="desc">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
+						بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد
+						کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+					<a class="btn btn-primary">کتابخانه را از نزدیک ببینید</a>
+				</div>
 
-          <div  class="col-lg-8 col-sm-10"><img alt="Card image"
-               class="card-img-top text-center"
-               src="{%static 'images/library.jpg'%}"
-               style="width: 100%">
+				<div class="col-lg-8 col-sm-10"><img alt="Card image"
+				                                     class="card-img-top text-center"
+				                                     src="{% static 'images/library.jpg' %}"
+				                                     style="width: 100%">
 
-          </div>
+				</div>
 
-          <style>
-
-
+				<style>
 
 
-
-
-          .desc{
-          text-align: justify;
-          text-justify: inter-word;
-          }
-          </style>
-        </div>
-      </div>
-    </div>
-    </div>
+					.desc {
+						text-align: justify;
+						text-justify: inter-word;
+					}
+				</style>
+			</div>
+		</div>
+	</div>
+</div>
