@@ -11,14 +11,16 @@
 	}
 
 	.f {
-		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-		filter: grayscale(100%);
+		background-image: url("{% static 'images/library.jpg' %}");
+		{#-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */#}
+		{#filter: grayscale(100%);#}
+		width: 100%;
+		height: 100%;
 	}
 </style>
-<div data-jarallax data-speed="0.2" class="jarallax text-center" style="height: 100%;">
-	<img class="jarallax-img f" src={% static 'images/library.jpg' %} alt="">
-	<div class="container block_background" id='section_library'
-	>
+<div data-speed="0.2" class="f text-center" style="height: 100%;">
+	{#	<img class=" f" src={% static 'images/library.jpg' %} alt="">#}
+	<div class=" container block_background" id='section_library'>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-sm-10" style='color:white'>
@@ -29,10 +31,11 @@
 					<a class="btn btn-primary" href="http://lib.mowazi.ir/" target="_blank">کتابخانه را از نزدیک ببینید</a>
 				</div>
 
-				<div class="col-lg-8 col-sm-10"><img alt="Card image"
-				                                     class="card-img-top text-center"
-				                                     src="{% static 'images/library.jpg' %}"
-				                                     style="width: 100%">
+				<div class="col-lg-8 col-sm-10">
+					<img alt="Card image"
+					     class="card-img-top text-center"
+					     src="{% static 'images/library.jpg' %}"
+					     style="width: 100%">
 
 				</div>
 
