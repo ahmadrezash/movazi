@@ -8,12 +8,12 @@
 	<ul class="nav nav-tabs justify-content-center"
 	    role="tablist">
 		<li class="nav-item">
-			<a class="nav-link active"
+			<a class="nav-link"
 			   data-toggle="tab"
 			   href="#home">برگزار شده</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link"
+			<a class="nav-link active"
 			   data-toggle="tab"
 			   href="#menu1">در حال برگزاری</a>
 		</li>
@@ -24,7 +24,7 @@
 		</li>
 	</ul><!-- Tab panes -->
 	<div class="tab-content">
-		<div class="container tab-pane active"
+		<div class="container tab-pane"
 		     id="home">
 			<br>
 			<h3>رویدادهای برگزار شده</h3>
@@ -55,20 +55,23 @@
 				<div class="col-6"></div>
 			</div>
 		</div>
-		<div class="container tab-pane fade"
+		<div class="container tab-pane active"
 		     id="menu1">
 			<br>
-			<h3>رویدادهای در حال برگزاری</h3>
+			<h3>{{ event.title }}</h3>
 			<div class="row">
 				<div class="col-4">
-
-					لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و متنوع با هدف ابزارهای می . کتابهای
-					در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی خلاقی و فرهنگ پیشرو در زبان ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در
-					ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+					{{ event.summery }}
 				</div>
-				<div class="col-4 img-course"><img alt="Cinque Terre"
-				                                   class="rounded img-course"
-				                                   src="{% static 'images/course_default.jpg' %}"></div>
+				<div class="col-4 img-course">
+					{#					<img alt="Cinque Terre"#}
+					{#					     class="rounded img-course"#}
+					{#					     src="{% static 'images/course_default.jpg' %}">#}
+					<img alt="Cinque Terre"
+					     class="rounded img-course"
+					     src="{{ event.image_index.url }}">
+
+				</div>
 			</div>
 		</div>
 		<div class="container tab-pane fade"

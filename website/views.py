@@ -29,7 +29,9 @@ def index(request):
 	news = News.objects.order_by('-pub_date')[:4]
 	video = Video.objects.order_by('-pub_date')[:5]
 	poster = Poster.objects.order_by('-pub_date')[:4]
-	t = TemplateResponse(request, 'home.html', {'news': news, 'posters': poster, 'videos': video})
+	event = Course.objects.order_by('-pub_date')[0]
+
+	t = TemplateResponse(request, 'home.html', {'news': news, 'posters': poster, 'videos': video, 'event': event})
 	t.render()
 	return HttpResponse(t)
 

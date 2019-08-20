@@ -9,7 +9,13 @@
 			<div class='col-2'></div>
 			<div class='col-6 '>
 				<div style="margin-top:2rem;margin-bottom:2rem;">
-					<img src={% static 'images/logo.png' %}>
+					<div class="row">
+						<div class="col-3"></div>
+						<div class="col-6">
+
+							<img style="width: 100%" src={% static 'images/logo.png' %}>
+						</div>
+					</div>
 					<form method="post">
 						{% csrf_token %}
 						{{ form.name|as_crispy_field }}
@@ -24,6 +30,72 @@
 					<h3 style=' color:rgb(151, 149, 155)'>
 					</h3>
 				</div>
+				<div class="row">
+					<div class='col-1'></div>
+					<div class='col-6'></div>
+					<div class="container">
+						<!-- Grid row-->
+						<div class="row py-4 d-flex align-items-center align-middle">
+							<!-- Grid column -->
+							<div class="col-md-12 col-lg-12 text-center mb-4 mb-0 align-middle">
+								<h6 class="mb-0 "
+								    style="color: black"> ما در ارتباط باشید:</h6>
+							</div>
+							<div class="col-md-12 col-lg-12 text-center">
+
+								<a class="sociala icon-f" href="https://t.me/mowazi_institute"><i class="fab fa-telegram fa-5x"></i></a>
+								<a class="sociala icon-f" href="https://www.instagram.com/mowazi_institute/"><i
+										class="fab fa-instagram fa-5x"></i></a>
+								{#								<a class="sociala" href="#"><i class="fab fa-youtube fa-5x"></i></a>#}
+								<a class="sociala icon-f" href="#"><i class="fas fa-envelope fa-5x"></i></a>
+								<a class="sociala" style="margin-top: 0px;" href="#">
+									<svg xmlns="http://www.w3.org/2000/svg" x="5px" y="5px"
+									     width="96" height="96"
+									     viewBox="0 0 48 48"
+									     style=" fill:#000000;">
+										<path fill="#263238"
+										      d="M21.881 6.136l-4.315-.974c-3.52-.795-7.017 1.414-7.812 4.934l-.983 4.351C11.603 9.95 16.357 6.788 21.881 6.136zM6.136 26.119l-.974 4.315c-.795 3.52 1.414 7.017 4.934 7.812l4.351.983C9.95 36.396 6.788 31.643 6.136 26.119zM37.904 9.754l-4.351-.983c4.497 2.832 7.659 7.586 8.311 13.109l.974-4.315C43.633 14.047 41.424 10.549 37.904 9.754zM26.119 41.864l4.315.974c3.52.795 7.017-1.414 7.812-4.934l.983-4.351C36.397 38.05 31.643 41.212 26.119 41.864z"></path>
+										<path fill="#e91e63"
+										      d="M24,8C15.163,8,8,15.163,8,24s7.163,16,16,16s16-7.163,16-16S32.837,8,24,8z M20,13 c2.209,0,4,1.791,4,4c0,2.209-1.791,4-4,4s-4-1.791-4-4C16,14.791,17.791,13,20,13z M17,32c-2.209,0-4-1.791-4-4 c0-2.209,1.791-4,4-4s4,1.791,4,4C21,30.209,19.209,32,17,32z M22,24c0-1.105,0.895-2,2-2s2,0.895,2,2c0,1.105-0.895,2-2,2 S22,25.105,22,24z M28,35c-2.209,0-4-1.791-4-4c0-2.209,1.791-4,4-4s4,1.791,4,4C32,33.209,30.209,35,28,35z M31,24 c-2.209,0-4-1.791-4-4c0-2.209,1.791-4,4-4s4,1.791,4,4C35,22.209,33.209,24,31,24z"></path>
+									</svg>
+								</a>
+
+								<style>
+
+									.sociala .fa-envelope, .fa-facebook-square {
+										color: #3b5998;
+									}
+
+									.fa-twitter, .fa-twitter-square {
+										color: #00aced
+									}
+
+									.sociala .fa-youtube, .fa-youtube-play, .fa-youtube-square {
+										color: #bb0000
+									}
+
+									.sociala .fa-instagram {
+										color: #517fa4;
+									}
+
+									.sociala .fa-telegram {
+										color: #0088cc;
+									}
+
+									.icon-f {
+										margin-top: 3rem;
+									}
+
+									.sociala {
+										margin-right: 4rem;
+									}
+								</style>
+							</div><!-- Grid column -->
+							<!-- Grid column -->
+						</div><!-- Grid row-->
+					</div>
+
+				</div>
 			</div>
 			<div class='col-2'></div>
 
@@ -31,56 +103,6 @@
 			{#			<img style="max-width: 100%;  background-repeat: repeat-y; height: auto;" src={% static 'images/nav_img.webp' %}>#}
 		</div>
 	</div>
-	{#    <div class="row">#}
-	{#        <div class='col-1'></div>#}
-	{#        <div class='col-6'></div>#}
-	{#        <div class="container">#}
-	{#            <!-- Grid row-->#}
-	{#            <div class="row py-4 d-flex align-items-center align-middle">#}
-	{#                <!-- Grid column -->#}
-	{#                <div class="col-md-12 col-lg-12 text-center mb-4 mb-0 align-middle">#}
-	{#                    <h6 class="mb-0 "#}
-	{#                        style="color: black"> ما در ارتباط باشید:</h6>#}
-	{#                </div>#}
-	{#                <div class="col-md-12 col-lg-12 text-center">#}
-	{#                    <a class="social" href="https://t.me/mowazi_institute"><i class="fab fa-telegram fa-3x"></i></a>#}
-	{#                    <a class="social" href="https://www.instagram.com/mowazi_institute/"><i#}
-	{#                            class="fab fa-instagram fa-3x"></i></a>#}
-	{#                    <a class="social" href="#"><i class="fab fa-youtube fa-3x"></i></a>#}
-	{#                    <a class="social" href="#"><i class="fas fa-envelope fa-3x"></i></a>#}
-	{#                    <style>#}
-	{##}
-	{#                        .fa-envelope, .fa-facebook-square {#}
-	{#                            color: #3b5998;#}
-	{#                        }#}
-	{##}
-	{#                        .fa-twitter, .fa-twitter-square {#}
-	{#                            color: #00aced#}
-	{#                        }#}
-	{##}
-	{#                        .fa-youtube, .fa-youtube-play, .fa-youtube-square {#}
-	{#                            color: #bb0000#}
-	{#                        }#}
-	{##}
-	{#                        .fa-instagram {#}
-	{#                            color: #517fa4;#}
-	{#                        }#}
-	{##}
-	{#                        .fa-telegram {#}
-	{#                            color: #0088cc;#}
-	{#                        }#}
-	{##}
-	{##}
-	{#                        .social {#}
-	{#                            margin-right: 1rem;#}
-	{#                        }#}
-	{#                    </style>#}
-	{#                </div><!-- Grid column -->#}
-	{#                <!-- Grid column -->#}
-	{#            </div><!-- Grid row-->#}
-	{#        </div>#}
-	{##}
-	{#    </div>#}
 	<style>
 		.bk {
 			background: linear-gradient(to bottom, rgb(159, 225, 249), rgb(221, 246, 255), rgb(255, 255, 255));
