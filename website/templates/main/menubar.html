@@ -176,5 +176,17 @@
 	#menubar .nav-link {
 		color: rgb(255, 255, 255) !important;
 	}
+
+	.color-nav {
+		background: rgb(42,55,105) !important;
+	}
 </style>
+<script>
+    $(function () {
+        $(document).scroll(function () {
+            var $nav = $("#fixed_menu");
+            $nav.toggleClass('color-nav', $(this).scrollTop() > 50);
+        });
+    });
+</script>
 <!--/.Navbar-->
