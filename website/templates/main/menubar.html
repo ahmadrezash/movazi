@@ -75,8 +75,9 @@
 <ul class="navbar navbar-expand-lg navbar-dark sticky-top color-nav color-p" tabindex="200" id="{{ menu_name|default:"fixed_menu" }}">
 	<style>
 		.color-p {
-			background: rgb(0, 0, 0);
-			background: linear-gradient(0deg, rgba(0, 0, 0, .75), #000) !important;
+			{#background: rgb(0, 0, 0);#}
+			background: rgb(0, 40, 94) !important;
+			{#background: linear-gradient(0deg, rgba(0, 0, 0, .75), #000) !important;#}
 		}
 	</style>
 	<!-- Navbar brand -->
@@ -177,16 +178,16 @@
 		color: rgb(255, 255, 255) !important;
 	}
 
-	.color-nav {
-		background: rgb(42,55,105) !important;
-	}
+	{#.color-nav {#}
+	{#	background: rgb(42,55,105) !important;#}
+	{#}#}
 </style>
 <script>
-    $(function () {
-        $(document).scroll(function () {
-            var $nav = $("#fixed_menu");
-            $nav.toggleClass('color-nav', $(this).scrollTop() > 50);
-        });
-    });
+    {#$(function () {#}
+    {#    $(document).scroll(function () {#}
+    {#        var $nav = $("#fixed_menu");#}
+    {#        $nav.toggleClass('color-nav', $(this).scrollTop() > 100);#}
+    {#    });#}
+    {#});#}
 </script>
 <!--/.Navbar-->
