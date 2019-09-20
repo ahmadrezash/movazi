@@ -1,0 +1,63 @@
+{% load static %}
+<!-- Section: Blog v.3 -->
+<div class="container-fluid cards block_background px-5" id=''>
+	<div class="text-center mb-2"><h2 class="center">آخرین بروزرسانی</h2></div>
+	<div class="row">
+
+		<!-- Grid column -->
+		<div class="col-lg-5 col-xl-4">
+
+			<!-- Featured image -->
+			<div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+				<img class="img-fluid" src='{{ last_session.image.url }}' alt="Sample image">
+				<a>
+					<div class="mask rgba-white-slight"></div>
+				</a>
+			</div>
+
+		</div>
+		<!-- Grid column -->
+
+		<!-- Grid column -->
+		<div class="col-lg-7 col-xl-8">
+
+			<!-- last_session title -->
+			<h3 class="font-weight-bold mb-3"><a class="text-dark" href="{% url 'course_session_single' course=last_session.course.slug  session=last_session.slug %} "><strong>{{ last_session.title }}</strong></a></h3>
+			<!-- Excerpt -->
+			<p class="dark-grey-text">{{ last_session.summery }}</p>
+			<!-- last_session data -->
+			<p>توسط {% include "blog/gadget/author&date.html" with post=last_session %}</p>
+			<!-- Read more button -->
+			<a class="btn btn-primary btn-md" href="{% url 'course_session_single' course=last_session.course.slug  session=last_session.slug %} ">مشاهده جلسه</a>
+			<a class="btn btn-primary btn-md" href="{% url 'course_single' slug=last_session.course.slug %} ">مشاهده دوره</a>
+
+		</div>
+		<!-- Grid column -->
+
+		<!-- Grid row -->
+	</div>
+</div>
+
+</div>
+<style>
+	#section_news {
+		height: 100%;
+	}
+
+	.cards {
+		background-color: rgba(0, 176, 189, .2);
+		/* opacity: .3;\ */
+		/* background-op */
+
+	}
+
+	.card-text {
+		text-align: justify;
+		text-justify: inter-word;
+
+	}
+
+	.card {
+		margin-bottom: 1rem;
+	}
+</style>

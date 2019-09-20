@@ -26,12 +26,13 @@ from website.form import ContactForm
 
 
 def index(request):
-	news = News.objects.order_by('-pub_date')[:4]
+	# news = News.objects.order_by('-pub_date')[:4]
+	last_session = CourseSession.objects.order_by('-pub_date').last()
 	video = Video.objects.order_by('-pub_date')[:5]
 	poster = Poster.objects.order_by('-pub_date')[:4]
 	event = Course.objects.order_by('-pub_date')[0]
 
-	t = TemplateResponse(request, 'home.html', {'news': news, 'posters': poster, 'videos': video, 'event': event})
+	t = TemplateResponse(request, 'home.html', {'last_session': last_session, 'posters': poster, 'videos': video, 'event': event})
 	t.render()
 	return HttpResponse(t)
 
@@ -224,6 +225,6 @@ def upload_file(request):
 		filename = fs.save(myfile.name, myfile)
 		uploaded_file_url = fs.url(filename)
 		return render(request, 'upload.html', {
-			'uploaded_file_url': uploaded_file_url
+				'uploaded_file_url': uploaded_file_url
 		})
 	return render(request, 'upload.html')

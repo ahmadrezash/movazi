@@ -1,42 +1,44 @@
-
 {% extends 'Dashboard/panel.html' %}
 {% load crispy_forms_tags %}
 {% block form_title %}
-ویدیو جدید
+	ویدیو جدید
 {% endblock form_title %}
 {% block form %}
-  <form method="post" enctype="multipart/form-data">
-  {% csrf_token %}
-    <div class="form-row">
-      <div class="form-group col-md-6 mb-0">
-        {{ form.title|as_crispy_field }}
-      </div>
+	<form method="post" enctype="multipart/form-data">
+		{% csrf_token %}
+		<div class="form-row">
+			<div class="form-group col-md-6 mb-0">
+				{{ form.title|as_crispy_field }}
+			</div>
 
-    </div>
-        <div class="form-row">
+		</div>
+		<div class="form-row">
 
-          <div class="form-group col-md-6 mb-0">
-        {{ form.subtitle|as_crispy_field }}
-      </div>
-      </div>
-    <div class="form-row">
-      <div class="form-group col-md-12 mb-0">
-        {{ form.discription|as_crispy_field }}
-      </div>
+			<div class="form-group col-md-6 mb-0">
+				{{ form.subtitle|as_crispy_field }}
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="form-group col-md-12 mb-0">
+				{{ form.discription|as_crispy_field }}
+			</div>
 
-    </div>
-      {% comment %} <div class="form-group col-md-4 mb-0">
+		</div>
+		{% comment %} <div class="form-group col-md-4 mb-0">
         {{ form.image|as_crispy_field }}
       </div> {% endcomment %}
-      <div class="form-group col-md-4 mb-0">
-        {{ form.file|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-4 mb-0">
-        {{ form.time|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-2 mb-0">
-        {{ form.tags|as_crispy_field }}
-      </div>
-    <button type="submit" class="btn btn-primary" style='margin-bottom:1rem'> ثبت </button>
-  </form>
+		<div class="form-group col-md-4 mb-0">
+			{{ form.file|as_crispy_field }}
+		</div>
+		<div class="form-group col-md-4 mb-0">
+			{{ form.preview_img|as_crispy_field }}
+		</div>
+		<div class="form-group col-md-4 mb-0">
+			{{ form.time|as_crispy_field }}
+		</div>
+		<div class="form-group col-md-2 mb-0">
+			{{ form.tags|as_crispy_field }}
+		</div>
+		<button type="submit" class="btn btn-primary" style='margin-bottom:1rem'> ثبت</button>
+	</form>
 {% endblock form %}
