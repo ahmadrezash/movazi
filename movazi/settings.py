@@ -11,18 +11,18 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+
 # import debug_toolbar
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # Location and Language
-#import locale
-#locale.setlocale(locale.LC_ALL, "fa_IR")
+# import locale
+# locale.setlocale(locale.LC_ALL, "fa_IR")
 
 LANGUAGE_CODE = 'fa-ir'
 TIME_ZONE = 'Asia/Tehran'
@@ -40,20 +40,20 @@ STATICFILES_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.normpath(os.path.join(BASE_DIR, "static")),
+		os.path.normpath(os.path.join(BASE_DIR, "static")),
 )
 
 STATICFILES_DIRS = [
-    # os.path.join(BASE_DIR, "movazi/static"),
-    os.path.join(BASE_DIR, "movazi/static"),
+		# os.path.join(BASE_DIR, "movazi/static"),
+		os.path.join(BASE_DIR, "movazi/static"),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_FINDERS = (
-    'django.contrib.staticfiles.finders.FileSystemFinder',
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    # other finders..
-    'compressor.finders.CompressorFinder',
+		'django.contrib.staticfiles.finders.FileSystemFinder',
+		'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+		# other finders..
+		'compressor.finders.CompressorFinder',
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
@@ -77,110 +77,107 @@ COMPRESS_ENABLED = True
 #    }
 # }
 
-ALLOWED_HOSTS = ['localhost','894573f8.ngrok.io','127.0.0.1','movazi.liara.run','mowazi.ir','movazi2.liara.run']
-
+ALLOWED_HOSTS = ['localhost', '894573f8.ngrok.io', '127.0.0.1', 'movazi.liara.run', 'mowazi.ir', 'movazi2.liara.run', 'movazi3.liara.run']
 
 JALALI_DATE_DEFAULTS = {
-   'Strftime': {
-        'date': '%y/%m/%d',
-        'datetime': '%H:%M:%S _ %y/%m/%d',
-    },
-    'Static': {
-        'js': [ # prefix address is 'admin/'
-            'js/django_jalali.min.js',
-            # or
-            'jquery.ui.datepicker.jalali/scripts/jquery-1.10.2.min.js',
-            'jquery.ui.datepicker.jalali/scripts/jquery.ui.core.js',
-            'jquery.ui.datepicker.jalali/scripts/calendar.js',
-            'jquery.ui.datepicker.jalali/scripts/jquery.ui.datepicker-cc.js',
-            'jquery.ui.datepicker.jalali/scripts/jquery.ui.datepicker-cc-fa.js',
-            'js/main.js',
-        ],
-        'css': {
-            'all': [
-                'admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css',
-            ]
-        }
-    },
+		'Strftime': {
+				'date': '%y/%m/%d',
+				'datetime': '%H:%M:%S _ %y/%m/%d',
+		},
+		'Static': {
+				'js': [  # prefix address is 'admin/'
+						'js/django_jalali.min.js',
+						# or
+						'jquery.ui.datepicker.jalali/scripts/jquery-1.10.2.min.js',
+						'jquery.ui.datepicker.jalali/scripts/jquery.ui.core.js',
+						'jquery.ui.datepicker.jalali/scripts/calendar.js',
+						'jquery.ui.datepicker.jalali/scripts/jquery.ui.datepicker-cc.js',
+						'jquery.ui.datepicker.jalali/scripts/jquery.ui.datepicker-cc-fa.js',
+						'js/main.js',
+				],
+				'css': {
+						'all': [
+								'admin/jquery.ui.datepicker.jalali/themes/base/jquery-ui.min.css',
+						]
+				}
+		},
 }
 # Application definition
 
 INSTALLED_APPS = [
-    # 'bootstrap4',
-    'website',
-    'crispy_forms',
-    'compressor',
-    # 'debug_toolbar',
-    'django_jalali',
-    'jalali_date',
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'panel',
-    # 'django_comments',
+		# 'bootstrap4',
+		'website',
+		'crispy_forms',
+		'compressor',
+		# 'debug_toolbar',
+		'django_jalali',
+		'jalali_date',
+		'django.contrib.admin',
+		'django.contrib.auth',
+		'django.contrib.contenttypes',
+		'django.contrib.sessions',
+		'django.contrib.messages',
+		'django.contrib.staticfiles',
+		'panel',
+		# 'django_comments',
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.gzip.GZipMiddleware',
-    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
-#     'django.middleware.cache.UpdateCacheMiddleware',
-#    'django.middleware.common.CommonMiddleware',
-#    'django.middleware.cache.FetchFromCacheMiddleware',
+		'django.middleware.security.SecurityMiddleware',
+		'django.contrib.sessions.middleware.SessionMiddleware',
+		'django.middleware.common.CommonMiddleware',
+		'django.middleware.csrf.CsrfViewMiddleware',
+		'django.contrib.auth.middleware.AuthenticationMiddleware',
+		'django.contrib.messages.middleware.MessageMiddleware',
+		'django.middleware.clickjacking.XFrameOptionsMiddleware',
+		'django.middleware.gzip.GZipMiddleware',
+		# 'debug_toolbar.middleware.DebugToolbarMiddleware',
+		#     'django.middleware.cache.UpdateCacheMiddleware',
+		#    'django.middleware.common.CommonMiddleware',
+		#    'django.middleware.cache.FetchFromCacheMiddleware',
 ]
-
-
-
 
 
 def show_toolbar(request):
-  return True
+	return True
+
+
 DEBUG_TOOLBAR_CONFIG = {
-  "SHOW_TOOLBAR_CALLBACK" : show_toolbar,
+		"SHOW_TOOLBAR_CALLBACK": show_toolbar,
 }
 
 TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS':  [os.path.join(BASE_DIR, 'movazi/templates'),
-                  os.path.join(BASE_DIR, "website/templates/"),
-                  os.path.join(BASE_DIR, "panel/templates/"),
-                  ],
-        # 'DIRS':  [os.path.join(BASE_DIR, '')],
+		{
+				'BACKEND': 'django.template.backends.django.DjangoTemplates',
+				'DIRS': [os.path.join(BASE_DIR, 'movazi/templates'),
+				         os.path.join(BASE_DIR, "website/templates/"),
+				         os.path.join(BASE_DIR, "panel/templates/"),
+				         ],
+				# 'DIRS':  [os.path.join(BASE_DIR, '')],
 
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-                # 'zinnia.context_processors.version',  # Optional
-            ],
-        },
-    },
+				'APP_DIRS': True,
+				'OPTIONS': {
+						'context_processors': [
+								'django.template.context_processors.debug',
+								'django.template.context_processors.request',
+								'django.contrib.auth.context_processors.auth',
+								'django.contrib.messages.context_processors.messages',
+								# 'zinnia.context_processors.version',  # Optional
+						],
+				},
+		},
 ]
 
 WSGI_APPLICATION = 'movazi.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'media/db.sqlite3'),
-    }
+		'default': {
+				'ENGINE': 'django.db.backends.sqlite3',
+				'NAME': os.path.join(BASE_DIR, 'media/db.sqlite3'),
+		}
 }
 # DATABASES = {
 #     'default': {
@@ -196,18 +193,18 @@ DATABASES = {
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
+		{
+				'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+		},
+		{
+				'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+		},
+		{
+				'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+		},
+		{
+				'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+		},
 ]
 
 LOGIN_REDIRECT_URL = '/panel/'
@@ -224,9 +221,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
-
-
 
 # VERSATILEIMAGEFIELD_SETTINGS = {
 #     # The amount of time, in seconds, that references to created images
