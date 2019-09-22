@@ -43,7 +43,11 @@
 								<div class="col-6">
 									<img alt="تصویر ویدیو"
 									     class="card-img-bottom"
-									     src="{{ video.preview_img.url }}"
+											{% if video.preview_img %}
+                                         src="{{ video.preview_img.url }}"
+											{% else %}
+                                         src='{% static "images/poster_default .jpg" %}'
+											{% endif %}
 											{#									     onerror="this.src='{% static "images/poster_default .jpg" %}';"#}
 									>
 

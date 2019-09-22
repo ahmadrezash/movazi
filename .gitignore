@@ -25,6 +25,7 @@
 ############
 venv
 .idea
+workspace.xml
 
 # Logs and databases #
 ######################
