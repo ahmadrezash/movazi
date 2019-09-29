@@ -75,9 +75,8 @@
 <ul class="navbar navbar-expand-lg navbar-dark sticky-top color-nav color-p" tabindex="200" id="{{ menu_name|default:"fixed_menu" }}">
 	<style>
 		.color-p {
-			{#background: rgb(0, 0, 0);#}
-			background: rgb(0, 40, 94) !important;
-			{#background: linear-gradient(0deg, rgba(0, 0, 0, .75), #000) !important;#}
+		{#background: rgb(0, 0, 0);#} background: rgb(0, 40, 94) !important;
+		{#background: linear-gradient(0deg, rgba(0, 0, 0, .75), #000) !important;#}
 		}
 	</style>
 	<!-- Navbar brand -->
@@ -99,12 +98,12 @@
 					<span class="sr-only">(current)</span>
 				</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/news">اخبار</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/article">مقاله ‌ها </a>
-			</li>
+			{#			<li class="nav-item">#}
+			{#				<a class="nav-link" href="/news">اخبار</a>#}
+			{#			</li>#}
+			{#			<li class="nav-item">#}
+			{#				<a class="nav-link" href="/article">مقاله ‌ها </a>#}
+			{#			</li>#}
 			<li class="nav-item">
 				<a class="nav-link" href={% url 'course_pagination' %}>دوره‌ها</a>
 			</li>
@@ -112,7 +111,7 @@
 				<a class="nav-link" href="http://lib.mowazi.ir/" target="_blank"> کتابخانه</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#"> شبکه‌دانش</a>
+				<a class="nav-link disabled" href="#"> شبکه‌دانش<span class="badge badge-secondary">به زودی</span></a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href={% url 'published_pagination' %}>انتشارات</a>
@@ -180,7 +179,8 @@
 
 	{#.color-nav {#}
 	{#	background: rgb(42,55,105) !important;#}
-	{#}#}
+	{
+	#}#}
 </style>
 <script>
     {#$(function () {#}
@@ -188,6 +188,8 @@
     {#        var $nav = $("#fixed_menu");#}
     {#        $nav.toggleClass('color-nav', $(this).scrollTop() > 100);#}
     {#    });#}
-    {#});#}
+    {#})
+    ;
+    #}
 </script>
 <!--/.Navbar-->

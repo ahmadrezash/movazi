@@ -16,6 +16,7 @@ urlpatterns = [
 
 		# path('profile/'                      , p_views.get_profile       , name = 'get_profile'),
 		# path('profile/update'                , p_views.update_profile    , name = 'update_profile'),
+		path('signup/', p_views .SignUp.as_view(), name='signup'),
 
 		path('article/all/', a_views.all_article, name='all_article'),
 		path('article/create/', a_views.create_article, name='create_article'),
