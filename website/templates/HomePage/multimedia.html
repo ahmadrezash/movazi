@@ -3,48 +3,54 @@
 <div class="container-fluid multimedia block_background" id='section_multimedia' style="background-color: rgba(0, 176, 189,.1) !important;">
 	<div class="container"
 	     style="padding-bottom: 2rem">
-		<h2 class="text-center">چندرسانه ای</h2><br>
+		{#		<br>#}
 		<!-- Nav tabs -->
-		<ul class="nav nav-tabs justify-content-center"
-		    role="tablist">
-			<li class="nav-item">
-				<a class="nav-link active"
-				   data-toggle="tab"
-				   href="#video">ویدیو کلیپ</a>
-			</li>
-			{#          <li class="nav-item">#}
-			{#            <a class="nav-link"#}
-			{#                data-toggle="tab"#}
-			{#                href="#poster">پوستر</a>#}
-			{#          </li>#}
-			<li class="nav-item">
-				<a class="nav-link disabled"
-				   data-toggle="tab"
-				   href="#podcast">پادکست صوتی <span class="badge badge-secondary">به زودی</span></a>
-			</li>
-			{#          <li class="nav-item">#}
-			{#            <a class="nav-link disabled"#}
-			{#                data-toggle="tab"#}
-			{#                href="#info">اینفوگرافی <span class="badge badge-secondary">به زودی</span></a>#}
-			{#          </li>#}
-		</ul><!-- Tab panes -->
+		{#		<ul class="nav nav-tabs justify-content-center"#}
+		{#		role="tablist">#}
+		{#			<li class="nav-item">#}
+		{#				<a class="nav-link active"#}
+		{#				   data-toggle="tab"#}
+		{#				   href="#video">دوره های مجازی</a>#}
+		{#			</li>#}
+		{#          <li class="nav-item">#}
+		{#            <a class="nav-link"#}
+		{#                data-toggle="tab"#}
+		{#                href="#poster">پوستر</a>#}
+		{#          </li>#}
+		{#			<li class="nav-item">#}
+		{#				<a class="nav-link disabled"#}
+		{#				   data-toggle="tab"#}
+		{#				   href="#podcast">پادکست صوتی <span class="badge badge-secondary">به زودی</span></a>#}
+		{#			</li>#}
+		{#          <li class="nav-item">#}
+		{#            <a class="nav-link disabled"#}
+		{#                data-toggle="tab"#}
+		{#                href="#info">اینفوگرافی <span class="badge badge-secondary">به زودی</span></a>#}
+		{#          </li>#}
+		{#		</ul><!-- Tab panes -->#}
+		{#		<a class="nav-link active"#}
+		{#		   data-toggle="tab"#}
+		{#		   href="#video">دوره های مجازی</a>#}
+
 		<div class="tab-content">
 			<div class="container tab-pane active"
 			     id="video">
 				<br>
-				<h3>ویدیو کلیپ</h3>
+				{#				<h3>ویدیو کلیپ</h3>#}
+				<h2 class="text-center py-2">دوره های مجازی</h2>
+
 				<div class="row">
 					<div class="col-6"><img alt="Cinque Terre"
 					                        class="rounded img-course"
 					                        src="{% static 'images/poster_default.jpg' %}"></div>
 					<div class="col-6">
 						<div class="row">
-							{% for video in videos %}
+							{% for video in events %}
 								<div class="col-6">
-									<a href="{% url 'video_single' slug=video.slug %}"><img alt="تصویر ویدیو"
+									<a href="{% url 'video_single' slug=event.slug %}"><img alt="تصویر ویدیو"
 									                                                        class="card-img-bottom"
 											{% if video.preview_img %}
-											                                                src="{{ video.preview_img.url }}"
+											                                                src="{{ event.preview_img.url }}"
 											{% else %}
 											                                                src='{% static "images/poster_default .jpg" %}'
 											{% endif %}

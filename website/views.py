@@ -31,8 +31,9 @@ def index(request):
 	video = Video.objects.order_by('-pub_date')[:5]
 	poster = Poster.objects.order_by('-pub_date')[:4]
 	event = Course.objects.order_by('-pub_date')[0]
+	events = Course.objects.order_by('-pub_date')[:5]
 
-	t = TemplateResponse(request, 'home.html', {'last_session': last_session, 'posters': poster, 'videos': video, 'event': event})
+	t = TemplateResponse(request, 'home.html', {'last_session': last_session, 'posters': poster, 'videos': video, 'events': events, 'event': event})
 	t.render()
 	return HttpResponse(t)
 

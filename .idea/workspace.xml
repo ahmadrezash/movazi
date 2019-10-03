@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="54e0170d-8939-4aad-8828-2e6f94f5b66b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/HomePage/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,70 +52,77 @@
     <favorites_list name="movazi2" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/templates/contact_us.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="502">
-                  <caret line="45" selection-start-line="45" selection-end-line="60" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#1884#1908#0#HTML" expanded="true" />
-                    <element signature="e#2069#2091#0#HTML" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/templates/main/footer.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="53" selection-start-line="53" selection-end-line="72" selection-end-column="24" />
-                  <folding>
-                    <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#3;n#div#1;n#div#1;n#footer#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#svg#0;n#a#3;n#div#0;n#div#3;n#div#1;n#div#1;n#footer#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/website/templates/HomePage/header.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1269">
-                  <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-                  <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
-                  <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
-                  <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
-                  <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
-                  <folding>
-                    <marker date="1570092266929" expanded="true" signature="571:753" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/website/templates/HomePage/header.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="298">
-                  <caret line="170" column="40" selection-start-line="170" selection-start-column="40" selection-end-line="170" selection-end-column="40" />
-                  <folding>
-                    <marker date="1570092266929" expanded="true" signature="571:753" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/templates/contact_us.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="45" selection-start-line="45" selection-end-line="60" selection-end-column="36" />
+              <folding>
+                <element signature="e#1884#1908#0#HTML" expanded="true" />
+                <element signature="e#2069#2091#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/templates/main/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="53" selection-start-line="53" selection-end-line="72" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#3;n#div#1;n#div#1;n#footer#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#a#3;n#div#0;n#div#3;n#div#1;n#div#1;n#footer#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website/templates/HomePage/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1218">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+              <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+              <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+              <folding>
+                <marker date="1570093605452" expanded="true" signature="571:753" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/templates/HomePage/multimedia.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/templates/HomePage/events.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -204,7 +212,6 @@
         <option value="$PROJECT_DIR$/panel/templates/ContentManage/NewsTable.html" />
         <option value="$PROJECT_DIR$/panel/views/NewsView.py" />
         <option value="$PROJECT_DIR$/website/templates/home.html" />
-        <option value="$PROJECT_DIR$/website/views.py" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/new_session.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/movazi/settings.py" />
@@ -228,16 +235,17 @@
         <option value="$PROJECT_DIR$/panel/forms/MultiMediaForm/VideoForm.py" />
         <option value="$PROJECT_DIR$/website/templates/main/menubar.html" />
         <option value="$PROJECT_DIR$/website/templates/blog/video_single.html" />
-        <option value="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/scienceNet.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/events.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/library.html" />
         <option value="$PROJECT_DIR$/website/templates/contact_us.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/header.html" />
+        <option value="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" />
+        <option value="$PROJECT_DIR$/website/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="158" />
     <option name="width" value="1602" />
     <option name="height" value="901" />
@@ -291,6 +299,13 @@
               <item name="movazi" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movazi" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="movazi" type="b2602c69:ProjectViewProjectNode" />
@@ -419,7 +434,7 @@
       <workItem from="1569134145237" duration="2121000" />
       <workItem from="1569739229854" duration="9938000" />
       <workItem from="1570036695281" duration="6432000" />
-      <workItem from="1570082556551" duration="8068000" />
+      <workItem from="1570082556551" duration="9621000" />
     </task>
     <task id="LOCAL-00001" summary="Start again after ramadan">
       <created>1559943820631</created>
@@ -743,11 +758,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570091649991</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="some changes for header and more4">
+      <created>1570092299432</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1570092299432</updated>
+    </task>
+    <task id="LOCAL-00048" summary="some changes for header and more5">
+      <created>1570093615564</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1570093615564</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216199000" />
+    <option name="totallyTimeSpent" value="217752000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -759,7 +788,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-23" width="1920" height="1103" extended-state="6" />
+    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -778,7 +807,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32912722" />
       <window_info anchor="bottom" id="manage.py@test1" order="13" visible="true" weight="0.39880952" />
-      <window_info anchor="bottom" id="Debug" order="14" weight="0.39186507" />
+      <window_info active="true" anchor="bottom" id="Debug" order="14" visible="true" weight="0.39162305" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -846,8 +875,6 @@
       <path value="$PROJECT_DIR$/movazi/static/pkg/MD.BootstrapPersianDateTimePicker" />
       <path value="$PROJECT_DIR$/panel/static/MD.BootstrapPersianDateTimePicker" />
     </ignored-roots>
-    <MESSAGE value="superuser2" />
-    <MESSAGE value="finall nashod ://" />
     <MESSAGE value="conatact-us p۵" />
     <MESSAGE value="UI change menubar" />
     <MESSAGE value="2" />
@@ -871,7 +898,9 @@
     <MESSAGE value="some changes for header and more" />
     <MESSAGE value="some changes for header and more2" />
     <MESSAGE value="some changes for header and more3" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes for header and more3" />
+    <MESSAGE value="some changes for header and more4" />
+    <MESSAGE value="some changes for header and more5" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes for header and more5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1016,13 +1045,6 @@
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1258,13 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/multimedia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="82" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movazi/static/images/logo_new.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1275,13 +1290,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="84" column="46" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1317,16 +1325,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/multimedia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/HomePage/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
+        <state relative-caret-position="1218">
           <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
           <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
           <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
           <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
           <folding>
-            <marker date="1570092266929" expanded="true" signature="571:753" ph="..." />
+            <marker date="1570093605452" expanded="true" signature="571:753" ph="..." />
           </folding>
         </state>
       </provider>
