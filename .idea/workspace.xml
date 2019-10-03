@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e0170d-8939-4aad-8828-2e6f94f5b66b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/movazi/static/images/logo_new.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/HomePage/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/HomePage/scienceNet.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/HomePage/scienceNet.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,19 +55,27 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/templates/main/menubar.html">
+            <entry file="file://$PROJECT_DIR$/website/templates/contact_us.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="376">
-                  <caret line="121" column="65" selection-start-line="121" selection-start-column="65" selection-end-line="121" selection-end-column="65" />
+                <state relative-caret-position="502">
+                  <caret line="45" selection-start-line="45" selection-end-line="60" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#1884#1908#0#HTML" expanded="true" />
+                    <element signature="e#2069#2091#0#HTML" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/templates/blog/video_single.html">
+            <entry file="file://$PROJECT_DIR$/website/templates/main/footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+                <state relative-caret-position="391">
+                  <caret line="53" selection-start-line="53" selection-end-line="72" selection-end-column="24" />
+                  <folding>
+                    <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#3;n#div#1;n#div#1;n#footer#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#svg#0;n#a#3;n#div#0;n#div#3;n#div#1;n#div#1;n#footer#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -77,43 +83,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/website/templates/HomePage/header.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="33" column="48" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="48" />
+                <state relative-caret-position="1269">
+                  <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+                  <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+                  <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+                  <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+                  <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
                   <folding>
-                    <marker date="1570091161364" expanded="true" signature="571:753" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/templates/HomePage/multimedia.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="43" column="82" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="29" column="29" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#0#37#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/templates/HomePage/scienceNet.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                    <marker date="1570092266929" expanded="true" signature="571:753" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -126,11 +103,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/website/templates/HomePage/header.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="655">
-                  <caret line="204" column="39" selection-start-line="204" selection-start-column="39" selection-end-line="204" selection-end-column="39" />
+                <state relative-caret-position="298">
+                  <caret line="170" column="40" selection-start-line="170" selection-start-column="40" selection-end-line="170" selection-end-column="40" />
                   <folding>
-                    <element signature="e#6570#7204#0#HTML" />
-                    <marker date="1570091161364" expanded="true" signature="571:753" ph="..." />
+                    <marker date="1570092266929" expanded="true" signature="571:753" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -150,7 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#b</find>
       <find>h</find>
       <find>i{</find>
       <find>#d6f9dd</find>
@@ -180,6 +155,7 @@
       <find>مقاله</find>
       <find>pas</find>
       <find>passwo</find>
+      <find>text-white</find>
     </findStrings>
     <replaceStrings>
       <replace>{{ color|default:&quot;white&quot; }}</replace>
@@ -224,14 +200,11 @@
         <option value="$PROJECT_DIR$/website/templates/upload.html" />
         <option value="$PROJECT_DIR$/website/static/css/home_page.css" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/news.html" />
-        <option value="$PROJECT_DIR$/website/templates/HomePage/library.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/slider.html" />
-        <option value="$PROJECT_DIR$/website/templates/contact_us.html" />
         <option value="$PROJECT_DIR$/panel/templates/ContentManage/NewsTable.html" />
         <option value="$PROJECT_DIR$/panel/views/NewsView.py" />
         <option value="$PROJECT_DIR$/website/templates/home.html" />
         <option value="$PROJECT_DIR$/website/views.py" />
-        <option value="$PROJECT_DIR$/website/templates/HomePage/events.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/new_session.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/movazi/settings.py" />
@@ -257,6 +230,9 @@
         <option value="$PROJECT_DIR$/website/templates/blog/video_single.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/multimedia.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/scienceNet.html" />
+        <option value="$PROJECT_DIR$/website/templates/HomePage/events.html" />
+        <option value="$PROJECT_DIR$/website/templates/HomePage/library.html" />
+        <option value="$PROJECT_DIR$/website/templates/contact_us.html" />
         <option value="$PROJECT_DIR$/website/templates/HomePage/header.html" />
       </list>
     </option>
@@ -443,7 +419,7 @@
       <workItem from="1569134145237" duration="2121000" />
       <workItem from="1569739229854" duration="9938000" />
       <workItem from="1570036695281" duration="6432000" />
-      <workItem from="1570082556551" duration="6954000" />
+      <workItem from="1570082556551" duration="8068000" />
     </task>
     <task id="LOCAL-00001" summary="Start again after ramadan">
       <created>1559943820631</created>
@@ -753,11 +729,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570086397393</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="some changes for header and more2">
+      <created>1570091336819</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1570091336819</updated>
+    </task>
+    <task id="LOCAL-00046" summary="some changes for header and more3">
+      <created>1570091649991</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1570091649991</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215085000" />
+    <option name="totallyTimeSpent" value="216199000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -856,8 +846,6 @@
       <path value="$PROJECT_DIR$/movazi/static/pkg/MD.BootstrapPersianDateTimePicker" />
       <path value="$PROJECT_DIR$/panel/static/MD.BootstrapPersianDateTimePicker" />
     </ignored-roots>
-    <MESSAGE value="Published and Some changes..." />
-    <MESSAGE value="super user" />
     <MESSAGE value="superuser2" />
     <MESSAGE value="finall nashod ://" />
     <MESSAGE value="conatact-us p۵" />
@@ -881,7 +869,9 @@
     <MESSAGE value="some changs" />
     <MESSAGE value="header changes" />
     <MESSAGE value="some changes for header and more" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes for header and more" />
+    <MESSAGE value="some changes for header and more2" />
+    <MESSAGE value="some changes for header and more3" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes for header and more3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -949,13 +939,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://b93040a4-03a7-4c9f-8d9b-4e840fee1d64/schema/main/table/panel_news">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="12947feb-e1b0-465d-8ee1-7115158d2446">
-          <filtering />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/panel/forms/NewsForm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1040,13 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="42" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1221,13 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/contact_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/panel/templates/Forms/CourseSessionForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
@@ -1239,13 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="23" column="85" lean-forward="true" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/templates/main/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1316,12 +1278,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="84" column="46" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/HomePage/library.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="45" selection-start-line="45" selection-end-line="60" selection-end-column="36" />
+          <folding>
+            <element signature="e#1884#1908#0#HTML" expanded="true" />
+            <element signature="e#2069#2091#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/templates/main/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="53" selection-start-line="53" selection-end-line="72" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#3;n#div#1;n#div#1;n#footer#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#3;n#div#0;n#div#3;n#div#1;n#div#1;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/HomePage/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="1269">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
           <folding>
-            <marker date="1570091161364" expanded="true" signature="571:753" ph="..." />
+            <marker date="1570092266929" expanded="true" signature="571:753" ph="..." />
           </folding>
         </state>
       </provider>

@@ -26,13 +26,13 @@
 					{#						اخبار#}
 					{#					</div>#}
 				</a>
-				<div class="grid-item ">21</div>
+				<div class="grid-item "></div>
 
 				<div class="grid-item text-white" id="logo">
 					<img width="100%" src="{% static 'images/logo_new.png' %}">
 				</div>
 				<div class="grid-item text-white text-justify" id="text">
-					<p class=" text-justify h4">
+					<p class=" text-justify h5" id="text_content">
 						ما – جمعی از علاقمندان و دانشگاهیان – که به حوزه بین رشته‌ای علم و دین دل بسته بودیم (و هم چنان هستیم!)، از کمبود مطالب و محتواهای قابل اعتماد و منصفانه علمی در این حوزه رنج می‌کشیدیم. در فضای مه گرفته و تاریک فقر اطلاعات علمی، برخی می‌توانند بر اساس پیش‌فرض‌های سیاسی، اجتماعی و روانی خود مسئله را تقریر (بخوانید: مصادره) کنند.
 
 					</p>
@@ -72,11 +72,11 @@
 						چندرسانه‌ای
 					</div>
 				</a>
-				<div class="grid-item ">22</div>
+				<div class="grid-item "></div>
 
-				<div class="grid-item ">23</div>
-				<div class="grid-item ">34</div>
-				<div class="grid-item ">25</div>
+				<div class="grid-item "></div>
+				<div class="grid-item "></div>
+				<div class="grid-item "></div>
 
 				<div class="grid-item right-blank"></div>
 
@@ -167,6 +167,13 @@
 			grid-row-end: 3;
 		}
 
+		#text_content {
+			background: rgba(0, 0, 0, .1);
+			padding: 2rem;
+		{#border: 1px solid white;#} border-radius: 30px !important;
+
+		}
+
 		#text {
 			padding-top: 3rem;
 			padding-right: 2rem;
@@ -186,7 +193,6 @@
 
 		.grid-item {
 			text-underline-color: white;
-			border-radius: 30px !important;
 		}
 
 		.inner-tile {
@@ -306,7 +312,7 @@
 		div.grid-item {
 			color: rgba(0, 0, 0, 0);
 			background-color: rgba(0, 0, 0, 0);
-			border: 1px solid rgba(0, 0, 0, 0);
+
 		}
 
 		.off {
