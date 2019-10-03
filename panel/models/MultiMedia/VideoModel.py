@@ -22,6 +22,8 @@ class Video(models.Model):
 	image = models.ImageField(upload_to='images', max_length=None, name='تصویر')
 	file = models.FileField(upload_to='video', max_length=None)
 	preview_img = models.ImageField(upload_to='image/preview/video', max_length=None)
+	url = models.URLField(max_length=250)
+
 	category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
 	time = models.IntegerField()

@@ -3,12 +3,12 @@
 
 <div class="container-fluid tile-bg block_background"
      id='secion_header'>
-{#	<script>#}
-{#        jQuery.ready(function () {#}
-{#            $("#fixed_menu").hide();#}
-{#        });#}
-{#	</script>#}
-{#	{% include 'main/menubar.html' with menu_name='header_menu' %}#}
+	{#	<script>#}
+	{#        jQuery.ready(function () {#}
+	{#            $("#fixed_menu").hide();#}
+	{#        });#}
+	{#	</script>#}
+	{#	{% include 'main/menubar.html' with menu_name='header_menu' %}#}
 
 	<style>
 		#secion_header {
@@ -20,21 +20,40 @@
 		<div id="col" class="col-md-12">
 			<div class="grid-container align-middle" style="margin-top: 6rem;">
 				<div class="grid-item left-blank">1</div>
-				<a data-aos='zoom-in' id='news' class=' grid-item section_news' href='#'>
-					<div class='inner-tile'>
-						<i class="fas fa-newspaper fa-3x"></i>
-						اخبار
-					</div>
+				<a data-aos='zoom-in' id='news' class=' ' href='#'>
+					{#					<div class='inner-tile'>#}
+					{#						<i class="fas fa-newspaper fa-3x"></i>#}
+					{#						اخبار#}
+					{#					</div>#}
 				</a>
 				<div class="grid-item">2</div>
+				<div class="grid-item">2</div>
+				<div class="grid-item">2</div>
+				<div class="grid-item">2</div>
+				<div class="grid-item">2</div>
+				<div class="grid-item">2</div>
+				<div class="grid-item">2</div>
+				<div class="grid-item">2</div>
+				<div class="grid-item">2</div>
+				<div class="grid-item">2</div>
+
+
 				<div class="grid-item">3</div>
-				<a data-aos='zoom-in' class=' grid-item section_multimedia' href='#'>
+				<div class="grid-item">4</div>
+
+
+				<div class="grid-item">6</div>
+				<div class="grid-item">6</div>
+				{#				<div class="grid-item">5</div>#}
+				{#				<div class="grid-item">5</div>#}
+				<div class="grid-item">7</div>
+
+				<a data-aos='zoom-in' class=' grid-item section_science_net' href='#'>
 					<div class='inner-tile'>
-						<i class="fas fa-image fa-3x"></i>
-						چندرسانه‌ای
+						<i class="fas fa-project-diagram fa-3x"></i>
+						درخت‌دانش
 					</div>
 				</a>
-				<div class="grid-item">4</div>
 				<a data-aos='zoom-in' class=' grid-item section_events' href='#'>
 					<div class='inner-tile'>
 						<i class="fas fa-chalkboard-teacher fa-3x"></i>
@@ -47,19 +66,16 @@
 						پژوهش‌ها
 					</div>
 				</a>
-				<div class="grid-item">5</div>
 				<a data-aos='zoom-in' class=' grid-item section_library' href='#'>
 					<div class='inner-tile'>
 						<i class="fas fa-book-open fa-3x"></i>
 						کتابخانه
 					</div>
 				</a>
-				<div class="grid-item">6</div>
-				<div class="grid-item">7</div>
-				<a data-aos='zoom-in' class=' grid-item section_science_net' href='#'>
+				<a data-aos='zoom-in' class=' grid-item section_multimedia' href='#'>
 					<div class='inner-tile'>
-						<i class="fas fa-project-diagram fa-3x"></i>
-						درخت‌دانش
+						<i class="fas fa-image fa-3x"></i>
+						چندرسانه‌ای
 					</div>
 				</a>
 				<div class="grid-item right-blank"></div>
@@ -214,7 +230,7 @@
 			}
 
 			.grid-container div:nth-child(14) {
-				grid-column: 4;
+				grid-column: 5;
 				grid-row: 1 / 6;
 			}
 
@@ -232,19 +248,19 @@
 			.grid-container {
 				display: grid;
 				align-text: center;
-				grid-template-columns: auto 10rem 10rem 10rem 10rem auto;
-				grid-template-rows: 10rem 10rem 10rem;
+				grid-template-columns: auto 10rem 10rem 10rem 10rem 10rem auto;
+				grid-template-rows: 10rem 10rem 10rem 10rem;
 				margin: 0;
 			}
 
 			.grid-container div:nth-child(1) {
 				grid-column: 0;
-				grid-row: 1 / 4;
+				grid-row: 1 / 5;
 			}
 
 			.grid-container div:nth-child(14) {
-				grid-column: 6;
-				grid-row: 1 / 4;
+				grid-column: 7;
+				grid-row: 1 / 5;
 			}
 
 			.grid-item {
