@@ -45,14 +45,14 @@
 					                        src="{% static 'images/poster_default.jpg' %}"></div>
 					<div class="col-6">
 						<div class="row">
-							{% for video in events %}
+							{% for a in events %}
 								<div class="col-6">
-									<a href="{% url 'video_single' slug=event.slug %}"><img alt="تصویر ویدیو"
-									                                                        class="card-img-bottom"
-											{% if video.preview_img %}
-											                                                src="{{ event.preview_img.url }}"
+									<a href="{% url 'course_single' slug=a.slug %}"><img alt="تصویر ویدیو"
+									                                                     class="card-img-bottom"
+											{% if a.image_index %}
+											                                             src="{{ a.image_index.url }}"
 											{% else %}
-											                                                src='{% static "images/poster_default .jpg" %}'
+											                                             src='{% static "images/poster_default .jpg" %}'
 											{% endif %}
 											{#									     onerror="this.src='{% static "images/poster_default .jpg" %}';"#}
 									></a>
