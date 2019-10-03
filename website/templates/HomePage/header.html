@@ -26,34 +26,27 @@
 					{#						اخبار#}
 					{#					</div>#}
 				</a>
-				<div class="grid-item">2</div>
-				<div class="grid-item">2</div>
-				<div class="grid-item">2</div>
-				<div class="grid-item">2</div>
-				<div class="grid-item">2</div>
-				<div class="grid-item">2</div>
-				<div class="grid-item">2</div>
-				<div class="grid-item">2</div>
-				<div class="grid-item">2</div>
-				<div class="grid-item">2</div>
+				<div class="grid-item ">21</div>
 
+				<div class="grid-item text-white" id="logo">
+					<img width="100%" src="{% static 'images/logo_new.png' %}">
+				</div>
+				<div class="grid-item text-white text-justify" id="text">
+					<p class=" text-justify ">
+						ما – جمعی از علاقمندان و دانشگاهیان – که به حوزه بین رشته‌ای علم و دین دل بسته بودیم (و هم چنان هستیم!)، از کمبود مطالب و محتواهای قابل اعتماد و منصفانه علمی در این حوزه رنج می‌کشیدیم. در فضای مه گرفته و تاریک فقر اطلاعات علمی، برخی می‌توانند بر اساس پیش‌فرض‌های سیاسی، اجتماعی و روانی خود مسئله را تقریر (بخوانید: مصادره) کنند.
 
-				<div class="grid-item">3</div>
-				<div class="grid-item">4</div>
+					</p>
 
+				</div>
 
-				<div class="grid-item">6</div>
-				<div class="grid-item">6</div>
-				{#				<div class="grid-item">5</div>#}
-				{#				<div class="grid-item">5</div>#}
-				<div class="grid-item">7</div>
 
 				<a data-aos='zoom-in' class=' grid-item section_science_net' href='#'>
 					<div class='inner-tile'>
 						<i class="fas fa-project-diagram fa-3x"></i>
-						شبکه دانش
+						شبکه‌دانش
 					</div>
 				</a>
+
 				<a data-aos='zoom-in' class=' grid-item section_events' href='#'>
 					<div class='inner-tile'>
 						<i class="fas fa-chalkboard-teacher fa-3x"></i>
@@ -66,6 +59,7 @@
 						پژوهش‌ها
 					</div>
 				</a>
+
 				<a data-aos='zoom-in' class=' grid-item section_library' href='#'>
 					<div class='inner-tile'>
 						<i class="fas fa-book-open fa-3x"></i>
@@ -78,6 +72,12 @@
 						چندرسانه‌ای
 					</div>
 				</a>
+				<div class="grid-item ">22</div>
+
+				<div class="grid-item ">23</div>
+				<div class="grid-item ">34</div>
+				<div class="grid-item ">25</div>
+
 				<div class="grid-item right-blank"></div>
 
 			</div>
@@ -160,6 +160,22 @@
 			color: white;
 		}
 
+		#logo {
+			grid-column-start: 2;
+			grid-column-end: 4;
+			grid-row-start: 1;
+			grid-row-end: 3;
+		}
+
+		#text {
+			padding-top: 3rem;
+			padding-right: 2rem;
+			grid-column-start: 4;
+			grid-column-end: 7;
+			grid-row-start: 1;
+			grid-row-end: 4;
+		}
+
 		#secion_header {
 			height: 100%;
 		}
@@ -169,6 +185,7 @@
 		}
 
 		.grid-item {
+			text-underline-color: white;
 			border-radius: 30px !important;
 		}
 
@@ -229,7 +246,13 @@
 				grid-row: 1 / 6;
 			}
 
-			.grid-container div:nth-child(14) {
+			.grid-container div:nth-child(6) {
+				grid-column: 0;
+				grid-row: 1 / 6;
+			}
+
+
+			.grid-container div:nth-child(9) {
 				grid-column: 5;
 				grid-row: 1 / 6;
 			}
