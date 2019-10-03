@@ -17,13 +17,12 @@ class VideoForm(ModelForm):
 	# ModelForm.clea
 	class Meta:
 		model = Video
-		fields = ['title', 'subtitle', 'discription', 'time', 'file', 'tags', 'preview_img']
+		fields = ['title', 'subtitle', 'discription', 'time', 'tags', 'preview_img','url']
 		labels = {
 				"title": "عنوان",
 				'subtitle': 'زیرعنوان',
 				'time': 'زمان',
 				'discription': 'توضیحات',
-				'file': 'فایل',
 				'tags': 'تگ ها',
 				'preview_img': 'تصویر'
 		}

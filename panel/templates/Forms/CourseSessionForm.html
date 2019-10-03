@@ -1,66 +1,68 @@
-
 {% extends 'Dashboard/panel.html' %}
 {% load crispy_forms_tags %}
 {% load jalali_tags %}
 {{ form.media }}
 {% load static %}
 {% block form_title %}
-{% comment %} <link href={% static "MD.BootstrapPersianDateTimePicker/dist/jquery.md.bootstrap.datetimepicker.style.css" %} rel="stylesheet"/> {% endcomment %}
-{% comment %} <script src={% static "MD.BootstrapPersianDateTimePicker/dist/jquery.md.bootstrap.datetimepicker.js" %}></script> {% endcomment %}
+	{% comment %} <link href={% static "MD.BootstrapPersianDateTimePicker/dist/jquery.md.bootstrap.datetimepicker.style.css" %} rel="stylesheet"/> {% endcomment %}
+	{% comment %} <script src={% static "MD.BootstrapPersianDateTimePicker/dist/jquery.md.bootstrap.datetimepicker.js" %}></script> {% endcomment %}
 
 
-{% load jalali_tags %}
+	{% load jalali_tags %}
 
 
 
-جلسه جدید
+	جلسه جدید
 {% endblock form_title %}
 {% block form %}
-  <form method="post" enctype="multipart/form-data">
-  {% csrf_token %}
-    <div class="form-row">
-      <div class="form-group col-md-6 mb-0">
-        {{ form.title|as_crispy_field }}
-      </div>
-    </div>
-        <div class="form-row">
+	<form method="post" enctype="multipart/form-data">
+		{% csrf_token %}
+		<div class="form-row">
+			<div class="form-group col-md-6 mb-0">
+				{{ form.title|as_crispy_field }}
+			</div>
+		</div>
+		<div class="form-row">
 
-          <div class="form-group col-md-6 mb-0">
-        {{ form.subtitle|as_crispy_field }}
-      </div>
-      </div>
-    <div class="form-row">
-          <div class="form-group col-md-12 mb-0">
-        {{ form.summery|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-12 mb-0">
-        {{ form.speaker|as_crispy_field }}
-      </div>
+			<div class="form-group col-md-6 mb-0">
+				{{ form.subtitle|as_crispy_field }}
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="form-group col-md-12 mb-0">
+				{{ form.summery|as_crispy_field }}
+			</div>
+			<div class="form-group col-md-12 mb-0">
+				{{ form.speaker|as_crispy_field }}
+			</div>
 
-      <div class="form-group col-md-4 mb-0">
-        {{ form.audience|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-4 mb-0">
-        {{ form.time|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-12 mb-0">
-        {{ form.table_of_content|as_crispy_field }}
-      </div>
-    </div>
-      <div class="form-group col-md-4 mb-0">
-        {{ form.resources|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-4 mb-0">
-        {{ form.image_index|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-4 mb-0">
-        {{ form.file|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-4 mb-0">
-        {{ form.tags|as_crispy_field }}
-      </div>
+			<div class="form-group col-md-4 mb-0">
+				{{ form.audience|as_crispy_field }}
+			</div>
+			<div class="form-group col-md-4 mb-0">
+				{{ form.time|as_crispy_field }}
+			</div>
+			<div class="form-group col-md-12 mb-0">
+				{{ form.table_of_content|as_crispy_field }}
+			</div>
+		</div>
+		<div class="form-group col-md-4 mb-0">
+			{{ form.resources|as_crispy_field }}
+		</div>
+		<div class="form-group col-md-4 mb-0">
+			{{ form.image_index|as_crispy_field }}
+		</div>
+{#		<div class="form-group col-md-4 mb-0">#}
+		{#			{{ form.file|as_crispy_field }}#}
+		{#		</div>#}
+		<div class="form-group col-md-4 mb-0">
+			{{ form.url|as_crispy_field }}
+		</div>
+		<div class="form-group col-md-4 mb-0">
+			{{ form.tags|as_crispy_field }}
+		</div>
 
-    <button type="submit" class="btn btn-primary" style='margin-bottom:1rem'> ثبت </button>
-  </form>
+		<button type="submit" class="btn btn-primary" style='margin-bottom:1rem'> ثبت</button>
+	</form>
 
 {% endblock form %}

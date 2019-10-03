@@ -1,34 +1,34 @@
 {% extends "blog/main/blog_base.html" %}
-      
+
 <h1 class="my-4">
-{{title}}
+	{{ title }}
 
-          {% comment %} <small>ترجمه و تالیف</small> {% endcomment %}
-        </h1>
+	{% comment %} <small>ترجمه و تالیف</small> {% endcomment %}
+</h1>
 
-        <!-- Blog Post -->
+<!-- Blog Post -->
 {% load static %}
 {% block blog %}
 
-    <div class='col-{{ w | default:"12" }}'>
-        <div class="card mb-12">
-          <video width="400" controls>
-            <source src={{post.file.url}}>
-            {% comment %} <source src="mov_bbb.ogg" type="video/ogg"> {% endcomment %}
-          </video>
-          {% comment %} <img class="card-img-top" src=" {{post.file.url}}" alt="Card image cap"> {% endcomment %}
-          <div class="card-body">
-            <h2 class="card-title">{{post.title}}</h2>
-            <p class="card-text">
-            {{post.desceiption}}
-            </p>
-          </div>
-          <div class="card-footer text-muted">
-            {{post.author_id}}
-            -
-            {{post.pub_date}}
-          </div>
-        </div>
-    </div>
+	<div class='col-{{ w | default:"12" }}'>
+		<div class="card mb-12">
+			<video width="100%" controls>
+				<source src={{ post.url }}>
+				{% comment %} <source src="mov_bbb.ogg" type="video/ogg"> {% endcomment %}
+			</video>
+			{% comment %} <img class="card-img-top" src=" {{post.file.url}}" alt="Card image cap"> {% endcomment %}
+			<div class="card-body">
+				<h2 class="card-title">{{ post.title }}</h2>
+				<p class="card-text">
+					{{ post.desceiption }}
+				</p>
+			</div>
+			<div class="card-footer text-muted">
+				{{ post.author_id }}
+				-
+				{{ post.pub_date }}
+			</div>
+		</div>
+	</div>
 
 {% endblock blog %}

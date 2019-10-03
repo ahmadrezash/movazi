@@ -41,15 +41,15 @@
 						<div class="row">
 							{% for video in videos %}
 								<div class="col-6">
-									<img alt="تصویر ویدیو"
-									     class="card-img-bottom"
+									<a href="{% url 'video_single' slug=video.slug %}"><img alt="تصویر ویدیو"
+									                                                        class="card-img-bottom"
 											{% if video.preview_img %}
-                                         src="{{ video.preview_img.url }}"
+											                                                src="{{ video.preview_img.url }}"
 											{% else %}
-                                         src='{% static "images/poster_default .jpg" %}'
+											                                                src='{% static "images/poster_default .jpg" %}'
 											{% endif %}
 											{#									     onerror="this.src='{% static "images/poster_default .jpg" %}';"#}
-									>
+									></a>
 
 								</div>
 

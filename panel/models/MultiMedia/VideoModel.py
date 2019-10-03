@@ -20,7 +20,7 @@ class Video(models.Model):
 	#                     slugify = a)
 	slug = models.CharField(max_length=300)
 	image = models.ImageField(upload_to='images', max_length=None, name='تصویر')
-	file = models.FileField(upload_to='video', max_length=None)
+	file = models.FileField(upload_to='video', max_length=None,blank=True)
 	preview_img = models.ImageField(upload_to='image/preview/video', max_length=None)
 	url = models.URLField(max_length=250)
 
